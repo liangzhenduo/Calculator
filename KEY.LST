@@ -1,0 +1,56 @@
+C51 COMPILER V7.06   KEY                                                                   11/08/2016 21:01:11 PAGE 1   
+
+
+C51 COMPILER V7.06, COMPILATION OF MODULE KEY
+OBJECT MODULE PLACED IN KEY.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE KEY.C BROWSE DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          #include <reg52.h>
+   2          #include <def52.h>
+   3          
+   4          void Delay(unsigned int t){
+   5   1              do{
+   6   2                      TH0 = 0xFC;
+   7   2                      TL0 = 0x66;
+   8   2                      TR0 = 1;
+   9   2                      while ( !TF0 );
+  10   2                      TR0 = 0;
+  11   2                      TF0 = 0;
+  12   2              } while ( --t != 0 );
+  13   1      }
+  14          
+  15          unsigned char KeyScan(void){  //键盘扫描函数，使用行列反转扫描法
+  16   1              unsigned char cord_h,cord_l;//行列值中间变量
+  17   1              KEYS = 0x0f;            //行线输出全为0
+  18   1              cord_h=KEYS&0x0f;     //读入列线值
+  19   1              if(cord_h!=0x0f){    //先检测有无按键按下
+  20   2                      Delay(20);        //延时去抖
+  21   2                      if(cord_h!=0x0f){
+  22   3                      cord_h=KEYS&0x0f;  //读入列线值
+  23   3                      KEYS=cord_h|0xf0;  //输出当前列线值
+  24   3                      cord_l=KEYS&0xf0;  //读入行线值
+  25   3                      }
+  26   2              }
+  27   1              KEYS = 0x0f;
+  28   1              while((KEYS&0x0f)!=0x0f){ //等待键释放
+  29   2              Delay(20);
+  30   2              }
+  31   1              return cord_h+cord_l;
+  32   1      }
+  33          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     87    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
