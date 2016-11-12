@@ -27,10 +27,6 @@ void main(){
 			case 0xde: key='*'; break;
 			case 0xee: key='/'; break;
 		}
-		/*if(key == '1') LED1=~LED1;
-		else if(key == '2') LED2=~LED2;
-		else if(key == '3') LED3=~LED3;
-		else if(key == '4') LED4=~LED4;*/
 	}
 }
 
