@@ -7,3 +7,1073 @@ C:\Documents and Settings\Administrator\×ÀÃæ\Calculator\Calculator.uv2
 Project File Date:  11/08/2016
 
 <h2>Output:</h2>
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(262): error C237: '_display': function already has a body
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=16.0 xdata=0 code=2395
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=18.0 xdata=0 code=2380
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(89): error C141: syntax error near '='
+MAIN.C(90): error C141: syntax error near '='
+MAIN.C(90): error C141: syntax error near '='
+MAIN.C(90): error C141: syntax error near '='
+MAIN.C(94): error C141: syntax error near '='
+MAIN.C(95): error C141: syntax error near '='
+MAIN.C(95): error C141: syntax error near '='
+MAIN.C(95): error C141: syntax error near '='
+MAIN.C(96): error C141: syntax error near '='
+MAIN.C(110): error C141: syntax error near '='
+MAIN.C(111): error C141: syntax error near '='
+MAIN.C(111): error C141: syntax error near '='
+MAIN.C(111): error C141: syntax error near '='
+MAIN.C(115): error C141: syntax error near '='
+MAIN.C(116): error C141: syntax error near '='
+MAIN.C(116): error C141: syntax error near '='
+MAIN.C(116): error C141: syntax error near '='
+MAIN.C(117): error C141: syntax error near '='
+MAIN.C(129): error C141: syntax error near '='
+MAIN.C(130): error C141: syntax error near '='
+MAIN.C(130): error C141: syntax error near '='
+MAIN.C(130): error C141: syntax error near '='
+MAIN.C(134): error C141: syntax error near '='
+MAIN.C(135): error C141: syntax error near '='
+MAIN.C(135): error C141: syntax error near '='
+MAIN.C(135): error C141: syntax error near '='
+MAIN.C(136): error C141: syntax error near '='
+MAIN.C(149): error C141: syntax error near '='
+MAIN.C(150): error C141: syntax error near '='
+MAIN.C(150): error C141: syntax error near '='
+MAIN.C(150): error C141: syntax error near '='
+MAIN.C(154): error C141: syntax error near '='
+MAIN.C(155): error C141: syntax error near '='
+MAIN.C(155): error C141: syntax error near '='
+MAIN.C(155): error C141: syntax error near '='
+MAIN.C(156): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=18.0 xdata=0 code=2380
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(89): error C202: 'P0_4': undefined identifier
+MAIN.C(90): error C202: 'P0_6': undefined identifier
+MAIN.C(90): error C202: 'P0_5': undefined identifier
+MAIN.C(90): error C202: 'P0_4': undefined identifier
+MAIN.C(94): error C202: 'P0_4': undefined identifier
+MAIN.C(95): error C202: 'P0_6': undefined identifier
+MAIN.C(95): error C202: 'P0_5': undefined identifier
+MAIN.C(95): error C202: 'P0_4': undefined identifier
+MAIN.C(96): error C202: 'P0_4': undefined identifier
+MAIN.C(110): error C202: 'P0_4': undefined identifier
+MAIN.C(111): error C202: 'P0_6': undefined identifier
+MAIN.C(111): error C202: 'P0_5': undefined identifier
+MAIN.C(111): error C202: 'P0_4': undefined identifier
+MAIN.C(115): error C202: 'P0_4': undefined identifier
+MAIN.C(116): error C202: 'P0_6': undefined identifier
+MAIN.C(116): error C202: 'P0_5': undefined identifier
+MAIN.C(116): error C202: 'P0_4': undefined identifier
+MAIN.C(117): error C202: 'P0_4': undefined identifier
+MAIN.C(129): error C202: 'P0_4': undefined identifier
+MAIN.C(130): error C202: 'P0_6': undefined identifier
+MAIN.C(130): error C202: 'P0_5': undefined identifier
+MAIN.C(130): error C202: 'P0_4': undefined identifier
+MAIN.C(134): error C202: 'P0_4': undefined identifier
+MAIN.C(135): error C202: 'P0_6': undefined identifier
+MAIN.C(135): error C202: 'P0_5': undefined identifier
+MAIN.C(135): error C202: 'P0_4': undefined identifier
+MAIN.C(136): error C202: 'P0_4': undefined identifier
+MAIN.C(149): error C202: 'P0_4': undefined identifier
+MAIN.C(150): error C202: 'P0_6': undefined identifier
+MAIN.C(150): error C202: 'P0_5': undefined identifier
+MAIN.C(150): error C202: 'P0_4': undefined identifier
+MAIN.C(154): error C202: 'P0_4': undefined identifier
+MAIN.C(155): error C202: 'P0_6': undefined identifier
+MAIN.C(155): error C202: 'P0_5': undefined identifier
+MAIN.C(155): error C202: 'P0_4': undefined identifier
+MAIN.C(156): error C202: 'P0_4': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(89): error C141: syntax error near '='
+MAIN.C(90): error C141: syntax error near '='
+MAIN.C(90): error C141: syntax error near '='
+MAIN.C(90): error C141: syntax error near '='
+MAIN.C(94): error C141: syntax error near '='
+MAIN.C(95): error C141: syntax error near '='
+MAIN.C(95): error C141: syntax error near '='
+MAIN.C(95): error C141: syntax error near '='
+MAIN.C(96): error C141: syntax error near '='
+MAIN.C(110): error C141: syntax error near '='
+MAIN.C(111): error C141: syntax error near '='
+MAIN.C(111): error C141: syntax error near '='
+MAIN.C(111): error C141: syntax error near '='
+MAIN.C(115): error C141: syntax error near '='
+MAIN.C(116): error C141: syntax error near '='
+MAIN.C(116): error C141: syntax error near '='
+MAIN.C(116): error C141: syntax error near '='
+MAIN.C(117): error C141: syntax error near '='
+MAIN.C(129): error C141: syntax error near '='
+MAIN.C(130): error C141: syntax error near '='
+MAIN.C(130): error C141: syntax error near '='
+MAIN.C(130): error C141: syntax error near '='
+MAIN.C(134): error C141: syntax error near '='
+MAIN.C(135): error C141: syntax error near '='
+MAIN.C(135): error C141: syntax error near '='
+MAIN.C(135): error C141: syntax error near '='
+MAIN.C(136): error C141: syntax error near '='
+MAIN.C(149): error C141: syntax error near '='
+MAIN.C(150): error C141: syntax error near '='
+MAIN.C(150): error C141: syntax error near '='
+MAIN.C(150): error C141: syntax error near '='
+MAIN.C(154): error C141: syntax error near '='
+MAIN.C(155): error C141: syntax error near '='
+MAIN.C(155): error C141: syntax error near '='
+MAIN.C(155): error C141: syntax error near '='
+MAIN.C(156): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(89): error C141: syntax error near '='
+MAIN.C(90): error C141: syntax error near '='
+MAIN.C(91): error C141: syntax error near '='
+MAIN.C(93): error C141: syntax error near '='
+MAIN.C(97): error C141: syntax error near '='
+MAIN.C(98): error C141: syntax error near '='
+MAIN.C(99): error C141: syntax error near '='
+MAIN.C(102): error C141: syntax error near '='
+MAIN.C(103): error C141: syntax error near '='
+MAIN.C(117): error C141: syntax error near '='
+MAIN.C(118): error C141: syntax error near '='
+MAIN.C(118): error C141: syntax error near '='
+MAIN.C(118): error C141: syntax error near '='
+MAIN.C(122): error C141: syntax error near '='
+MAIN.C(123): error C141: syntax error near '='
+MAIN.C(123): error C141: syntax error near '='
+MAIN.C(123): error C141: syntax error near '='
+MAIN.C(124): error C141: syntax error near '='
+MAIN.C(136): error C141: syntax error near '='
+MAIN.C(137): error C141: syntax error near '='
+MAIN.C(137): error C141: syntax error near '='
+MAIN.C(137): error C141: syntax error near '='
+MAIN.C(141): error C141: syntax error near '='
+MAIN.C(142): error C141: syntax error near '='
+MAIN.C(142): error C141: syntax error near '='
+MAIN.C(142): error C141: syntax error near '='
+MAIN.C(143): error C141: syntax error near '='
+MAIN.C(156): error C141: syntax error near '='
+MAIN.C(157): error C141: syntax error near '='
+MAIN.C(157): error C141: syntax error near '='
+MAIN.C(157): error C141: syntax error near '='
+MAIN.C(161): error C141: syntax error near '='
+MAIN.C(162): error C141: syntax error near '='
+MAIN.C(162): error C141: syntax error near '='
+MAIN.C(162): error C141: syntax error near '='
+MAIN.C(163): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(40): error C141: syntax error near 'P0', expected '='
+MAIN.C(41): error C141: syntax error near 'sbit', expected ';'
+MAIN.C(42): error C141: syntax error near 'sbit', expected ';'
+MAIN.C(47): error C141: syntax error near 'void', expected ';'
+MAIN.C(89): error C202: 'E': undefined identifier
+MAIN.C(90): error C202: 'RS': undefined identifier
+MAIN.C(91): error C202: 'RW': undefined identifier
+MAIN.C(93): error C202: 'E': undefined identifier
+MAIN.C(97): error C202: 'E': undefined identifier
+MAIN.C(98): error C202: 'RS': undefined identifier
+MAIN.C(99): error C202: 'RW': undefined identifier
+MAIN.C(102): error C202: 'E': undefined identifier
+MAIN.C(103): error C202: 'E': undefined identifier
+MAIN.C(117): error C202: 'E': undefined identifier
+MAIN.C(118): error C202: 'RS': undefined identifier
+MAIN.C(118): error C202: 'RW': undefined identifier
+MAIN.C(118): error C202: 'E': undefined identifier
+MAIN.C(122): error C202: 'E': undefined identifier
+MAIN.C(123): error C202: 'RS': undefined identifier
+MAIN.C(123): error C202: 'RW': undefined identifier
+MAIN.C(123): error C202: 'E': undefined identifier
+MAIN.C(124): error C202: 'E': undefined identifier
+MAIN.C(136): error C202: 'E': undefined identifier
+MAIN.C(137): error C202: 'RS': undefined identifier
+MAIN.C(137): error C202: 'RW': undefined identifier
+MAIN.C(137): error C202: 'E': undefined identifier
+MAIN.C(141): error C202: 'E': undefined identifier
+MAIN.C(142): error C202: 'RS': undefined identifier
+MAIN.C(142): error C202: 'RW': undefined identifier
+MAIN.C(142): error C202: 'E': undefined identifier
+MAIN.C(143): error C202: 'E': undefined identifier
+MAIN.C(156): error C202: 'E': undefined identifier
+MAIN.C(157): error C202: 'RS': undefined identifier
+MAIN.C(157): error C202: 'RW': undefined identifier
+MAIN.C(157): error C202: 'E': undefined identifier
+MAIN.C(161): error C202: 'E': undefined identifier
+MAIN.C(162): error C202: 'RS': undefined identifier
+MAIN.C(162): error C202: 'RW': undefined identifier
+MAIN.C(162): error C202: 'E': undefined identifier
+MAIN.C(163): error C202: 'E': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=18.0 xdata=0 code=2380
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=18.0 xdata=0 code=2380
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(50): warning C318: can't open file 'regx52.h'
+MAIN.C(181): error C202: 'P0_4': undefined identifier
+MAIN.C(181): error C202: 'T1': undefined identifier
+MAIN.C(182): error C202: 'P0_5': undefined identifier
+MAIN.C(182): error C202: 'P0_6': undefined identifier
+MAIN.C(182): error C202: 'T1': undefined identifier
+MAIN.C(184): error C202: 'P0': undefined identifier
+MAIN.C(186): error C202: 'P0_6': undefined identifier
+MAIN.C(186): error C202: 'P0_5': undefined identifier
+MAIN.C(186): error C202: 'T1': undefined identifier
+MAIN.C(187): error C202: 'P1': undefined identifier
+MAIN.C(187): error C202: 'T1': undefined identifier
+MAIN.C(200): error C202: 'P0_4': undefined identifier
+MAIN.C(200): error C202: 'T0': undefined identifier
+MAIN.C(201): error C202: 'P0_5': undefined identifier
+MAIN.C(201): error C202: 'P0_6': undefined identifier
+MAIN.C(201): error C202: 'T0': undefined identifier
+MAIN.C(203): error C202: 'P0': undefined identifier
+MAIN.C(205): error C202: 'P0_6': undefined identifier
+MAIN.C(205): error C202: 'P0_5': undefined identifier
+MAIN.C(205): error C202: 'T0': undefined identifier
+MAIN.C(206): error C202: 'P1': undefined identifier
+MAIN.C(206): error C202: 'T0': undefined identifier
+MAIN.C(219): error C202: 'P0_4': undefined identifier
+MAIN.C(219): error C202: 'T1': undefined identifier
+MAIN.C(220): error C202: 'P0_5': undefined identifier
+MAIN.C(220): error C202: 'P0_6': undefined identifier
+MAIN.C(220): error C202: 'T1': undefined identifier
+MAIN.C(222): error C202: 'P1': undefined identifier
+MAIN.C(224): error C202: 'P0_6': undefined identifier
+MAIN.C(224): error C202: 'P0_5': undefined identifier
+MAIN.C(224): error C202: 'T1': undefined identifier
+MAIN.C(225): error C202: 'P1': undefined identifier
+MAIN.C(225): error C202: 'T1': undefined identifier
+MAIN.C(238): error C202: 'P0_4': undefined identifier
+MAIN.C(238): error C202: 'T0': undefined identifier
+MAIN.C(239): error C202: 'P0_5': undefined identifier
+MAIN.C(239): error C202: 'P0_6': undefined identifier
+MAIN.C(239): error C202: 'T0': undefined identifier
+MAIN.C(241): error C202: 'P1': undefined identifier
+MAIN.C(243): error C202: 'P0_6': undefined identifier
+MAIN.C(243): error C202: 'P0_5': undefined identifier
+MAIN.C(243): error C202: 'T0': undefined identifier
+MAIN.C(244): error C202: 'P1': undefined identifier
+MAIN.C(244): error C202: 'T0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(181): error C202: 'P0_4': undefined identifier
+MAIN.C(182): error C202: 'P0_5': undefined identifier
+MAIN.C(182): error C202: 'P0_6': undefined identifier
+MAIN.C(186): error C202: 'P0_6': undefined identifier
+MAIN.C(186): error C202: 'P0_5': undefined identifier
+MAIN.C(200): error C202: 'P0_4': undefined identifier
+MAIN.C(201): error C202: 'P0_5': undefined identifier
+MAIN.C(201): error C202: 'P0_6': undefined identifier
+MAIN.C(205): error C202: 'P0_6': undefined identifier
+MAIN.C(205): error C202: 'P0_5': undefined identifier
+MAIN.C(219): error C202: 'P0_4': undefined identifier
+MAIN.C(220): error C202: 'P0_5': undefined identifier
+MAIN.C(220): error C202: 'P0_6': undefined identifier
+MAIN.C(224): error C202: 'P0_6': undefined identifier
+MAIN.C(224): error C202: 'P0_5': undefined identifier
+MAIN.C(238): error C202: 'P0_4': undefined identifier
+MAIN.C(239): error C202: 'P0_5': undefined identifier
+MAIN.C(239): error C202: 'P0_6': undefined identifier
+MAIN.C(243): error C202: 'P0_6': undefined identifier
+MAIN.C(243): error C202: 'P0_5': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(181): error C141: syntax error near '='
+MAIN.C(182): error C141: syntax error near '='
+MAIN.C(182): error C141: syntax error near '='
+MAIN.C(186): error C141: syntax error near '='
+MAIN.C(186): error C141: syntax error near '='
+MAIN.C(200): error C141: syntax error near '='
+MAIN.C(201): error C141: syntax error near '='
+MAIN.C(201): error C141: syntax error near '='
+MAIN.C(205): error C141: syntax error near '='
+MAIN.C(205): error C141: syntax error near '='
+MAIN.C(219): error C141: syntax error near '='
+MAIN.C(220): error C141: syntax error near '='
+MAIN.C(220): error C141: syntax error near '='
+MAIN.C(224): error C141: syntax error near '='
+MAIN.C(224): error C141: syntax error near '='
+MAIN.C(238): error C141: syntax error near '='
+MAIN.C(239): error C141: syntax error near '='
+MAIN.C(239): error C141: syntax error near '='
+MAIN.C(243): error C141: syntax error near '='
+MAIN.C(243): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DISPLAY2?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=32.0 xdata=0 code=3794
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(48): error C146: 'T1': invalid base address
+MAIN.C(49): error C146: 'T0': invalid base address
+MAIN.C(118): error C202: 'CS1': undefined identifier
+MAIN.C(122): error C202: 'CS1': undefined identifier
+MAIN.C(125): error C202: 'CS1': undefined identifier
+MAIN.C(128): error C202: 'CS1': undefined identifier
+MAIN.C(142): error C202: 'CS2': undefined identifier
+MAIN.C(146): error C202: 'CS2': undefined identifier
+MAIN.C(149): error C202: 'CS2': undefined identifier
+MAIN.C(152): error C202: 'CS2': undefined identifier
+MAIN.C(166): error C202: 'CS1': undefined identifier
+MAIN.C(170): error C202: 'CS1': undefined identifier
+MAIN.C(173): error C202: 'CS1': undefined identifier
+MAIN.C(176): error C202: 'CS1': undefined identifier
+MAIN.C(189): error C202: 'CS2': undefined identifier
+MAIN.C(193): error C202: 'CS2': undefined identifier
+MAIN.C(196): error C202: 'CS2': undefined identifier
+MAIN.C(199): error C202: 'CS2': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY1MS?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INITLCD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_CLRSCREEN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BIAOGE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DISPLAY_GD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DISPLAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DISPLAY_LM?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_QU_ASCII?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+*** WARNING L10: CANNOT DETERMINE ROOT SEGMENT
+Program Size: data=79.0 xdata=0 code=5775
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 11 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(33): warning C318: can't open file 'regx51.h'
+MAIN.C(50): warning C206: 'delay': missing function-prototype
+MAIN.C(51): warning C206: 'lcdinitial': missing function-prototype
+MAIN.C(52): warning C206: 'clrram': missing function-prototype
+MAIN.C(53): warning C206: 'display': missing function-prototype
+MAIN.C(53): error C267: 'display': requires ANSI-style prototype
+MAIN.C(53): error C202: 'arrayadress3': undefined identifier
+MAIN.C(54): error C202: 'arrayadress3': undefined identifier
+MAIN.C(56): error C202: 'arrayadress4': undefined identifier
+MAIN.C(57): error C202: 'arrayadress4': undefined identifier
+MAIN.C(60): error C202: 'arrayadress1': undefined identifier
+MAIN.C(61): error C202: 'arrayadress1': undefined identifier
+MAIN.C(63): error C202: 'arrayadress2': undefined identifier
+MAIN.C(64): error C202: 'arrayadress2': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(50): warning C206: 'delay': missing function-prototype
+MAIN.C(51): warning C206: 'lcdinitial': missing function-prototype
+MAIN.C(52): warning C206: 'clrram': missing function-prototype
+MAIN.C(53): warning C206: 'display': missing function-prototype
+MAIN.C(53): error C267: 'display': requires ANSI-style prototype
+MAIN.C(53): error C202: 'arrayadress3': undefined identifier
+MAIN.C(54): error C202: 'arrayadress3': undefined identifier
+MAIN.C(56): error C202: 'arrayadress4': undefined identifier
+MAIN.C(57): error C202: 'arrayadress4': undefined identifier
+MAIN.C(60): error C202: 'arrayadress1': undefined identifier
+MAIN.C(61): error C202: 'arrayadress1': undefined identifier
+MAIN.C(63): error C202: 'arrayadress2': undefined identifier
+MAIN.C(64): error C202: 'arrayadress2': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(56): error C202: 'P0_4': undefined identifier
+MAIN.C(57): error C202: 'P0_6': undefined identifier
+MAIN.C(57): error C202: 'P0_5': undefined identifier
+MAIN.C(57): error C202: 'P0_4': undefined identifier
+MAIN.C(61): error C202: 'P0_4': undefined identifier
+MAIN.C(62): error C202: 'P0_6': undefined identifier
+MAIN.C(62): error C202: 'P0_5': undefined identifier
+MAIN.C(62): error C202: 'P0_4': undefined identifier
+MAIN.C(63): error C202: 'P0_4': undefined identifier
+MAIN.C(77): error C202: 'P0_4': undefined identifier
+MAIN.C(78): error C202: 'P0_6': undefined identifier
+MAIN.C(78): error C202: 'P0_5': undefined identifier
+MAIN.C(78): error C202: 'P0_4': undefined identifier
+MAIN.C(82): error C202: 'P0_4': undefined identifier
+MAIN.C(83): error C202: 'P0_6': undefined identifier
+MAIN.C(83): error C202: 'P0_5': undefined identifier
+MAIN.C(83): error C202: 'P0_4': undefined identifier
+MAIN.C(84): error C202: 'P0_4': undefined identifier
+MAIN.C(96): error C202: 'P0_4': undefined identifier
+MAIN.C(97): error C202: 'P0_6': undefined identifier
+MAIN.C(97): error C202: 'P0_5': undefined identifier
+MAIN.C(97): error C202: 'P0_4': undefined identifier
+MAIN.C(101): error C202: 'P0_4': undefined identifier
+MAIN.C(102): error C202: 'P0_6': undefined identifier
+MAIN.C(102): error C202: 'P0_5': undefined identifier
+MAIN.C(102): error C202: 'P0_4': undefined identifier
+MAIN.C(103): error C202: 'P0_4': undefined identifier
+MAIN.C(116): error C202: 'P0_4': undefined identifier
+MAIN.C(117): error C202: 'P0_6': undefined identifier
+MAIN.C(117): error C202: 'P0_5': undefined identifier
+MAIN.C(117): error C202: 'P0_4': undefined identifier
+MAIN.C(121): error C202: 'P0_4': undefined identifier
+MAIN.C(122): error C202: 'P0_6': undefined identifier
+MAIN.C(122): error C202: 'P0_5': undefined identifier
+MAIN.C(122): error C202: 'P0_4': undefined identifier
+MAIN.C(123): error C202: 'P0_4': undefined identifier
+MAIN.C(229): error C237: '_display': function already has a body
+MAIN.C(288): error C202: 'arrayadress3': undefined identifier
+MAIN.C(289): error C202: 'arrayadress3': undefined identifier
+MAIN.C(291): error C202: 'arrayadress4': undefined identifier
+MAIN.C(292): error C202: 'arrayadress4': undefined identifier
+MAIN.C(295): error C202: 'arrayadress1': undefined identifier
+MAIN.C(296): error C202: 'arrayadress1': undefined identifier
+MAIN.C(298): error C202: 'arrayadress2': undefined identifier
+MAIN.C(299): error C202: 'arrayadress2': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(40): error C202: 'P0_6': undefined identifier
+MAIN.C(41): error C202: 'P0_5': undefined identifier
+MAIN.C(42): error C202: 'P0_4': undefined identifier
+MAIN.C(56): error C202: 'E': undefined identifier
+MAIN.C(57): error C202: 'RS': undefined identifier
+MAIN.C(57): error C202: 'RW': undefined identifier
+MAIN.C(57): error C202: 'E': undefined identifier
+MAIN.C(61): error C202: 'E': undefined identifier
+MAIN.C(62): error C202: 'RS': undefined identifier
+MAIN.C(62): error C202: 'RW': undefined identifier
+MAIN.C(62): error C202: 'E': undefined identifier
+MAIN.C(63): error C202: 'E': undefined identifier
+MAIN.C(77): error C202: 'E': undefined identifier
+MAIN.C(78): error C202: 'RS': undefined identifier
+MAIN.C(78): error C202: 'RW': undefined identifier
+MAIN.C(78): error C202: 'E': undefined identifier
+MAIN.C(82): error C202: 'E': undefined identifier
+MAIN.C(83): error C202: 'RS': undefined identifier
+MAIN.C(83): error C202: 'RW': undefined identifier
+MAIN.C(83): error C202: 'E': undefined identifier
+MAIN.C(84): error C202: 'E': undefined identifier
+MAIN.C(96): error C202: 'E': undefined identifier
+MAIN.C(97): error C202: 'RS': undefined identifier
+MAIN.C(97): error C202: 'RW': undefined identifier
+MAIN.C(97): error C202: 'E': undefined identifier
+MAIN.C(101): error C202: 'E': undefined identifier
+MAIN.C(102): error C202: 'RS': undefined identifier
+MAIN.C(102): error C202: 'RW': undefined identifier
+MAIN.C(102): error C202: 'E': undefined identifier
+MAIN.C(103): error C202: 'E': undefined identifier
+MAIN.C(116): error C202: 'E': undefined identifier
+MAIN.C(117): error C202: 'RS': undefined identifier
+MAIN.C(117): error C202: 'RW': undefined identifier
+MAIN.C(117): error C202: 'E': undefined identifier
+MAIN.C(121): error C202: 'E': undefined identifier
+MAIN.C(122): error C202: 'RS': undefined identifier
+MAIN.C(122): error C202: 'RW': undefined identifier
+MAIN.C(122): error C202: 'E': undefined identifier
+MAIN.C(123): error C202: 'E': undefined identifier
+MAIN.C(229): error C237: '_display': function already has a body
+MAIN.C(288): error C202: 'arrayadress3': undefined identifier
+MAIN.C(289): error C202: 'arrayadress3': undefined identifier
+MAIN.C(291): error C202: 'arrayadress4': undefined identifier
+MAIN.C(292): error C202: 'arrayadress4': undefined identifier
+MAIN.C(295): error C202: 'arrayadress1': undefined identifier
+MAIN.C(296): error C202: 'arrayadress1': undefined identifier
+MAIN.C(298): error C202: 'arrayadress2': undefined identifier
+MAIN.C(299): error C202: 'arrayadress2': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(229): error C237: '_display': function already has a body
+MAIN.C(288): error C202: 'arrayadress3': undefined identifier
+MAIN.C(289): error C202: 'arrayadress3': undefined identifier
+MAIN.C(291): error C202: 'arrayadress4': undefined identifier
+MAIN.C(292): error C202: 'arrayadress4': undefined identifier
+MAIN.C(295): error C202: 'arrayadress1': undefined identifier
+MAIN.C(296): error C202: 'arrayadress1': undefined identifier
+MAIN.C(298): error C202: 'arrayadress2': undefined identifier
+MAIN.C(299): error C202: 'arrayadress2': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=16.0 xdata=0 code=2469
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=16.0 xdata=0 code=2469
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  KEY.obj (KEY)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCDCLEAR
+    MODULE:  MAIN.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCDPUTS
+    MODULE:  MAIN.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCDINIT
+    MODULE:  MAIN.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCDLIGHTOFF
+    MODULE:  MAIN.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCDPUTCHAR
+    MODULE:  MAIN.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCDLIGHTON
+    MODULE:  MAIN.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCDINIT
+    MODULE:  MAIN.obj (MAIN)
+    ADDRESS: 00CCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCDPUTCHAR
+    MODULE:  MAIN.obj (MAIN)
+    ADDRESS: 00D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCDLIGHTOFF
+    MODULE:  MAIN.obj (MAIN)
+    ADDRESS: 00EAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCDLIGHTON
+    MODULE:  MAIN.obj (MAIN)
+    ADDRESS: 00F4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCDCLEAR
+    MODULE:  MAIN.obj (MAIN)
+    ADDRESS: 010EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCDPUTS
+    MODULE:  MAIN.obj (MAIN)
+    ADDRESS: 011EH
+Program Size: data=12.0 xdata=0 code=487
+Target not created
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _DELAY
+    MODULE:  KEY.obj (KEY)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=16.0 xdata=0 code=761
+Target not created
+Build target 'Target 1'
+compiling KEY.C...
+KEY.C(20): warning C206: 'Delay': missing function-prototype
+KEY.C(20): error C267: 'Delay': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+C:\KEIL\C51\INC\REG52.H(13): error C231: 'P0': redefinition
+C:\KEIL\C51\INC\REG52.H(14): error C231: 'P1': redefinition
+C:\KEIL\C51\INC\REG52.H(15): error C231: 'P2': redefinition
+C:\KEIL\C51\INC\REG52.H(16): error C231: 'P3': redefinition
+C:\KEIL\C51\INC\REG52.H(17): error C231: 'PSW': redefinition
+C:\KEIL\C51\INC\REG52.H(18): error C231: 'ACC': redefinition
+C:\KEIL\C51\INC\REG52.H(19): error C231: 'B': redefinition
+C:\KEIL\C51\INC\REG52.H(20): error C231: 'SP': redefinition
+C:\KEIL\C51\INC\REG52.H(21): error C231: 'DPL': redefinition
+C:\KEIL\C51\INC\REG52.H(22): error C231: 'DPH': redefinition
+C:\KEIL\C51\INC\REG52.H(23): error C231: 'PCON': redefinition
+C:\KEIL\C51\INC\REG52.H(24): error C231: 'TCON': redefinition
+C:\KEIL\C51\INC\REG52.H(25): error C231: 'TMOD': redefinition
+C:\KEIL\C51\INC\REG52.H(26): error C231: 'TL0': redefinition
+C:\KEIL\C51\INC\REG52.H(27): error C231: 'TL1': redefinition
+C:\KEIL\C51\INC\REG52.H(28): error C231: 'TH0': redefinition
+C:\KEIL\C51\INC\REG52.H(29): error C231: 'TH1': redefinition
+C:\KEIL\C51\INC\REG52.H(30): error C231: 'IE': redefinition
+C:\KEIL\C51\INC\REG52.H(31): error C231: 'IP': redefinition
+C:\KEIL\C51\INC\REG52.H(32): error C231: 'SCON': redefinition
+C:\KEIL\C51\INC\REG52.H(33): error C231: 'SBUF': redefinition
+C:\KEIL\C51\INC\REG52.H(45): error C231: 'CY': redefinition
+C:\KEIL\C51\INC\REG52.H(46): error C231: 'AC': redefinition
+C:\KEIL\C51\INC\REG52.H(47): error C231: 'F0': redefinition
+C:\KEIL\C51\INC\REG52.H(48): error C231: 'RS1': redefinition
+C:\KEIL\C51\INC\REG52.H(49): error C231: 'RS0': redefinition
+C:\KEIL\C51\INC\REG52.H(50): error C231: 'OV': redefinition
+C:\KEIL\C51\INC\REG52.H(51): error C231: 'P': redefinition
+C:\KEIL\C51\INC\REG52.H(54): error C231: 'TF1': redefinition
+C:\KEIL\C51\INC\REG52.H(55): error C231: 'TR1': redefinition
+C:\KEIL\C51\INC\REG52.H(56): error C231: 'TF0': redefinition
+C:\KEIL\C51\INC\REG52.H(57): error C231: 'TR0': redefinition
+C:\KEIL\C51\INC\REG52.H(58): error C231: 'IE1': redefinition
+C:\KEIL\C51\INC\REG52.H(59): error C231: 'IT1': redefinition
+C:\KEIL\C51\INC\REG52.H(60): error C231: 'IE0': redefinition
+C:\KEIL\C51\INC\REG52.H(61): error C231: 'IT0': redefinition
+C:\KEIL\C51\INC\REG52.H(64): error C231: 'EA': redefinition
+C:\KEIL\C51\INC\REG52.H(66): error C231: 'ES': redefinition
+C:\KEIL\C51\INC\REG52.H(67): error C231: 'ET1': redefinition
+C:\KEIL\C51\INC\REG52.H(68): error C231: 'EX1': redefinition
+C:\KEIL\C51\INC\REG52.H(69): error C231: 'ET0': redefinition
+C:\KEIL\C51\INC\REG52.H(70): error C231: 'EX0': redefinition
+C:\KEIL\C51\INC\REG52.H(74): error C231: 'PS': redefinition
+C:\KEIL\C51\INC\REG52.H(75): error C231: 'PT1': redefinition
+C:\KEIL\C51\INC\REG52.H(76): error C231: 'PX1': redefinition
+C:\KEIL\C51\INC\REG52.H(77): error C231: 'PT0': redefinition
+C:\KEIL\C51\INC\REG52.H(78): error C231: 'PX0': redefinition
+C:\KEIL\C51\INC\REG52.H(81): error C231: 'RD': redefinition
+C:\KEIL\C51\INC\REG52.H(82): error C231: 'WR': redefinition
+C:\KEIL\C51\INC\REG52.H(83): error C231: 'T1': redefinition
+C:\KEIL\C51\INC\REG52.H(84): error C231: 'T0': redefinition
+C:\KEIL\C51\INC\REG52.H(85): error C231: 'INT1': redefinition
+C:\KEIL\C51\INC\REG52.H(86): error C231: 'INT0': redefinition
+C:\KEIL\C51\INC\REG52.H(87): error C231: 'TXD': redefinition
+C:\KEIL\C51\INC\REG52.H(88): error C231: 'RXD': redefinition
+C:\KEIL\C51\INC\REG52.H(91): error C231: 'SM0': redefinition
+C:\KEIL\C51\INC\REG52.H(92): error C231: 'SM1': redefinition
+C:\KEIL\C51\INC\REG52.H(93): error C231: 'SM2': redefinition
+C:\KEIL\C51\INC\REG52.H(94): error C231: 'REN': redefinition
+C:\KEIL\C51\INC\REG52.H(95): error C231: 'TB8': redefinition
+C:\KEIL\C51\INC\REG52.H(96): error C231: 'RB8': redefinition
+C:\KEIL\C51\INC\REG52.H(97): error C231: 'TI': redefinition
+C:\KEIL\C51\INC\REG52.H(98): error C231: 'RI': redefinition
+compiling KEY.C...
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+C:\KEIL\C51\INC\REG52.H(13): error C231: 'P0': redefinition
+C:\KEIL\C51\INC\REG52.H(14): error C231: 'P1': redefinition
+C:\KEIL\C51\INC\REG52.H(15): error C231: 'P2': redefinition
+C:\KEIL\C51\INC\REG52.H(16): error C231: 'P3': redefinition
+C:\KEIL\C51\INC\REG52.H(17): error C231: 'PSW': redefinition
+C:\KEIL\C51\INC\REG52.H(18): error C231: 'ACC': redefinition
+C:\KEIL\C51\INC\REG52.H(19): error C231: 'B': redefinition
+C:\KEIL\C51\INC\REG52.H(20): error C231: 'SP': redefinition
+C:\KEIL\C51\INC\REG52.H(21): error C231: 'DPL': redefinition
+C:\KEIL\C51\INC\REG52.H(22): error C231: 'DPH': redefinition
+C:\KEIL\C51\INC\REG52.H(23): error C231: 'PCON': redefinition
+C:\KEIL\C51\INC\REG52.H(24): error C231: 'TCON': redefinition
+C:\KEIL\C51\INC\REG52.H(25): error C231: 'TMOD': redefinition
+C:\KEIL\C51\INC\REG52.H(26): error C231: 'TL0': redefinition
+C:\KEIL\C51\INC\REG52.H(27): error C231: 'TL1': redefinition
+C:\KEIL\C51\INC\REG52.H(28): error C231: 'TH0': redefinition
+C:\KEIL\C51\INC\REG52.H(29): error C231: 'TH1': redefinition
+C:\KEIL\C51\INC\REG52.H(30): error C231: 'IE': redefinition
+C:\KEIL\C51\INC\REG52.H(31): error C231: 'IP': redefinition
+C:\KEIL\C51\INC\REG52.H(32): error C231: 'SCON': redefinition
+C:\KEIL\C51\INC\REG52.H(33): error C231: 'SBUF': redefinition
+C:\KEIL\C51\INC\REG52.H(45): error C231: 'CY': redefinition
+C:\KEIL\C51\INC\REG52.H(46): error C231: 'AC': redefinition
+C:\KEIL\C51\INC\REG52.H(47): error C231: 'F0': redefinition
+C:\KEIL\C51\INC\REG52.H(48): error C231: 'RS1': redefinition
+C:\KEIL\C51\INC\REG52.H(49): error C231: 'RS0': redefinition
+C:\KEIL\C51\INC\REG52.H(50): error C231: 'OV': redefinition
+C:\KEIL\C51\INC\REG52.H(51): error C231: 'P': redefinition
+C:\KEIL\C51\INC\REG52.H(54): error C231: 'TF1': redefinition
+C:\KEIL\C51\INC\REG52.H(55): error C231: 'TR1': redefinition
+C:\KEIL\C51\INC\REG52.H(56): error C231: 'TF0': redefinition
+C:\KEIL\C51\INC\REG52.H(57): error C231: 'TR0': redefinition
+C:\KEIL\C51\INC\REG52.H(58): error C231: 'IE1': redefinition
+C:\KEIL\C51\INC\REG52.H(59): error C231: 'IT1': redefinition
+C:\KEIL\C51\INC\REG52.H(60): error C231: 'IE0': redefinition
+C:\KEIL\C51\INC\REG52.H(61): error C231: 'IT0': redefinition
+C:\KEIL\C51\INC\REG52.H(64): error C231: 'EA': redefinition
+C:\KEIL\C51\INC\REG52.H(66): error C231: 'ES': redefinition
+C:\KEIL\C51\INC\REG52.H(67): error C231: 'ET1': redefinition
+C:\KEIL\C51\INC\REG52.H(68): error C231: 'EX1': redefinition
+C:\KEIL\C51\INC\REG52.H(69): error C231: 'ET0': redefinition
+C:\KEIL\C51\INC\REG52.H(70): error C231: 'EX0': redefinition
+C:\KEIL\C51\INC\REG52.H(74): error C231: 'PS': redefinition
+C:\KEIL\C51\INC\REG52.H(75): error C231: 'PT1': redefinition
+C:\KEIL\C51\INC\REG52.H(76): error C231: 'PX1': redefinition
+C:\KEIL\C51\INC\REG52.H(77): error C231: 'PT0': redefinition
+C:\KEIL\C51\INC\REG52.H(78): error C231: 'PX0': redefinition
+C:\KEIL\C51\INC\REG52.H(81): error C231: 'RD': redefinition
+C:\KEIL\C51\INC\REG52.H(82): error C231: 'WR': redefinition
+C:\KEIL\C51\INC\REG52.H(83): error C231: 'T1': redefinition
+C:\KEIL\C51\INC\REG52.H(84): error C231: 'T0': redefinition
+C:\KEIL\C51\INC\REG52.H(85): error C231: 'INT1': redefinition
+C:\KEIL\C51\INC\REG52.H(86): error C231: 'INT0': redefinition
+C:\KEIL\C51\INC\REG52.H(87): error C231: 'TXD': redefinition
+C:\KEIL\C51\INC\REG52.H(88): error C231: 'RXD': redefinition
+C:\KEIL\C51\INC\REG52.H(91): error C231: 'SM0': redefinition
+C:\KEIL\C51\INC\REG52.H(92): error C231: 'SM1': redefinition
+C:\KEIL\C51\INC\REG52.H(93): error C231: 'SM2': redefinition
+C:\KEIL\C51\INC\REG52.H(94): error C231: 'REN': redefinition
+C:\KEIL\C51\INC\REG52.H(95): error C231: 'TB8': redefinition
+C:\KEIL\C51\INC\REG52.H(96): error C231: 'RB8': redefinition
+C:\KEIL\C51\INC\REG52.H(97): error C231: 'TI': redefinition
+C:\KEIL\C51\INC\REG52.H(98): error C231: 'RI': redefinition
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+C:\KEIL\C51\INC\REG52.H(13): error C231: 'P0': redefinition
+C:\KEIL\C51\INC\REG52.H(14): error C231: 'P1': redefinition
+C:\KEIL\C51\INC\REG52.H(15): error C231: 'P2': redefinition
+C:\KEIL\C51\INC\REG52.H(16): error C231: 'P3': redefinition
+C:\KEIL\C51\INC\REG52.H(17): error C231: 'PSW': redefinition
+C:\KEIL\C51\INC\REG52.H(18): error C231: 'ACC': redefinition
+C:\KEIL\C51\INC\REG52.H(19): error C231: 'B': redefinition
+C:\KEIL\C51\INC\REG52.H(20): error C231: 'SP': redefinition
+C:\KEIL\C51\INC\REG52.H(21): error C231: 'DPL': redefinition
+C:\KEIL\C51\INC\REG52.H(22): error C231: 'DPH': redefinition
+C:\KEIL\C51\INC\REG52.H(23): error C231: 'PCON': redefinition
+C:\KEIL\C51\INC\REG52.H(24): error C231: 'TCON': redefinition
+C:\KEIL\C51\INC\REG52.H(25): error C231: 'TMOD': redefinition
+C:\KEIL\C51\INC\REG52.H(26): error C231: 'TL0': redefinition
+C:\KEIL\C51\INC\REG52.H(27): error C231: 'TL1': redefinition
+C:\KEIL\C51\INC\REG52.H(28): error C231: 'TH0': redefinition
+C:\KEIL\C51\INC\REG52.H(29): error C231: 'TH1': redefinition
+C:\KEIL\C51\INC\REG52.H(30): error C231: 'IE': redefinition
+C:\KEIL\C51\INC\REG52.H(31): error C231: 'IP': redefinition
+C:\KEIL\C51\INC\REG52.H(32): error C231: 'SCON': redefinition
+C:\KEIL\C51\INC\REG52.H(33): error C231: 'SBUF': redefinition
+C:\KEIL\C51\INC\REG52.H(45): error C231: 'CY': redefinition
+C:\KEIL\C51\INC\REG52.H(46): error C231: 'AC': redefinition
+C:\KEIL\C51\INC\REG52.H(47): error C231: 'F0': redefinition
+C:\KEIL\C51\INC\REG52.H(48): error C231: 'RS1': redefinition
+C:\KEIL\C51\INC\REG52.H(49): error C231: 'RS0': redefinition
+C:\KEIL\C51\INC\REG52.H(50): error C231: 'OV': redefinition
+C:\KEIL\C51\INC\REG52.H(51): error C231: 'P': redefinition
+C:\KEIL\C51\INC\REG52.H(54): error C231: 'TF1': redefinition
+C:\KEIL\C51\INC\REG52.H(55): error C231: 'TR1': redefinition
+C:\KEIL\C51\INC\REG52.H(56): error C231: 'TF0': redefinition
+C:\KEIL\C51\INC\REG52.H(57): error C231: 'TR0': redefinition
+C:\KEIL\C51\INC\REG52.H(58): error C231: 'IE1': redefinition
+C:\KEIL\C51\INC\REG52.H(59): error C231: 'IT1': redefinition
+C:\KEIL\C51\INC\REG52.H(60): error C231: 'IE0': redefinition
+C:\KEIL\C51\INC\REG52.H(61): error C231: 'IT0': redefinition
+C:\KEIL\C51\INC\REG52.H(64): error C231: 'EA': redefinition
+C:\KEIL\C51\INC\REG52.H(66): error C231: 'ES': redefinition
+C:\KEIL\C51\INC\REG52.H(67): error C231: 'ET1': redefinition
+C:\KEIL\C51\INC\REG52.H(68): error C231: 'EX1': redefinition
+C:\KEIL\C51\INC\REG52.H(69): error C231: 'ET0': redefinition
+C:\KEIL\C51\INC\REG52.H(70): error C231: 'EX0': redefinition
+C:\KEIL\C51\INC\REG52.H(74): error C231: 'PS': redefinition
+C:\KEIL\C51\INC\REG52.H(75): error C231: 'PT1': redefinition
+C:\KEIL\C51\INC\REG52.H(76): error C231: 'PX1': redefinition
+C:\KEIL\C51\INC\REG52.H(77): error C231: 'PT0': redefinition
+C:\KEIL\C51\INC\REG52.H(78): error C231: 'PX0': redefinition
+C:\KEIL\C51\INC\REG52.H(81): error C231: 'RD': redefinition
+C:\KEIL\C51\INC\REG52.H(82): error C231: 'WR': redefinition
+C:\KEIL\C51\INC\REG52.H(83): error C231: 'T1': redefinition
+C:\KEIL\C51\INC\REG52.H(84): error C231: 'T0': redefinition
+C:\KEIL\C51\INC\REG52.H(85): error C231: 'INT1': redefinition
+C:\KEIL\C51\INC\REG52.H(86): error C231: 'INT0': redefinition
+C:\KEIL\C51\INC\REG52.H(87): error C231: 'TXD': redefinition
+C:\KEIL\C51\INC\REG52.H(88): error C231: 'RXD': redefinition
+C:\KEIL\C51\INC\REG52.H(91): error C231: 'SM0': redefinition
+C:\KEIL\C51\INC\REG52.H(92): error C231: 'SM1': redefinition
+C:\KEIL\C51\INC\REG52.H(93): error C231: 'SM2': redefinition
+C:\KEIL\C51\INC\REG52.H(94): error C231: 'REN': redefinition
+C:\KEIL\C51\INC\REG52.H(95): error C231: 'TB8': redefinition
+C:\KEIL\C51\INC\REG52.H(96): error C231: 'RB8': redefinition
+C:\KEIL\C51\INC\REG52.H(97): error C231: 'TI': redefinition
+C:\KEIL\C51\INC\REG52.H(98): error C231: 'RI': redefinition
+compiling KEY.C...
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+C:\KEIL\C51\INC\REG52.H(13): error C231: 'P0': redefinition
+C:\KEIL\C51\INC\REG52.H(14): error C231: 'P1': redefinition
+C:\KEIL\C51\INC\REG52.H(15): error C231: 'P2': redefinition
+C:\KEIL\C51\INC\REG52.H(16): error C231: 'P3': redefinition
+C:\KEIL\C51\INC\REG52.H(17): error C231: 'PSW': redefinition
+C:\KEIL\C51\INC\REG52.H(18): error C231: 'ACC': redefinition
+C:\KEIL\C51\INC\REG52.H(19): error C231: 'B': redefinition
+C:\KEIL\C51\INC\REG52.H(20): error C231: 'SP': redefinition
+C:\KEIL\C51\INC\REG52.H(21): error C231: 'DPL': redefinition
+C:\KEIL\C51\INC\REG52.H(22): error C231: 'DPH': redefinition
+C:\KEIL\C51\INC\REG52.H(23): error C231: 'PCON': redefinition
+C:\KEIL\C51\INC\REG52.H(24): error C231: 'TCON': redefinition
+C:\KEIL\C51\INC\REG52.H(25): error C231: 'TMOD': redefinition
+C:\KEIL\C51\INC\REG52.H(26): error C231: 'TL0': redefinition
+C:\KEIL\C51\INC\REG52.H(27): error C231: 'TL1': redefinition
+C:\KEIL\C51\INC\REG52.H(28): error C231: 'TH0': redefinition
+C:\KEIL\C51\INC\REG52.H(29): error C231: 'TH1': redefinition
+C:\KEIL\C51\INC\REG52.H(30): error C231: 'IE': redefinition
+C:\KEIL\C51\INC\REG52.H(31): error C231: 'IP': redefinition
+C:\KEIL\C51\INC\REG52.H(32): error C231: 'SCON': redefinition
+C:\KEIL\C51\INC\REG52.H(33): error C231: 'SBUF': redefinition
+C:\KEIL\C51\INC\REG52.H(45): error C231: 'CY': redefinition
+C:\KEIL\C51\INC\REG52.H(46): error C231: 'AC': redefinition
+C:\KEIL\C51\INC\REG52.H(47): error C231: 'F0': redefinition
+C:\KEIL\C51\INC\REG52.H(48): error C231: 'RS1': redefinition
+C:\KEIL\C51\INC\REG52.H(49): error C231: 'RS0': redefinition
+C:\KEIL\C51\INC\REG52.H(50): error C231: 'OV': redefinition
+C:\KEIL\C51\INC\REG52.H(51): error C231: 'P': redefinition
+C:\KEIL\C51\INC\REG52.H(54): error C231: 'TF1': redefinition
+C:\KEIL\C51\INC\REG52.H(55): error C231: 'TR1': redefinition
+C:\KEIL\C51\INC\REG52.H(56): error C231: 'TF0': redefinition
+C:\KEIL\C51\INC\REG52.H(57): error C231: 'TR0': redefinition
+C:\KEIL\C51\INC\REG52.H(58): error C231: 'IE1': redefinition
+C:\KEIL\C51\INC\REG52.H(59): error C231: 'IT1': redefinition
+C:\KEIL\C51\INC\REG52.H(60): error C231: 'IE0': redefinition
+C:\KEIL\C51\INC\REG52.H(61): error C231: 'IT0': redefinition
+C:\KEIL\C51\INC\REG52.H(64): error C231: 'EA': redefinition
+C:\KEIL\C51\INC\REG52.H(66): error C231: 'ES': redefinition
+C:\KEIL\C51\INC\REG52.H(67): error C231: 'ET1': redefinition
+C:\KEIL\C51\INC\REG52.H(68): error C231: 'EX1': redefinition
+C:\KEIL\C51\INC\REG52.H(69): error C231: 'ET0': redefinition
+C:\KEIL\C51\INC\REG52.H(70): error C231: 'EX0': redefinition
+C:\KEIL\C51\INC\REG52.H(74): error C231: 'PS': redefinition
+C:\KEIL\C51\INC\REG52.H(75): error C231: 'PT1': redefinition
+C:\KEIL\C51\INC\REG52.H(76): error C231: 'PX1': redefinition
+C:\KEIL\C51\INC\REG52.H(77): error C231: 'PT0': redefinition
+C:\KEIL\C51\INC\REG52.H(78): error C231: 'PX0': redefinition
+C:\KEIL\C51\INC\REG52.H(81): error C231: 'RD': redefinition
+C:\KEIL\C51\INC\REG52.H(82): error C231: 'WR': redefinition
+C:\KEIL\C51\INC\REG52.H(83): error C231: 'T1': redefinition
+C:\KEIL\C51\INC\REG52.H(84): error C231: 'T0': redefinition
+C:\KEIL\C51\INC\REG52.H(85): error C231: 'INT1': redefinition
+C:\KEIL\C51\INC\REG52.H(86): error C231: 'INT0': redefinition
+C:\KEIL\C51\INC\REG52.H(87): error C231: 'TXD': redefinition
+C:\KEIL\C51\INC\REG52.H(88): error C231: 'RXD': redefinition
+C:\KEIL\C51\INC\REG52.H(91): error C231: 'SM0': redefinition
+C:\KEIL\C51\INC\REG52.H(92): error C231: 'SM1': redefinition
+C:\KEIL\C51\INC\REG52.H(93): error C231: 'SM2': redefinition
+C:\KEIL\C51\INC\REG52.H(94): error C231: 'REN': redefinition
+C:\KEIL\C51\INC\REG52.H(95): error C231: 'TB8': redefinition
+C:\KEIL\C51\INC\REG52.H(96): error C231: 'RB8': redefinition
+C:\KEIL\C51\INC\REG52.H(97): error C231: 'TI': redefinition
+C:\KEIL\C51\INC\REG52.H(98): error C231: 'RI': redefinition
+compiling KEY.C...
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCDLIGHTON?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCDLIGHTOFF?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCDINIT?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDPUTS?LCD
+Program Size: data=16.0 xdata=0 code=753
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=12.0 xdata=0 code=479
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling KEY.C...
+compiling LED.C...
+linking...
+Program Size: data=12.0 xdata=0 code=479
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+linking...
+Program Size: data=12.0 xdata=0 code=474
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+linking...
+Program Size: data=12.0 xdata=0 code=479
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=12.0 xdata=0 code=479
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(8): error C202: 'LED': undefined identifier
+compiling KEY.C...
+KEY.C(17): error C202: 'KEYS': undefined identifier
+KEY.C(18): error C202: 'KEYS': undefined identifier
+KEY.C(22): error C202: 'KEYS': undefined identifier
+KEY.C(23): error C202: 'KEYS': undefined identifier
+KEY.C(24): error C202: 'KEYS': undefined identifier
+KEY.C(27): error C202: 'KEYS': undefined identifier
+KEY.C(28): error C202: 'KEYS': undefined identifier
+compiling LED.C...
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+compiling LED.C...
+linking...
+Program Size: data=12.0 xdata=0 code=479
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+compiling LED.C...
+linking...
+Program Size: data=12.0 xdata=0 code=479
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+compiling LED.C...
+linking...
+Program Size: data=12.0 xdata=0 code=479
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+compiling LED.C...
+linking...
+Program Size: data=12.0 xdata=0 code=479
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+compiling LED.C...
+linking...
+Program Size: data=12.0 xdata=0 code=479
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+DEF52.H(4): error C141: syntax error near 'P0', expected '='
+MAIN.C(8): error C202: 'LED': undefined identifier
+compiling KEY.C...
+DEF52.H(4): error C141: syntax error near 'P0', expected '='
+KEY.C(17): error C202: 'KEYS': undefined identifier
+KEY.C(18): error C202: 'KEYS': undefined identifier
+KEY.C(22): error C202: 'KEYS': undefined identifier
+KEY.C(23): error C202: 'KEYS': undefined identifier
+KEY.C(24): error C202: 'KEYS': undefined identifier
+KEY.C(27): error C202: 'KEYS': undefined identifier
+KEY.C(28): error C202: 'KEYS': undefined identifier
+compiling LED.C...
+DEF52.H(4): error C141: syntax error near 'P0', expected '='
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+DEF52.H(4): error C141: syntax error near 'P0', expected 'const'
+DEF52.H(5): error C141: syntax error near 'P2', expected 'const'
+MAIN.C(8): error C202: 'LEDS': undefined identifier
+compiling KEY.C...
+DEF52.H(4): error C141: syntax error near 'P0', expected 'const'
+DEF52.H(5): error C141: syntax error near 'P2', expected 'const'
+KEY.C(17): error C202: 'KEYS': undefined identifier
+KEY.C(18): error C202: 'KEYS': undefined identifier
+KEY.C(22): error C202: 'KEYS': undefined identifier
+KEY.C(23): error C202: 'KEYS': undefined identifier
+KEY.C(24): error C202: 'KEYS': undefined identifier
+KEY.C(27): error C202: 'KEYS': undefined identifier
+KEY.C(28): error C202: 'KEYS': undefined identifier
+compiling LED.C...
+DEF52.H(4): error C141: syntax error near 'P0', expected 'const'
+DEF52.H(5): error C141: syntax error near 'P2', expected 'const'
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+compiling LED.C...
+linking...
+Program Size: data=12.0 xdata=0 code=516
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=12.0 xdata=0 code=516
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+linking...
+Program Size: data=12.0 xdata=0 code=516
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=12.0 xdata=0 code=516
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).

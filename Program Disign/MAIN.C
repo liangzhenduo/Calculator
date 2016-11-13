@@ -1,11 +1,11 @@
 #include <reg52.h>
-#include <def52.h>
-#include <key.h>
-#include <led.h>
+#include "def52.h"
+#include "key.h"
+#include "led.h"
 
 void main(){
 	unsigned char key;
-	LED = 0;
+	init();
 	for(;;){
 		key = KeyScan();
 		Light(key);
@@ -30,3 +30,17 @@ void main(){
 	}
 }
 
+void init(){
+	LED1 = 0;
+	Delay(2000);
+	LED2 = 0;
+	LED1 = 1;
+	Delay(2000);
+	LED3 = 0;
+	LED2 = 1;
+	Delay(2000);
+	LED4 = 0;
+	LED3 = 1;
+	Delay(2000);
+	LED4 = 1;
+}

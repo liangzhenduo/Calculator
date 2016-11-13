@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V5.03                                                        11/08/2016  22:18:53  PAGE 1
+BL51 BANKED LINKER/LOCATER V5.03                                                        11/13/2016  15:43:29  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V5.03, INVOKED BY:
@@ -33,8 +33,9 @@ LINK MAP OF MODULE:  Calculator (MAIN)
             CODE    00BEH     0098H     UNIT         ?PR?MAIN?MAIN
             CODE    0156H     003EH     UNIT         ?PR?KEYSCAN?KEY
             CODE    0194H     0026H     UNIT         ?C?LIB_CODE
-            CODE    01BAH     0019H     UNIT         ?PR?_DELAY?KEY
-            CODE    01D3H     000CH     UNIT         ?C_C51STARTUP
+            CODE    01BAH     0025H     UNIT         ?PR?INIT?MAIN
+            CODE    01DFH     0019H     UNIT         ?PR?_DELAY?KEY
+            CODE    01F8H     000CH     UNIT         ?C_C51STARTUP
 
 
 
@@ -48,20 +49,24 @@ SEGMENT                          DATA_GROUP
   +--> ?PR?MAIN?MAIN
 
 ?PR?MAIN?MAIN                  0008H    0001H
+  +--> ?PR?INIT?MAIN
   +--> ?PR?KEYSCAN?KEY
   +--> ?PR?_LIGHT?LED
 
+?PR?INIT?MAIN                  -----    -----
+  +--> ?PR?_DELAY?KEY
+
 ?PR?KEYSCAN?KEY                -----    -----
   +--> ?PR?_DELAY?KEY
+
+BL51 BANKED LINKER/LOCATER V5.03                                                      11/13/2016  15:43:29  PAGE 2
+
 
 ?PR?_LIGHT?LED                 0009H    0002H
 
 
 
 SYMBOL TABLE OF MODULE:  Calculator (MAIN)
-BL51 BANKED LINKER/LOCATER V5.03                                                      11/08/2016  22:18:53  PAGE 2
-
-
 
   VALUE           TYPE          NAME
   ----------------------------------
@@ -71,11 +76,16 @@ SYMBOL TABLE OF MODULE:  Calculator (MAIN)
   D:0080H         PUBLIC        P0
   D:0090H         PUBLIC        P1
   D:00B0H         PUBLIC        P3
+  B:0080H.0       PUBLIC        LED1
+  B:0080H.1       PUBLIC        LED2
+  B:0080H.2       PUBLIC        LED3
+  B:0080H.3       PUBLIC        LED4
   D:00A8H         PUBLIC        IE
   D:00B8H         PUBLIC        IP
   C:00BEH         PUBLIC        main
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
+  C:01BAH         PUBLIC        init
   D:00C8H         PUBLIC        T2CON
   D:00D0H         PUBLIC        PSW
   -------         PROC          MAIN
@@ -105,6 +115,25 @@ SYMBOL TABLE OF MODULE:  Calculator (MAIN)
   C:014AH         LINE#         27
   C:0150H         LINE#         28
   -------         ENDPROC       MAIN
+  -------         PROC          INIT
+  C:01BAH         LINE#         33
+  C:01BAH         LINE#         34
+  C:01BCH         LINE#         35
+BL51 BANKED LINKER/LOCATER V5.03                                                      11/13/2016  15:43:29  PAGE 3
+
+
+  C:01C1H         LINE#         36
+  C:01C3H         LINE#         37
+  C:01C5H         LINE#         38
+  C:01CAH         LINE#         39
+  C:01CCH         LINE#         40
+  C:01CEH         LINE#         41
+  C:01D3H         LINE#         42
+  C:01D5H         LINE#         43
+  C:01D7H         LINE#         44
+  C:01DCH         LINE#         45
+  C:01DEH         LINE#         46
+  -------         ENDPROC       INIT
   -------         ENDMOD        MAIN
 
   -------         MODULE        KEY
@@ -119,27 +148,24 @@ SYMBOL TABLE OF MODULE:  Calculator (MAIN)
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
   B:0088H.5       PUBLIC        TF0
-BL51 BANKED LINKER/LOCATER V5.03                                                      11/08/2016  22:18:53  PAGE 3
-
-
   D:008CH         PUBLIC        TH0
   D:008AH         PUBLIC        TL0
-  C:01BAH         PUBLIC        _Delay
+  C:01DFH         PUBLIC        _Delay
   B:0088H.4       PUBLIC        TR0
   D:00C8H         PUBLIC        T2CON
   D:00D0H         PUBLIC        PSW
   -------         PROC          _DELAY
   D:0006H         SYMBOL        t
-  C:01BAH         LINE#         4
-  C:01BAH         LINE#         5
-  C:01BAH         LINE#         6
-  C:01BDH         LINE#         7
-  C:01C0H         LINE#         8
-  C:01C2H         LINE#         9
-  C:01C5H         LINE#         10
-  C:01C7H         LINE#         11
-  C:01C9H         LINE#         12
-  C:01D2H         LINE#         13
+  C:01DFH         LINE#         4
+  C:01DFH         LINE#         5
+  C:01DFH         LINE#         6
+  C:01E2H         LINE#         7
+  C:01E5H         LINE#         8
+  C:01E7H         LINE#         9
+  C:01EAH         LINE#         10
+  C:01ECH         LINE#         11
+  C:01EEH         LINE#         12
+  C:01F7H         LINE#         13
   -------         ENDPROC       _DELAY
   -------         PROC          KEYSCAN
   -------         DO            
@@ -153,6 +179,9 @@ SYMBOL TABLE OF MODULE:  Calculator (MAIN)
   C:0162H         LINE#         20
   C:0169H         LINE#         21
   C:016EH         LINE#         22
+BL51 BANKED LINKER/LOCATER V5.03                                                      11/13/2016  15:43:29  PAGE 4
+
+
   C:0173H         LINE#         23
   C:0177H         LINE#         24
   C:017CH         LINE#         25
@@ -179,9 +208,6 @@ SYMBOL TABLE OF MODULE:  Calculator (MAIN)
   D:00C8H         PUBLIC        T2CON
   D:00D0H         PUBLIC        PSW
   -------         PROC          _LIGHT
-BL51 BANKED LINKER/LOCATER V5.03                                                      11/08/2016  22:18:53  PAGE 4
-
-
   D:0007H         SYMBOL        key
   -------         DO            
   D:0009H         SYMBOL        num
@@ -213,6 +239,9 @@ SYMBOL TABLE OF MODULE:  Calculator (MAIN)
   -------         MODULE        ?C?CCASE
   C:0194H         PUBLIC        ?C?CCASE
   -------         ENDMOD        ?C?CCASE
+BL51 BANKED LINKER/LOCATER V5.03                                                      11/13/2016  15:43:29  PAGE 5
 
-Program Size: data=12.0 xdata=0 code=479
+
+
+Program Size: data=12.0 xdata=0 code=516
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

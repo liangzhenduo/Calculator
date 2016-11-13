@@ -43,7 +43,6 @@ Temporary Items
 .apdisk
 
 # Compile
-.obj
-.lst
-.bak
-
+*.obj
+*.lst
+*.bak
