@@ -1,237 +1,139 @@
-/*
-	LCD.C
-	128×64 LCD驱动程序
-*/
+#include <reg52.h>
+#include "def.h"
 
+unsigned char x = 0xb8;	
+unsigned char y = 0x40;
 
-#include <INTRINS.H>
-#include <ABSACC.H>
-#include "LCD.H"
+unsigned char space[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 
-
-//定义屏幕光标（取值0～63，光标本身不可见）
-unsigned char LcdCursor;
-
-
-/*
-函数：LcdLightOn()
-功能：点亮背光灯
-*/
-void LcdLightOn()
+unsigned char reserve(unsigned char dat)
 {
-	LCD_BL = 1;
+	unsigned char dat1 = 0;
+	unsigned char x = 128;
+	int i;
+	for(i = 0; i < 8; i ++ ) {
+		dat1 += (dat % 2) * x;
+		x /= 2;
+ 	    dat /= 2;
+	}
+	return dat1;
 }
 
-
-/*
-函数：LcdLightOff()
-功能：熄灭背光灯
-*/
-void LcdLightOff()
-{
-	LCD_BL = 0;
-}
-
-
-/*
-函数：LcdGetBF()
-功能：读出状态位BF
-返回：
-	BF=1，表示忙，不可进行任何操作
-	BF=0，表示不忙，可以进行正常操作
-*/
-bit LcdGetBF()
-{
-	unsigned char dat;
-	dat = XBYTE[0xD002];	//XBYTE的定义见<ABSACC.H>
-	return (bit)(dat & 0x80);
-}
-
-
-/*
-函数：LcdWriteCmd()
-功能：向LCD发送命令
-参数：
-	cmd：命令字，详见器件的数据手册
-*/
 void LcdWriteCmd(unsigned char cmd)
 {
-	while ( LcdGetBF() );
-	XBYTE[0xD000] = cmd;
+	EN = 0;
+	RS = 0;
+	RW = 0;
+	EN = 1;
+	DATA = reserve(cmd);
+	EN = 0;
 }
 
-
-/*
-函数：LcdWriteDat()
-功能：向LCD写入数据
-参数：dat，要写入的数据
-说明：目标地址由地址计数器AC隐含指定，写完后AC自动加1
-*/
 void LcdWriteDat(unsigned char dat)
 {
-	while ( LcdGetBF() );
-	XBYTE[0xD001] = dat;
+	EN = 0;
+	RS = 1;
+	RW = 0;
+	EN = 1;
+	DATA = reserve(dat);
+	EN = 0;
 }
 
-
-/*
-函数：LcdReadDat()
-功能：从LCD读出数据
-返回：读出的数据
-*/
-/*
-unsigned char LcdReadDat()
+void clear()
 {
-	volatile unsigned char dat;
-	while ( LcdGetBF() );
-	dat = XBYTE[0xD003];
-	dat = XBYTE[0xD003];	//需要连续执行两次才能够读出真正的数据
-	return dat;
-}
-*/
+	int i, j, k;
+	for(k = 0; k < 8; k ++) {
+		for(j = 0; j < 8; j ++) {
+			for(i = 0; i < 8; i ++) {
+				Delay(1);
+				if(y == 0x7f) {
+					x = x + 1;
+					LcdWriteCmd(x);
+					y = 0x40;
+					LcdWriteCmd(y);
+				}
+				Delay(10);
+				y += 1;
+				LcdWriteDat(space[i]);
+			}
+		}
+	}
+	x = 0xb8;
+	LcdWriteCmd(x);
+	y = 0x40;
+	LcdWriteCmd(y);
 
-
-/*
-函数：LcdSetAC()
-功能：设置DDRAM（显示数据RAM）的AC（地址计数器）值
-参数：
-	ac：地址计数器值，范围0～63
-*/
-void LcdSetAC(unsigned char ac)
-{
-	ac &= 0x3F;
-	ac |= 0x80;
-	LcdWriteCmd(ac);
-}
-
-
-/*
-函数：LcdClear()
-功能：LCD清屏，并使光标回到0
-*/
-void LcdClear()
-{
-	LcdWriteCmd(0x01);	//清屏命令
-	LcdCursor = 0;
 }
 
-
-/*
-函数：LcdDelay()
-功能：延时(t*100)个机器周期
-*/
-void LcdDelay(unsigned char t)
-{
-	unsigned char n;
-	do
-	{
-		n = 49;
-		while ( --n != 0 );
-	} while ( --t != 0 );
-}
-
-
-/*
-函数：LcdInit()
-功能：LCD初始化
-*/
 void LcdInit()
 {
-	LcdWriteCmd(0x30);	//设置基本指令集
-	LcdDelay(3);
-	LcdWriteCmd(0x30);	//设置基本指令集（需要再执行一次）
-	LcdDelay(1);
-	LcdWriteCmd(0x0C);	//开启显示
-	LcdDelay(3);
-	LcdClear();			//清屏
-	LcdDelay(250);
-	LcdWriteCmd(0x06);	//设置进入点
-	LcdDelay(10);
+	CS1 = 0;
+	CS2 = 1;
+	LIGHT = 1;
+	
+	//LcdWriteCmd(0xfc);
+	LcdWriteCmd(0x3f);
+	LcdWriteCmd(0xc0);
+	LcdWriteCmd(0xb8);
+	LcdWriteCmd(0x40);
+	clear();
+	//LcdWriteCmd(0xff);
 }
 
-
-/*
-函数：LcdCheckAC()
-功能：根据光标位置调整AC
-*/
-void LcdCheckAC()
+void LcdPutChar(unsigned char *dat/*, unsigned char x, unsigned char y*/)
 {
-	switch ( LcdCursor )
-	{
-	case 16:
-		LcdSetAC(16);
-		break;
-	case 32:
-		LcdSetAC(8);
-		break;
-	case 48:
-		LcdSetAC(24);
-		break;
-	case 64:
-		LcdCursor = 0;
-		LcdSetAC(0);
-		break;
-	default:
-		break;
-	}
-}
-
-
-/*
-函数：LcdPutChar()
-功能：显示ASCII码
-参数：
-	c为可显示的ASCII码（0x20～0x7F）
-*/
-void LcdPutChar(unsigned char c)
-{
-	LcdWriteDat(c);
-	LcdCursor++;
-	LcdCheckAC();
-}
-
-
-/*
-函数：LcdPutHZ()
-功能：显示汉字
-参数：
-	ch,cl：汉字编码
-*/
-void LcdPutHZ(unsigned char ch, unsigned char cl)
-{
-	if ( LcdCursor & 0x01 )
-	{//显示汉字时，必须偶地址对准，即光标位置不能是奇数
-		LcdPutChar(' ');	//额外输出一个空格
-	}
-	LcdWriteDat(ch);
-	LcdWriteDat(cl);
-	LcdCursor += 2;
-	LcdCheckAC();
-}
-
-
-/*
-函数：LcdPuts()
-功能：显示字符串
-参数：
-	*s：要显示的字符串（可同时包含ASCII码和汉字）
-*/
-void LcdPuts(unsigned char *s)
-{
-	unsigned char ch, cl;
-	for (;;)
-	{
-		ch = *s++;
-		if ( ch == '\0' ) break;
-		if ( ch < 0x80 )
-		{
-			LcdPutChar(ch);
+	int i;
+	for(i = 0; i < 8; i ++) {
+		Delay(1);
+		if(y == 0x7f) {
+			x = x + 1;
+			LcdWriteCmd(x);
+			y = 0x40;
+			LcdWriteCmd(y);
 		}
-		else
-		{
-			cl = *s++;
-			LcdPutHZ(ch,cl);
-		}
+		Delay(10);
+		y += 1;
+		LcdWriteDat(dat[i]);
 	}
 }
+
+void Show(unsigned char key){
+	switch(key){
+		case 0x77: LcdPutChar(Symbol[0]); break;
+		case 0xb7: LcdPutChar(Symbol[1]); break;
+		case 0xd7: LcdPutChar(Symbol[2]); break;
+		case 0xe7: LcdPutChar(Symbol[3]); break;
+		case 0x7b: LcdPutChar(Symbol[4]); break;
+		case 0xbb: LcdPutChar(Symbol[5]); break;
+		case 0xdb: LcdPutChar(Symbol[6]); break;
+		case 0xeb: LcdPutChar(Symbol[7]); break;
+		case 0x7d: LcdPutChar(Symbol[8]); break;
+		case 0xbd: LcdPutChar(Symbol[9]); break;
+		case 0xdd: LcdPutChar(Symbol[10]); break;
+		case 0xed: LcdPutChar(Symbol[11]); break;
+		case 0x7e: LcdPutChar(Symbol[12]); break;
+		case 0xbe: LcdPutChar(Symbol[13]); break;
+		case 0xde: LcdPutChar(Symbol[14]); break;
+		case 0xee: LcdPutChar(Symbol[15]); break;
+	}
+}
+
+unsigned char code Symbol[][8]={
+	0x00, 0x00, 0x3e, 0x51, 0x49, 0x45, 0x3e, 0x00, /*"0",0*/
+	0x00, 0x00, 0x00, 0x42, 0x7f, 0x40, 0x00, 0x00, /*"1",1*/
+	0x00, 0x00, 0x42, 0x61, 0x51, 0x49, 0x46, 0x00, /*"2",2*/
+	0x00, 0x00, 0x21, 0x41, 0x45, 0x4b, 0x32, 0x00, /*"3",3*/
+	0x00, 0x00, 0x18, 0x14, 0x12, 0x7f, 0x10, 0x00, /*"4",4*/
+	0x00, 0x00, 0x27, 0x45, 0x45, 0x45, 0x39, 0x00, /*"5",5*/
+	0x00, 0x00, 0x3c, 0x4a, 0x49, 0x49, 0x30, 0x00, /*"6",6*/
+	0x00, 0x00, 0x01, 0x01, 0x71, 0x0d, 0x03, 0x00, /*"7",7*/
+	0x00, 0x00, 0x36, 0x49, 0x49, 0x49, 0x36, 0x00, /*"8",8*/
+	0x00, 0x00, 0x06, 0x49, 0x49, 0x29, 0x1e, 0x00, /*"9",9*/
+	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+	0x00, 0x18, 0x18, 0x18, 0x18, 0x18, 0x00, 0x00, /*"=",11*/
+	0x00, 0x00, 0x08, 0x08, 0x18, 0x08, 0x08, 0x00, /*"+",12*/
+	0x10, 0x10, 0x10, 0x10, 0x10, 0x10, 0x10, 0x00, /*"-",13*/
+	0x00, 0x10, 0x18, 0x3c, 0x28, 0x18, 0x10, 0x00, /*"*",14*/
+	0x00, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x00, /*"/",15*/
+};
 

@@ -1,5 +1,5 @@
 #include <reg52.h>
-#include "def52.h"
+#include "def.h"
 
 void Light(unsigned char key){
 	unsigned int num;

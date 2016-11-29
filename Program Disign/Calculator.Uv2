@@ -8,6 +8,7 @@ Group (Source Group 1)
 File 1,1,<.\MAIN.C><MAIN.C> 0x0 
 File 1,1,<.\KEY.C><KEY.C> 0x0 
 File 1,1,<.\LED.C><LED.C> 0x0 
+File 1,1,<.\LCD.C><LCD.C> 0x0 
 
 
 Options 1,0,0  // Target 'Target 1'
@@ -29,7 +30,7 @@ Options 1,0,0  // Target 'Target 1'
  EnvLib ()
  EnvReg (ÿAtmel\)
  OrgReg (ÿAtmel\)
- TgStat=0
+ TgStat=11
  OutDir (.\)
  OutName (Calculator)
  GenApp=1

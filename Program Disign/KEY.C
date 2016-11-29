@@ -1,16 +1,5 @@
 #include <reg52.h>
-#include "def52.h"
-
-void Delay(unsigned int t){
-	do{
-		TH0 = 0xFC;
-		TL0 = 0x66;
-		TR0 = 1;
-		while ( !TF0 );
-		TR0 = 0;
-		TF0 = 0;
-	} while ( --t != 0 );
-}
+#include "def.h"
 
 unsigned char KeyScan(){  //键盘扫描函数，使用行列反转扫描法
 	unsigned char cord_h,cord_l;//行列值中间变量
