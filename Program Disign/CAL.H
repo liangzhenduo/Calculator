@@ -9,17 +9,13 @@
 #define MAXTOKENLENGTH 512
 #define MAXPRECISION 20
 #define DEFAULTPRECISION 5
-#define true 1
-#define false 0
-
-typedef unsigned char bool;
 
 struct Preferences
 {
 	struct Display
 	{
-		bool tokens;
-		bool postfix;
+		unsigned char tokens;
+		unsigned char postfix;
 	} display;
 	
 	int precision;
@@ -28,8 +24,11 @@ struct Preferences
 
 typedef char* token;
 
-typedef double number;
 
+Stack s;
 
+char* ufgets(FILE* stream);
+int tokenize(char *str, char *(**tokensRef));
+void postfix(token *tokens, int numTokens);
 
 #endif

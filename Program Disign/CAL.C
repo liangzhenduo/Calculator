@@ -1,20 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "cal.h"
+#include "stack.h"
 
-unsigned int toDigit(char ch)
-{
-	return ch - '0';
-}
-
-number buildNumber(token str)
-{
-	number result = 0;
-	result = strtod(str, NULL);
-	return result;
-}
-
-token num2Str(number num)
+token num2Str(double num)
 {
 	int len = 0;
 	int precision = MAXPRECISION;
@@ -33,13 +22,13 @@ token num2Str(number num)
 	return str;
 }
 
-token doOp(Stack *s,token op)
+token doOp(token op)
 {
-	token roperand = (token)stackPop(s);
-	token loperand = (token)stackPop(s);
-	number lside = buildNumber(loperand);
-	number rside = buildNumber(roperand);
-	number ret;
+	token roperand = stackPop(&s);
+	token loperand = stackPop(&s);
+	double lside = strtod(loperand, NULL);
+	double rside = strtod(roperand, NULL);
+	double ret;
 	switch(*op)
 	{
 		case '*':
@@ -56,14 +45,8 @@ token doOp(Stack *s,token op)
 			break;
 	}
 	return num2Str(ret);
-	//return 0;
 }
 
-/*
- * Similar to fgets(), but handles automatic reallocation of the buffer.
- * Only parameter is the input stream.
- * Return value is a string. Don't forget to free it.
- */
 char* ufgets(FILE* stream)
 {
 	unsigned int maxlen = 128, size = 128;
@@ -134,11 +117,7 @@ int tokenize(char *str, char *(**tokensRef))
 		fprintf(stderr, "Malloc of temporary buffer failed\n");
 		return 0;
 	}
-	while((ch = *ptr++))
-	{
-		//if(type(ch) == invalid) // Stop tokenizing when we encounter an invalid character
-		//	break;
-
+	while((ch = *ptr++)){
 		token newToken = NULL;
 		tmpToken[0] = '\0';
 		switch(ch)
@@ -152,16 +131,16 @@ int tokenize(char *str, char *(**tokensRef))
 							||(tokenType(tokens[numTokens-1]) == '+' || tokenType(tokens[numTokens-1]) == '-'
 							|| tokenType(tokens[numTokens-1]) == '*' || tokenType(tokens[numTokens-1]) == '/')))
 					{
-						// Assemble an n-character (plus null-terminator) number token
+						// Assemble an n-character (plus null-terminator) double token
 						{
 							int len = 1;
-							bool hasDecimal = false;
-							bool hasExponent = false;
+							unsigned char fraction = 0;
+							//bool hasExponent = false;
 
-							if(ch == '.') // Allow numbers to start with decimal
+							if(ch == '.') // Allow doubles to start with decimal
 							{
 								//printf("Decimal\n");
-								hasDecimal = true;
+								fraction = 1;
 								len++;
 								tmpToken[0] = '0';
 								tmpToken[1] = '.';
@@ -171,20 +150,16 @@ int tokenize(char *str, char *(**tokensRef))
 								tmpToken[len-1] = ch;
 							}
 
-							// Assemble rest of number
+							// Assemble rest of double
 							for(; // Don't change len
 								*ptr // There is a next character and it is not null
 								&& len <= prefs.maxtokenlength
 								&& ((*ptr >= '0' && *ptr <= '9') // The next character is a digit
-								 	|| ((*ptr == '.' // Or the next character is a decimal
-								 		&& hasDecimal == 0)) // But we have not added a decimal
-								 	//|| ((*ptr == 'E' || *ptr == 'e') // Or the next character is an exponent
-								 	//	&& hasExponent == false) // But we have not added an exponent yet
-								|| ((*ptr == '+' || *ptr == '-') && hasExponent == true)); // Exponent with sign
+								 	|| ((*ptr == '.' && fraction == 0))); // Exponent with sign
 								++len)
 							{
 								if(*ptr == '.')
-									hasDecimal = true;
+									fraction = 1;
 								//else if(*ptr == 'E' || *ptr == 'e')
 								//	hasExponent = true;
 								tmpToken[len] = *ptr++;
@@ -195,7 +170,7 @@ int tokenize(char *str, char *(**tokensRef))
 						}
 						break;
 					}
-					// If it's not part of a number, it's an op - fall through
+					// If it's not part of a double, it's an op - fall through
 				}
 			case '*':
 			case '/':
@@ -215,16 +190,16 @@ int tokenize(char *str, char *(**tokensRef))
 			case '8':
 			case '9':
 			case '.':
-				// Assemble an n-character (plus null-terminator) number token
+				// Assemble an n-character (plus null-terminator) double token
 				{
 					int len = 1;
-					bool hasDecimal = false;
-					bool hasExponent = false;
+					unsigned char fraction = 0;
+					//bool hasExponent = false;
 
-					if(ch == '.') // Allow numbers to start with decimal
+					if(ch == '.') // Allow doubles to start with decimal
 					{
 						//printf("Decimal\n");
-						hasDecimal = true;
+						fraction = 1;
 						len++;
 						tmpToken[0] = '0';
 						tmpToken[1] = '.';
@@ -234,22 +209,16 @@ int tokenize(char *str, char *(**tokensRef))
 						tmpToken[len-1] = ch;
 					}
 
-					// Assemble rest of number
-					for(; // Don't change len
-						*ptr // There is a next character and it is not null
+					// Assemble rest of double
+					for(;*ptr // There is a next character and it is not null
 						&& len <= prefs.maxtokenlength
 						&& ((*ptr>='0' && *ptr<='9') // The next character is a digit
 						 	|| ((*ptr == '.' // Or the next character is a decimal
-						 		&& hasDecimal == 0)) // But we have not added a decimal
-						 	//|| ((*ptr == 'E' || *ptr == 'e') // Or the next character is an exponent
-						 	//	&& hasExponent == false) // But we have not added an exponent yet
-						 	|| ((*ptr == '+' || *ptr == '-') && hasExponent == true)); // Exponent with sign
+						 		&& fraction == 0))); // Exponent with sign
 						++len)
 					{
 						if(*ptr == '.')
-							hasDecimal = true;
-						//else if(*ptr == 'E' || *ptr == 'e')
-						//	hasExponent = true;
+							fraction = 1;
 						tmpToken[len] = *ptr++;
 					}
 
@@ -322,7 +291,7 @@ int precedence(token op1, token op2)
 	return ret;
 }
 
-void evalStackPush(Stack *s, token val)
+void evalStackPush(token val)
 {
 	if(prefs.display.postfix)
 		printf("\t%s\n", val);
@@ -334,14 +303,14 @@ void evalStackPush(Stack *s, token val)
 		case '*':
 		case '/':
 			{
-				if(stackSize(s) >= 2)
-					val = doOp(s, val);
-				stackPush(s, val);
+				if(stackSize(&s) >= 2)
+					val = doOp(val);
+				stackPush(&s, val);
 			}
 			break;
 		case 0:
 			{
-				stackPush(s, val);
+				stackPush(&s, val);
 			}
 			break;
 		default:
@@ -349,11 +318,10 @@ void evalStackPush(Stack *s, token val)
 	}
 }
 
-bool postfix(token *tokens, int numTokens, Stack *output)
+void postfix(token *tokens, int numTokens)
 {
 	Stack operators, intermediate;
 	int i;
-	bool err = false;
 	stackInit(&operators, numTokens);
 	stackInit(&intermediate, numTokens);
 	for(i = 0; i < numTokens; i++)
@@ -363,9 +331,7 @@ bool postfix(token *tokens, int numTokens, Stack *output)
 		{
 			case 0:
 				{
-					// If the token is a number, then add it to the output queue.
-					//printf("Adding number %s to output stack\n", tokens[i]);
-					evalStackPush(output, tokens[i]);
+					evalStackPush(tokens[i]);
 				}
 				break;
 			
@@ -375,22 +341,14 @@ bool postfix(token *tokens, int numTokens, Stack *output)
 			case '*':
 			case '/':
 				{
-					/*
-					 * If the token is an operator, op1, then:
-					 *	 while there is an operator token, op2, at the top of the stack, and
-					 *			 either op1 is left-associative and its precedence is less than or equal to that of op2,
-					 *			 or op1 is right-associative and its precedence is less than that of op2,
-					 *		 pop op2 off the stack, onto the output queue
-					 *	 push op1 onto the stack
-					 */
 					while(stackSize(&operators) > 0
-						&& (tokenType((char*)stackTop(&operators)) == '+' || tokenType((char*)stackTop(&operators)) == '-' 
-						|| tokenType((char*)stackTop(&operators)) == '*' || tokenType((char*)stackTop(&operators)) == '/')
-						&& (precedence(tokens[i], (char*)stackTop(&operators)) <= 0))
+						&& (tokenType(stackTop(&operators)) == '+' || tokenType(stackTop(&operators)) == '-' 
+						|| tokenType(stackTop(&operators)) == '*' || tokenType(stackTop(&operators)) == '/')
+						&& (precedence(tokens[i], stackTop(&operators)) <= 0))
 					{
 						//printf("Moving operator %s from operator stack to output stack\n", (char*)stackTop(&operators));
-						evalStackPush(output, stackPop(&operators));
-						stackPush(&intermediate, stackTop(output));
+						evalStackPush(stackPop(&operators));
+						stackPush(&intermediate, stackTop(&s));
 					}
 					//printf("Adding operator %s to operator stack\n", tokens[i]);
 					stackPush(&operators, tokens[i]);
@@ -401,16 +359,10 @@ bool postfix(token *tokens, int numTokens, Stack *output)
 				break;
 		}
 	}
-	/*
-	 * When there are no more tokens to read:
-	 *	 While there are still operator tokens on the stack:
-	 *		 If the operator token on the top of the stack is a paren, then there are mismatched parens
-	 *		 Pop the operator onto the output queue
-	 */
 	while(stackSize(&operators) > 0)
 	{
-		evalStackPush(output, stackPop(&operators));
-		stackPush(&intermediate, stackTop(output));
+		evalStackPush(stackPop(&operators));
+		stackPush(&intermediate, stackTop(&s));
 	}
 	// pop result from intermediate stack
 	stackPop(&intermediate);
@@ -419,18 +371,8 @@ bool postfix(token *tokens, int numTokens, Stack *output)
 	{
 		stackPop(&intermediate);
 	}
-	if (err == true)
-	{
-		while (stackSize(&operators) > 0)
-		{
-			token s = stackPop(&operators);
-			//printf("Freeing %s from operators stack\n", s);
-			free(s);
-		}
-	}
 	stackFree(&intermediate);
 	stackFree(&operators);
-	return err;
 }
 
 char* substr(char *str, size_t begin, size_t len)
@@ -445,23 +387,6 @@ char* substr(char *str, size_t begin, size_t len)
 	for(i = 0; i < len; i++)
 		result[i] = str[begin+i];
 	result[i] = '\0';
-	return result;
-}
-
-bool strBeginsWith(char *haystack, char *needle)
-{
-	bool result;
-	if(strlen(haystack) < strlen(needle))
-	{
-		return false;
-	}
-	else
-	{
-		char *sub = substr(haystack, 0, strlen(needle));
-		result = (strcmp(sub, needle) == 0);
-		free(sub);
-		sub = NULL;
-	}
 	return result;
 }
 
