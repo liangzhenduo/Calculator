@@ -4,7 +4,8 @@
 
 void LcdInit();
 
-void Show(unsigned char key);
+unsigned int Show(unsigned char key);
+void LcdPutChar(unsigned char *dat);
 
 
 #endif	//LCD_H_

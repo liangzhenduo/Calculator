@@ -1,25 +1,23 @@
 #include <reg52.h>
 #include "def.h"
 
-void Light(unsigned char key){
-	unsigned int num;
-	switch(key){
-		case 0x77: num=0; break;
-		case 0xb7: num=1; break;
-		case 0xd7: num=2; break;
-		case 0xe7: num=3; break;
-		case 0x7b: num=4; break;
-		case 0xbb: num=5; break;
-		case 0xdb: num=6; break;
-		case 0xeb: num=7; break;
-		case 0x7d: num=8; break;
-		case 0xbd: num=9; break;
-		case 0xdd: num=10; break;
-		case 0xed: num=11; break;
-		case 0x7e: num=12; break;
-		case 0xbe: num=13; break;
-		case 0xde: num=14; break;
-		case 0xee: num=15; break;
+void Light(unsigned int num){
+	switch(num){
+		case 0x0: LED1=1,LED2=1,LED3=1,LED4=1; break;
+		case 0x1: LED1=1,LED2=1,LED3=1,LED4=0; break;
+		case 0x2: LED1=1,LED2=1,LED3=0,LED4=1; break;
+		case 0x3: LED1=1,LED2=1,LED3=0,LED4=0; break;
+		case 0x4: LED1=1,LED2=0,LED3=1,LED4=1; break;
+		case 0x5: LED1=1,LED2=0,LED3=1,LED4=0; break;
+		case 0x6: LED1=1,LED2=0,LED3=0,LED4=1; break;
+		case 0x7: LED1=1,LED2=0,LED3=0,LED4=0; break;
+		case 0x8: LED1=0,LED2=1,LED3=1,LED4=1; break;
+		case 0x9: LED1=0,LED2=1,LED3=1,LED4=0; break;
+		case 0xa: LED1=0,LED2=1,LED3=0,LED4=1; break;
+		case 0xb: LED1=0,LED2=1,LED3=0,LED4=0; break;
+		case 0xc: LED1=0,LED2=0,LED3=1,LED4=1; break;
+		case 0xd: LED1=0,LED2=0,LED3=1,LED4=0; break;
+		case 0xe: LED1=0,LED2=0,LED3=0,LED4=1; break;
+		case 0xf: LED1=0,LED2=0,LED3=0,LED4=0; break;
 	}
-	P0 = ~num;
 }

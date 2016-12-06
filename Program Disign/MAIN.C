@@ -6,12 +6,12 @@
 
 void main(){
 	unsigned char key;
-	init();
+	unsigned int num;
+	Init();
 	for(;;){
 		key = KeyScan();
-		
-		Show(key);
-		Light(key);
+		num = Show(key);
+		Light(num);
 	}
 }
 
@@ -26,7 +26,7 @@ void Delay(unsigned int t){
 	} while ( --t != 0 );
 }
 
-void init(){
+void Init(){
 	LcdInit();
 	LED1 = 0;
 	Delay(1000);
@@ -40,6 +40,5 @@ void init(){
 	LED3 = 1;
 	Delay(1000);
 	LED4 = 1;
+	Delay(1000);
 }
-
-

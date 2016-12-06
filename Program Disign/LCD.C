@@ -52,7 +52,7 @@ void clear()
 					y = 0x40;
 					LcdWriteCmd(y);
 				}
-				Delay(10);
+				//Delay(10);
 				y += 1;
 				LcdWriteDat(space[i]);
 			}
@@ -84,38 +84,39 @@ void LcdPutChar(unsigned char *dat/*, unsigned char x, unsigned char y*/)
 {
 	int i;
 	for(i = 0; i < 8; i ++) {
-		Delay(1);
+		LcdWriteDat(dat[i]);
 		if(y == 0x7f) {
 			x = x + 1;
 			LcdWriteCmd(x);
 			y = 0x40;
-			LcdWriteCmd(y);
+			LcdWriteCmd(y);	
 		}
-		Delay(10);
-		y += 1;
-		LcdWriteDat(dat[i]);
+		else
+			y++;	
 	}
 }
 
-void Show(unsigned char key){
+unsigned int Show(unsigned char key){
+	unsigned int num;
 	switch(key){
-		case 0x77: LcdPutChar(Symbol[0]); break;
-		case 0xb7: LcdPutChar(Symbol[1]); break;
-		case 0xd7: LcdPutChar(Symbol[2]); break;
-		case 0xe7: LcdPutChar(Symbol[3]); break;
-		case 0x7b: LcdPutChar(Symbol[4]); break;
-		case 0xbb: LcdPutChar(Symbol[5]); break;
-		case 0xdb: LcdPutChar(Symbol[6]); break;
-		case 0xeb: LcdPutChar(Symbol[7]); break;
-		case 0x7d: LcdPutChar(Symbol[8]); break;
-		case 0xbd: LcdPutChar(Symbol[9]); break;
-		case 0xdd: LcdPutChar(Symbol[10]); break;
-		case 0xed: LcdPutChar(Symbol[11]); break;
-		case 0x7e: LcdPutChar(Symbol[12]); break;
-		case 0xbe: LcdPutChar(Symbol[13]); break;
-		case 0xde: LcdPutChar(Symbol[14]); break;
-		case 0xee: LcdPutChar(Symbol[15]); break;
+		case 0x77: num=0;  LcdPutChar(Symbol[num]); break;
+		case 0xb7: num=1;  LcdPutChar(Symbol[num]); break;
+		case 0xd7: num=2;  LcdPutChar(Symbol[num]); break;
+		case 0xe7: num=3;  LcdPutChar(Symbol[num]); break;
+		case 0x7b: num=4;  LcdPutChar(Symbol[num]); break;
+		case 0xbb: num=5;  LcdPutChar(Symbol[num]); break;
+		case 0xdb: num=6;  LcdPutChar(Symbol[num]); break;
+		case 0xeb: num=7;  LcdPutChar(Symbol[num]); break;
+		case 0x7d: num=8;  LcdPutChar(Symbol[num]); break;
+		case 0xbd: num=9;  LcdPutChar(Symbol[num]); break;
+		case 0xdd: num=10; LcdPutChar(Symbol[num]); break;
+		case 0xed: num=11; LcdPutChar(Symbol[num]); break;
+		case 0x7e: num=12; LcdPutChar(Symbol[num]); break;
+		case 0xbe: num=13; LcdPutChar(Symbol[num]); break;
+		case 0xde: num=14; LcdPutChar(Symbol[num]); break;
+		case 0xee: num=15; LcdPutChar(Symbol[num]); break;
 	}
+	return num;
 }
 
 unsigned char code Symbol[][8]={
@@ -130,10 +131,10 @@ unsigned char code Symbol[][8]={
 	0x00, 0x00, 0x36, 0x49, 0x49, 0x49, 0x36, 0x00, /*"8",8*/
 	0x00, 0x00, 0x06, 0x49, 0x49, 0x29, 0x1e, 0x00, /*"9",9*/
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
-	0x00, 0x18, 0x18, 0x18, 0x18, 0x18, 0x00, 0x00, /*"=",11*/
-	0x00, 0x00, 0x08, 0x08, 0x18, 0x08, 0x08, 0x00, /*"+",12*/
-	0x10, 0x10, 0x10, 0x10, 0x10, 0x10, 0x10, 0x00, /*"-",13*/
-	0x00, 0x10, 0x18, 0x3c, 0x28, 0x18, 0x10, 0x00, /*"*",14*/
-	0x00, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x00, /*"/",15*/
+	0x00, 0x00, 0x24, 0x24, 0x24, 0x24, 0x24, 0x00, /*"=",11*/
+	0x00, 0x00, 0x08, 0x08, 0x3e, 0x08, 0x08, 0x00, /*"+",12*/
+	0x00, 0x00, 0x08, 0x08, 0x08, 0x08, 0x08, 0x00, /*"-",13*/
+	0x00, 0x00, 0x22, 0x14, 0x08, 0x14, 0x22, 0x00, /*"*",14*/
+	0x00, 0x00, 0x08, 0x08, 0x2a, 0x08, 0x08, 0x00, /*"/",15*/
 };
 

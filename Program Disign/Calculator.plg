@@ -2827,3 +2827,2403 @@ linking...
 Program Size: data=60.0 xdata=8 code=2758
 creating hex file from "Calculator"...
 "Calculator" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+CAL.H(27): error C141: syntax error near '*', expected ')'
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKINIT?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKPUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKTOP?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKPOP?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKSIZE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKFREE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=73.0 xdata=8 code=2758
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(12): error C141: syntax error near 'char'
+CAL.C(12): error C202: 'str': undefined identifier
+CAL.C(13): error C202: 'str': undefined identifier
+CAL.C(16): error C202: 'str': undefined identifier
+CAL.C(18): error C202: 'str': undefined identifier
+CAL.C(22): error C202: 'str': undefined identifier
+CAL.C(46): error C141: syntax error near '*', expected ')'
+CAL.C(75): error C141: syntax error near 'unsigned'
+CAL.C(75): error C202: 'ret': undefined identifier
+CAL.C(76): error C202: 'ret': undefined identifier
+CAL.C(81): error C202: 'ret': undefined identifier
+CAL.C(94): error C202: 'ret': undefined identifier
+CAL.C(99): error C202: 'ret': undefined identifier
+CAL.C(113): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(12): error C141: syntax error near 'char'
+CAL.C(12): error C202: 'str': undefined identifier
+CAL.C(13): error C202: 'str': undefined identifier
+CAL.C(16): error C202: 'str': undefined identifier
+CAL.C(18): error C202: 'str': undefined identifier
+CAL.C(22): error C202: 'str': undefined identifier
+CAL.C(74): error C141: syntax error near 'unsigned'
+CAL.C(74): error C202: 'ret': undefined identifier
+CAL.C(75): error C202: 'ret': undefined identifier
+CAL.C(80): error C202: 'ret': undefined identifier
+CAL.C(93): error C202: 'ret': undefined identifier
+CAL.C(98): error C202: 'ret': undefined identifier
+CAL.C(112): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(13): error C141: syntax error near 'char'
+CAL.C(13): error C202: 'str': undefined identifier
+CAL.C(14): error C202: 'str': undefined identifier
+CAL.C(17): error C202: 'str': undefined identifier
+CAL.C(19): error C202: 'str': undefined identifier
+CAL.C(23): error C202: 'str': undefined identifier
+CAL.C(75): error C141: syntax error near 'unsigned'
+CAL.C(75): error C202: 'ret': undefined identifier
+CAL.C(76): error C202: 'ret': undefined identifier
+CAL.C(81): error C202: 'ret': undefined identifier
+CAL.C(94): error C202: 'ret': undefined identifier
+CAL.C(99): error C202: 'ret': undefined identifier
+CAL.C(113): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(13): error C141: syntax error near 'char'
+CAL.C(13): error C202: 'str': undefined identifier
+CAL.C(14): error C202: 'str': undefined identifier
+CAL.C(17): error C202: 'str': undefined identifier
+CAL.C(19): error C202: 'str': undefined identifier
+CAL.C(23): error C202: 'str': undefined identifier
+CAL.C(75): error C141: syntax error near 'unsigned'
+CAL.C(75): error C202: 'ret': undefined identifier
+CAL.C(76): error C202: 'ret': undefined identifier
+CAL.C(81): error C202: 'ret': undefined identifier
+CAL.C(94): error C202: 'ret': undefined identifier
+CAL.C(99): error C202: 'ret': undefined identifier
+CAL.C(113): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(14): error C202: 'str': undefined identifier
+CAL.C(17): error C202: 'str': undefined identifier
+CAL.C(19): error C202: 'str': undefined identifier
+CAL.C(23): error C202: 'str': undefined identifier
+CAL.C(75): error C141: syntax error near 'unsigned'
+CAL.C(75): error C202: 'ret': undefined identifier
+CAL.C(76): error C202: 'ret': undefined identifier
+CAL.C(81): error C202: 'ret': undefined identifier
+CAL.C(94): error C202: 'ret': undefined identifier
+CAL.C(99): error C202: 'ret': undefined identifier
+CAL.C(113): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(13): error C141: syntax error near 'char'
+CAL.C(13): error C202: 'str': undefined identifier
+CAL.C(14): error C202: 'str': undefined identifier
+CAL.C(17): error C202: 'str': undefined identifier
+CAL.C(19): error C202: 'str': undefined identifier
+CAL.C(23): error C202: 'str': undefined identifier
+CAL.C(75): error C141: syntax error near 'unsigned'
+CAL.C(75): error C202: 'ret': undefined identifier
+CAL.C(76): error C202: 'ret': undefined identifier
+CAL.C(81): error C202: 'ret': undefined identifier
+CAL.C(94): error C202: 'ret': undefined identifier
+CAL.C(99): error C202: 'ret': undefined identifier
+CAL.C(113): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(9): error C202: 'MAXPRECISION': undefined identifier
+CAL.C(10): error C202: 'prefs': undefined identifier
+CAL.C(11): error C202: 'prefs': undefined identifier
+CAL.C(13): error C141: syntax error near 'char'
+CAL.C(13): error C202: 'str': undefined identifier
+CAL.C(14): error C202: 'str': undefined identifier
+CAL.C(15): error C202: 'prefs': undefined identifier
+CAL.C(17): error C202: 'str': undefined identifier
+CAL.C(19): error C202: 'str': undefined identifier
+CAL.C(23): error C202: 'str': undefined identifier
+CAL.C(27): error C202: 's': undefined identifier
+CAL.C(28): error C202: 's': undefined identifier
+CAL.C(75): error C141: syntax error near 'unsigned'
+CAL.C(75): error C202: 'ret': undefined identifier
+CAL.C(76): error C202: 'ret': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(13): error C141: syntax error near 'char'
+CAL.C(13): error C202: 'str': undefined identifier
+CAL.C(14): error C202: 'str': undefined identifier
+CAL.C(17): error C202: 'str': undefined identifier
+CAL.C(19): error C202: 'str': undefined identifier
+CAL.C(23): error C202: 'str': undefined identifier
+CAL.C(75): error C141: syntax error near 'unsigned'
+CAL.C(75): error C202: 'ret': undefined identifier
+CAL.C(76): error C202: 'ret': undefined identifier
+CAL.C(81): error C202: 'ret': undefined identifier
+CAL.C(94): error C202: 'ret': undefined identifier
+CAL.C(99): error C202: 'ret': undefined identifier
+CAL.C(113): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(13): error C141: syntax error near 'char'
+CAL.C(13): error C202: 'str': undefined identifier
+CAL.C(14): error C202: 'str': undefined identifier
+CAL.C(17): error C202: 'str': undefined identifier
+CAL.C(19): error C202: 'str': undefined identifier
+CAL.C(23): error C202: 'str': undefined identifier
+CAL.C(75): error C141: syntax error near 'unsigned'
+CAL.C(75): error C202: 'ret': undefined identifier
+CAL.C(76): error C202: 'ret': undefined identifier
+CAL.C(81): error C202: 'ret': undefined identifier
+CAL.C(94): error C202: 'ret': undefined identifier
+CAL.C(99): error C202: 'ret': undefined identifier
+CAL.C(113): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(13): error C141: syntax error near 'char'
+CAL.C(13): error C202: 'str': undefined identifier
+CAL.C(14): error C202: 'str': undefined identifier
+CAL.C(17): error C202: 'str': undefined identifier
+CAL.C(19): error C202: 'str': undefined identifier
+CAL.C(23): error C202: 'str': undefined identifier
+CAL.C(76): error C141: syntax error near 'unsigned'
+CAL.C(76): error C202: 'ret': undefined identifier
+CAL.C(77): error C202: 'ret': undefined identifier
+CAL.C(82): error C202: 'ret': undefined identifier
+CAL.C(95): error C202: 'ret': undefined identifier
+CAL.C(100): error C202: 'ret': undefined identifier
+CAL.C(114): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(13): error C141: syntax error near 'char'
+CAL.C(13): error C202: 'str': undefined identifier
+CAL.C(14): error C202: 'str': undefined identifier
+CAL.C(17): error C202: 'str': undefined identifier
+CAL.C(19): error C202: 'str': undefined identifier
+CAL.C(23): error C202: 'str': undefined identifier
+CAL.C(76): error C141: syntax error near 'unsigned'
+CAL.C(76): error C202: 'ret': undefined identifier
+CAL.C(77): error C202: 'ret': undefined identifier
+CAL.C(78): error C202: 'ret': undefined identifier
+CAL.C(83): error C202: 'ret': undefined identifier
+CAL.C(96): error C202: 'ret': undefined identifier
+CAL.C(101): error C202: 'ret': undefined identifier
+CAL.C(115): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(15): error C141: syntax error near 'char'
+CAL.C(15): error C202: 'str': undefined identifier
+CAL.C(16): error C202: 'str': undefined identifier
+CAL.C(19): error C202: 'str': undefined identifier
+CAL.C(21): error C202: 'str': undefined identifier
+CAL.C(25): error C202: 'str': undefined identifier
+CAL.C(117): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(17): warning C206: 'snprintf': missing function-prototype
+CAL.C(17): error C267: 'snprintf': requires ANSI-style prototype
+CAL.C(118): error C202: 'stderr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(17): warning C206: 'snprintf': missing function-prototype
+CAL.C(17): error C267: 'snprintf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(17): warning C206: 'snprintf': missing function-prototype
+CAL.C(17): error C267: 'snprintf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(17): warning C206: 'snprintf': missing function-prototype
+CAL.C(17): error C267: 'snprintf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(17): warning C206: 'snprintf': missing function-prototype
+CAL.C(17): error C267: 'snprintf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(17): warning C206: 'snprintf': missing function-prototype
+CAL.C(17): error C267: 'snprintf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(47): error C141: syntax error near 'char'
+CAL.C(47): error C202: 'buffer': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(48): warning C206: '_gcvt': missing function-prototype
+CAL.C(48): error C267: '_gcvt': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(89): warning C265: '_tokenType': recursive call to non-reentrant function
+CAL.C(379): error C141: syntax error near 'char'
+CAL.C(379): error C202: 'result': undefined identifier
+CAL.C(380): error C141: syntax error near 'int'
+CAL.C(380): error C202: 'i': undefined identifier
+CAL.C(381): error C202: 'i': undefined identifier
+CAL.C(382): error C202: 'i': undefined identifier
+CAL.C(383): error C202: 'i': undefined identifier
+CAL.C(384): error C202: 'result': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(17): warning C206: 'snprintf': missing function-prototype
+CAL.C(17): error C267: 'snprintf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+compiling CAL.C...
+CAL.C(17): warning C206: 'snprintf': missing function-prototype
+CAL.C(17): error C267: 'snprintf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+compiling CAL.C...
+CAL.C(86): warning C265: '_tokenType': recursive call to non-reentrant function
+CAL.C(377): error C141: syntax error near 'char'
+CAL.C(377): error C202: 'result': undefined identifier
+CAL.C(378): error C141: syntax error near 'int'
+CAL.C(378): error C202: 'i': undefined identifier
+CAL.C(379): error C202: 'i': undefined identifier
+CAL.C(380): error C202: 'i': undefined identifier
+CAL.C(381): error C202: 'i': undefined identifier
+CAL.C(382): error C202: 'result': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(87): warning C265: '_tokenType': recursive call to non-reentrant function
+CAL.C(379): error C141: syntax error near 'int'
+CAL.C(379): error C202: 'i': undefined identifier
+CAL.C(380): error C202: 'i': undefined identifier
+CAL.C(381): error C202: 'i': undefined identifier
+CAL.C(382): error C202: 'i': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(88): warning C265: '_tokenType': recursive call to non-reentrant function
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  S
+    MODULE:  CAL.obj (CAL)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  PREFS
+    MODULE:  CAL.obj (CAL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TOKENIZE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POSTFIX?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SUBSTR?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRSPLIT?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?CAL
+    LENGTH:  0015H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_DOOP?CAL
+    LENGTH:  000FH
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?MAIN
+    LENGTH:  000DH
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_PRECEDENCE?CAL
+    LENGTH:  0008H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_REALLOC?REALLOC
+    LENGTH:  0008H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_SUBSTR?CAL
+    LENGTH:  0007H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: _DATA_GROUP_
+    LENGTH:  0007H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKPUSH?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKTOP?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKPOP?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_NUM2STR?CAL
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?STRTOD?STRTOD
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKINIT?STACK
+    LENGTH:  0005H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_MALLOC?MALLOC
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_FREE?FREE
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_TOKENTYPE?CAL
+    LENGTH:  0003H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_EVALSTACKPUSH?CAL
+    LENGTH:  0003H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT??C?ATOF??C?ATOF
+    LENGTH:  0002H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  S
+    SEGMENT: ?DT?MAIN
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREFS
+    SEGMENT: ?DT?MAIN
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_STACKPUSH?BYTE
+    SEGMENT: ?DT?_STACKPUSH?STACK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  S
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  I
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  STR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RET
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREFS
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RESULT
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_SUBSTR?BYTE
+    SEGMENT: ?DT?_SUBSTR?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_PRECEDENCE?BYTE
+    SEGMENT: ?DT?_PRECEDENCE?CAL
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B2CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B2FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B32H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B36H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B39H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B3CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B3FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B42H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B45H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B47H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B74H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B77H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B7AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B86H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B89H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B8CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B8FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B92H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B95H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B97H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1961H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1964H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1967H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 197EH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1981H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1984H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 2119H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 211CH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 211FH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16BEH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16C0H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16C2H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E4H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E6H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E8H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1727H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1729H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 172BH
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_STRTOD?BYTE
+    SEGMENT: ?DT?STRTOD?STRTOD
+Program Size: data=258.6 xdata=8 code=9528
+Target not created
+Build target 'Target 1'
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  S
+    MODULE:  CAL.obj (CAL)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  PREFS
+    MODULE:  CAL.obj (CAL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TOKENIZE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POSTFIX?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SUBSTR?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRSPLIT?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?CAL
+    LENGTH:  0015H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_DOOP?CAL
+    LENGTH:  000FH
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?MAIN
+    LENGTH:  000DH
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_PRECEDENCE?CAL
+    LENGTH:  0008H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_REALLOC?REALLOC
+    LENGTH:  0008H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_SUBSTR?CAL
+    LENGTH:  0007H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: _DATA_GROUP_
+    LENGTH:  0007H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKPUSH?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKTOP?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKPOP?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_NUM2STR?CAL
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?STRTOD?STRTOD
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKINIT?STACK
+    LENGTH:  0005H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_MALLOC?MALLOC
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_FREE?FREE
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_TOKENTYPE?CAL
+    LENGTH:  0003H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_EVALSTACKPUSH?CAL
+    LENGTH:  0003H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT??C?ATOF??C?ATOF
+    LENGTH:  0002H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  S
+    SEGMENT: ?DT?MAIN
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREFS
+    SEGMENT: ?DT?MAIN
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_STACKPUSH?BYTE
+    SEGMENT: ?DT?_STACKPUSH?STACK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  S
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  I
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  STR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RET
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREFS
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RESULT
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_SUBSTR?BYTE
+    SEGMENT: ?DT?_SUBSTR?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_PRECEDENCE?BYTE
+    SEGMENT: ?DT?_PRECEDENCE?CAL
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B2CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B2FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B32H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B36H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B39H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B3CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B3FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B42H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B45H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B47H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B74H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B77H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B7AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B86H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B89H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B8CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B8FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B92H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B95H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B97H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1961H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1964H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1967H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 197EH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1981H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1984H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 2119H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 211CH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 211FH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16BEH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16C0H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16C2H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E4H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E6H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E8H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1727H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1729H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 172BH
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_STRTOD?BYTE
+    SEGMENT: ?DT?STRTOD?STRTOD
+Program Size: data=258.6 xdata=8 code=9528
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(88): warning C265: '_tokenType': recursive call to non-reentrant function
+CAL.C(380): error C202: 'i': undefined identifier
+CAL.C(381): error C202: 'i': undefined identifier
+CAL.C(382): error C202: 'i': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(88): warning C265: '_tokenType': recursive call to non-reentrant function
+CAL.C(380): error C141: syntax error near 'unsigned'
+CAL.C(380): error C202: 'i': undefined identifier
+CAL.C(381): error C202: 'i': undefined identifier
+CAL.C(382): error C202: 'i': undefined identifier
+CAL.C(383): error C202: 'i': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(88): warning C265: '_tokenType': recursive call to non-reentrant function
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  S
+    MODULE:  CAL.obj (CAL)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  PREFS
+    MODULE:  CAL.obj (CAL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TOKENIZE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POSTFIX?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SUBSTR?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRSPLIT?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_POSTFIX?CAL
+    LENGTH:  0013H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_DOOP?CAL
+    LENGTH:  000FH
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?MAIN
+    LENGTH:  000DH
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_PRECEDENCE?CAL
+    LENGTH:  0008H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_REALLOC?REALLOC
+    LENGTH:  0008H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_SUBSTR?CAL
+    LENGTH:  0007H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: _DATA_GROUP_
+    LENGTH:  0007H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKPUSH?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKTOP?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKPOP?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_NUM2STR?CAL
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?STRTOD?STRTOD
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKINIT?STACK
+    LENGTH:  0005H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_MALLOC?MALLOC
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_FREE?FREE
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_TOKENTYPE?CAL
+    LENGTH:  0003H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_EVALSTACKPUSH?CAL
+    LENGTH:  0003H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  S
+    SEGMENT: ?DT?MAIN
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREFS
+    SEGMENT: ?DT?MAIN
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_STACKPUSH?BYTE
+    SEGMENT: ?DT?_STACKPUSH?STACK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_SUBSTR?BYTE
+    SEGMENT: ?DT?_SUBSTR?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_PRECEDENCE?BYTE
+    SEGMENT: ?DT?_PRECEDENCE?CAL
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B22H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B25H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B28H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B2CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B2FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B32H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B35H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B38H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B3BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B3DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B6AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B6DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B70H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B7CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B7FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B82H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B85H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B88H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B8BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B8DH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1957H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 195AH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 195DH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1974H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1977H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 197AH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 210FH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 2112H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 2115H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16BAH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16BCH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16BEH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E0H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E2H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E4H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 171DH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 171FH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1721H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_STRTOD?BYTE
+    SEGMENT: ?DT?STRTOD?STRTOD
+Program Size: data=254.6 xdata=8 code=9518
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+compiling CAL.C...
+CAL.C(32): error C202: 's': undefined identifier
+CAL.C(33): error C202: 's': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+compiling CAL.C...
+CAL.C(88): warning C265: '_tokenType': recursive call to non-reentrant function
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  S
+    MODULE:  CAL.obj (CAL)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  PREFS
+    MODULE:  CAL.obj (CAL)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TOKENIZE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POSTFIX?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SUBSTR?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STRSPLIT?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_POSTFIX?CAL
+    LENGTH:  0013H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_DOOP?CAL
+    LENGTH:  000FH
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?MAIN
+    LENGTH:  000DH
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_PRECEDENCE?CAL
+    LENGTH:  0008H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_REALLOC?REALLOC
+    LENGTH:  0008H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_SUBSTR?CAL
+    LENGTH:  0007H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: _DATA_GROUP_
+    LENGTH:  0007H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKPUSH?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKTOP?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKPOP?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_NUM2STR?CAL
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?STRTOD?STRTOD
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKINIT?STACK
+    LENGTH:  0005H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_MALLOC?MALLOC
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_FREE?FREE
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_TOKENTYPE?CAL
+    LENGTH:  0003H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_EVALSTACKPUSH?CAL
+    LENGTH:  0003H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  S
+    SEGMENT: ?DT?MAIN
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREFS
+    SEGMENT: ?DT?MAIN
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_STACKPUSH?BYTE
+    SEGMENT: ?DT?_STACKPUSH?STACK
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_SUBSTR?BYTE
+    SEGMENT: ?DT?_SUBSTR?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_PRECEDENCE?BYTE
+    SEGMENT: ?DT?_PRECEDENCE?CAL
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B22H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B25H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B28H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B2CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B2FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B32H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B35H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B38H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B3BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B3DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B6AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B6DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B70H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B7CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B7FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B82H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B85H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B88H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?_SNPRINTF?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B8BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _SNPRINTF
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1B8DH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1957H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 195AH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 195DH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1974H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1977H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STRTOD?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 197AH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 210FH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 2112H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 2115H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16BAH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16BCH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16BEH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E0H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E2H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 16E4H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 171DH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 171FH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_STACKPUSH?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 1721H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_STRTOD?BYTE
+    SEGMENT: ?DT?STRTOD?STRTOD
+Program Size: data=254.6 xdata=8 code=9518
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKINIT?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKPUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKTOP?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKPOP?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKSIZE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKFREE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=60.0 xdata=8 code=2758
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(189): warning C235: parameter 1: different types
+MAIN.C(221): error C202: 'i': undefined identifier
+MAIN.C(222): error C202: 'i': undefined identifier
+MAIN.C(223): error C202: 'i': undefined identifier
+MAIN.C(225): error C202: 'i': undefined identifier
+MAIN.C(226): error C141: syntax error near 'int'
+MAIN.C(226): error C202: 'sum': undefined identifier
+MAIN.C(227): error C202: 'j': undefined identifier
+MAIN.C(228): error C202: 'sum': undefined identifier
+MAIN.C(231): error C202: 'sum': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(190): warning C235: parameter 1: different types
+MAIN.C(222): warning C206: 'strlen': missing function-prototype
+MAIN.C(222): error C267: 'strlen': requires ANSI-style prototype
+MAIN.C(227): error C141: syntax error near 'int'
+MAIN.C(227): error C202: 'sum': undefined identifier
+MAIN.C(229): error C202: 'sum': undefined identifier
+MAIN.C(232): error C202: 'sum': undefined identifier
+MAIN.C(237): error C141: syntax error near 'int'
+MAIN.C(237): error C202: 'sum': undefined identifier
+MAIN.C(239): error C202: 'sum': undefined identifier
+MAIN.C(242): error C202: 'sum': undefined identifier
+MAIN.C(256): error C141: syntax error near 'int'
+MAIN.C(256): error C202: 'ret': undefined identifier
+MAIN.C(258): error C202: 'ret': undefined identifier
+MAIN.C(259): error C202: 'ret': undefined identifier
+MAIN.C(260): error C241: '_cal': auto segment too large
+MAIN.C(277): error C141: syntax error near 'unsigned'
+MAIN.C(277): error C202: 'str': undefined identifier
+MAIN.C(278): error C141: syntax error near 'unsigned'
+MAIN.C(278): error C202: 'p': undefined identifier
+MAIN.C(279): error C141: syntax error near 'int'
+MAIN.C(279): error C202: 'ans': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(190): warning C235: parameter 1: different types
+MAIN.C(222): warning C206: 'strlen': missing function-prototype
+MAIN.C(222): error C267: 'strlen': requires ANSI-style prototype
+MAIN.C(227): error C141: syntax error near 'int'
+MAIN.C(237): error C141: syntax error near 'int'
+MAIN.C(256): error C141: syntax error near 'int'
+MAIN.C(260): error C241: '_cal': auto segment too large
+MAIN.C(277): error C141: syntax error near 'unsigned'
+MAIN.C(277): error C202: 'str': undefined identifier
+MAIN.C(278): error C141: syntax error near 'unsigned'
+MAIN.C(278): error C202: 'p': undefined identifier
+MAIN.C(279): error C141: syntax error near 'int'
+MAIN.C(279): error C202: 'ans': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(190): warning C235: parameter 1: different types
+MAIN.C(222): warning C206: 'strlen': missing function-prototype
+MAIN.C(222): error C267: 'strlen': requires ANSI-style prototype
+MAIN.C(227): error C141: syntax error near 'int'
+MAIN.C(237): error C141: syntax error near 'int'
+MAIN.C(256): error C141: syntax error near 'int'
+MAIN.C(260): error C241: '_cal': auto segment too large
+MAIN.C(277): error C141: syntax error near 'unsigned'
+MAIN.C(277): error C202: 'str': undefined identifier
+MAIN.C(278): error C141: syntax error near 'unsigned'
+MAIN.C(278): error C202: 'p': undefined identifier
+MAIN.C(279): error C141: syntax error near 'int'
+MAIN.C(279): error C202: 'ans': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(191): warning C235: parameter 1: different types
+MAIN.C(228): error C141: syntax error near 'int'
+MAIN.C(238): error C141: syntax error near 'int'
+MAIN.C(257): error C141: syntax error near 'int'
+MAIN.C(261): error C241: '_cal': auto segment too large
+MAIN.C(278): error C141: syntax error near 'unsigned'
+MAIN.C(278): error C202: 'str': undefined identifier
+MAIN.C(279): error C141: syntax error near 'unsigned'
+MAIN.C(279): error C202: 'p': undefined identifier
+MAIN.C(280): error C141: syntax error near 'int'
+MAIN.C(280): error C202: 'ans': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(62): error C231: 'x': redefinition
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(191): warning C235: parameter 1: different types
+MAIN.C(238): error C141: syntax error near 'int'
+MAIN.C(257): error C141: syntax error near 'int'
+MAIN.C(261): error C241: '_cal': auto segment too large
+MAIN.C(278): error C141: syntax error near 'unsigned'
+MAIN.C(278): error C202: 'str': undefined identifier
+MAIN.C(279): error C141: syntax error near 'unsigned'
+MAIN.C(279): error C202: 'p': undefined identifier
+MAIN.C(280): error C141: syntax error near 'int'
+MAIN.C(280): error C202: 'ans': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(191): warning C235: parameter 1: different types
+MAIN.C(258): error C141: syntax error near 'int'
+MAIN.C(262): error C241: '_cal': auto segment too large
+MAIN.C(279): error C141: syntax error near 'unsigned'
+MAIN.C(279): error C202: 'str': undefined identifier
+MAIN.C(280): error C141: syntax error near 'unsigned'
+MAIN.C(280): error C202: 'p': undefined identifier
+MAIN.C(281): error C141: syntax error near 'int'
+MAIN.C(281): error C202: 'ans': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(191): warning C235: parameter 1: different types
+MAIN.C(262): error C241: '_cal': auto segment too large
+MAIN.C(279): error C141: syntax error near 'unsigned'
+MAIN.C(279): error C202: 'str': undefined identifier
+MAIN.C(280): error C141: syntax error near 'unsigned'
+MAIN.C(280): error C202: 'p': undefined identifier
+MAIN.C(281): error C141: syntax error near 'int'
+MAIN.C(281): error C202: 'ans': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(191): warning C235: parameter 1: different types
+MAIN.C(262): error C241: '_cal': auto segment too large
+MAIN.C(279): error C141: syntax error near 'unsigned'
+MAIN.C(279): error C202: 'str': undefined identifier
+MAIN.C(280): error C141: syntax error near 'unsigned'
+MAIN.C(280): error C202: 'p': undefined identifier
+MAIN.C(281): error C141: syntax error near 'int'
+MAIN.C(281): error C202: 'ans': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(192): warning C235: parameter 1: different types
+MAIN.C(263): error C241: '_cal': auto segment too large
+MAIN.C(281): error C141: syntax error near 'unsigned'
+MAIN.C(281): error C202: 'p': undefined identifier
+MAIN.C(282): error C141: syntax error near 'int'
+MAIN.C(282): error C202: 'ans': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(192): warning C235: parameter 1: different types
+MAIN.C(263): error C241: '_cal': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(192): warning C235: parameter 1: different types
+MAIN.C(263): error C241: '_cal': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(192): warning C235: parameter 1: different types
+MAIN.C(330): error C202: 'num': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(192): warning C235: parameter 1: different types
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  KEYSCAN
+    MODULE:  KEY.obj (KEY)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  Y
+    MODULE:  LCD.obj (LCD)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  X
+    MODULE:  LCD.obj (LCD)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _LCDPUTCHAR
+    MODULE:  LCD.obj (LCD)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  LCDINIT
+    MODULE:  LCD.obj (LCD)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  CLEAR
+    MODULE:  LCD.obj (LCD)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _LCDWRITEDAT
+    MODULE:  LCD.obj (LCD)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _LCDWRITECMD
+    MODULE:  LCD.obj (LCD)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  _RESERVE
+    MODULE:  LCD.obj (LCD)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEYSCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCDINIT?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SHOW?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKINIT?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKPUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKTOP?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKPOP?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKSIZE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACKFREE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKPOP?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_LCDPUTCHAR?LCD
+    LENGTH:  0005H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKINIT?STACK
+    LENGTH:  0005H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_FREE?FREE
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACKFREE?STACK
+    LENGTH:  0003H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?KEYSCAN?KEY
+    LENGTH:  0002H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_LIGHT?LED
+    LENGTH:  0002H
+Program Size: data=156.0 xdata=8 code=4991
+Target not created
+Build target 'Target 1'
+linking...
+Program Size: data=97.0 xdata=0 code=2557
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(192): warning C235: parameter 1: different types
+linking...
+Program Size: data=97.0 xdata=0 code=2553
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(192): warning C235: parameter 1: different types
+linking...
+Program Size: data=97.0 xdata=0 code=2570
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1196
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1209
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=26.0 xdata=0 code=1209
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1202
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1209
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=26.0 xdata=0 code=1209
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1332
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1175
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1177
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=26.0 xdata=0 code=1177
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1187
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1173
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=26.0 xdata=0 code=1173
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1177
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1171
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1177
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=26.0 xdata=0 code=1177
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(7): error C141: syntax error near 'k', expected ')'
+MAIN.C(8): error C141: syntax error near 'i'
+MAIN.C(8): error C202: 'i': undefined identifier
+MAIN.C(10): error C202: 'i': undefined identifier
+MAIN.C(11): error C202: 'j': undefined identifier
+MAIN.C(58): error C202: 'y': undefined identifier
+MAIN.C(59): error C202: 'x': undefined identifier
+MAIN.C(60): error C202: 'x': undefined identifier
+MAIN.C(61): error C202: 'y': undefined identifier
+MAIN.C(62): error C202: 'y': undefined identifier
+MAIN.C(65): error C202: 'y': undefined identifier
+MAIN.C(66): error C202: 'number': undefined identifier
+MAIN.C(70): error C202: 'x': undefined identifier
+MAIN.C(71): error C202: 'x': undefined identifier
+MAIN.C(72): error C202: 'y': undefined identifier
+MAIN.C(73): error C202: 'y': undefined identifier
+MAIN.C(98): error C202: 'y': undefined identifier
+MAIN.C(99): error C202: 'x': undefined identifier
+MAIN.C(100): error C202: 'x': undefined identifier
+MAIN.C(101): error C202: 'y': undefined identifier
+MAIN.C(102): error C202: 'y': undefined identifier
+MAIN.C(105): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(58): error C202: 'y': undefined identifier
+MAIN.C(59): error C202: 'x': undefined identifier
+MAIN.C(60): error C202: 'x': undefined identifier
+MAIN.C(61): error C202: 'y': undefined identifier
+MAIN.C(62): error C202: 'y': undefined identifier
+MAIN.C(65): error C202: 'y': undefined identifier
+MAIN.C(66): error C202: 'number': undefined identifier
+MAIN.C(70): error C202: 'x': undefined identifier
+MAIN.C(71): error C202: 'x': undefined identifier
+MAIN.C(72): error C202: 'y': undefined identifier
+MAIN.C(73): error C202: 'y': undefined identifier
+MAIN.C(98): error C202: 'y': undefined identifier
+MAIN.C(99): error C202: 'x': undefined identifier
+MAIN.C(100): error C202: 'x': undefined identifier
+MAIN.C(101): error C202: 'y': undefined identifier
+MAIN.C(102): error C202: 'y': undefined identifier
+MAIN.C(105): error C202: 'y': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(67): error C202: 'number': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=22.0 xdata=0 code=1111
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(162): warning C206: 'keyscan': missing function-prototype
+MAIN.C(164): error C202: 'LED0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(166): error C202: 'p': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(194): error C202: 'p': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(209): error C202: 'num': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(226): error C202: 'ans': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SHOW?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=23.0 xdata=0 code=1419
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SHOW?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=23.0 xdata=0 code=1422
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=23.0 xdata=0 code=1104
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=22.0 xdata=0 code=1111
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=22.0 xdata=0 code=1111
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(16): error C202: 'whi': undefined identifier
+MAIN.C(16): error C141: syntax error near '}'
+compiling LCD.C...
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1178
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1178
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1174
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1174
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1176
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1176
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1191
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1191
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1191
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1176
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling LCD.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1190
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1178
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=28.0 xdata=0 code=1178
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=26.0 xdata=0 code=1184
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=26.0 xdata=0 code=1184
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=29.0 xdata=0 code=1198
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=29.0 xdata=0 code=1198
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=29.0 xdata=0 code=1403
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=29.0 xdata=0 code=1403
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LIGHT?LED
+Program Size: data=29.0 xdata=0 code=1485
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LED.C...
+LED.C(5): error C202: 'key': undefined identifier
+compiling LCD.C...
+Target not created
+Build target 'Target 1'
+compiling LED.C...
+LED.C(5): error C202: 'key': undefined identifier
+compiling LCD.C...
+Target not created
+Build target 'Target 1'
+compiling LED.C...
+linking...
+Program Size: data=27.0 xdata=0 code=1386
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=27.0 xdata=0 code=1386
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=27.0 xdata=0 code=1386
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(13): warning C206: 'LcdPutChar': missing function-prototype
+MAIN.C(13): error C267: 'LcdPutChar': requires ANSI-style prototype
+compiling KEY.C...
+compiling LED.C...
+compiling LCD.C...
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(14): warning C206: 'Light': missing function-prototype
+MAIN.C(14): error C267: 'Light': requires ANSI-style prototype
+compiling LCD.C...
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=28.0 xdata=0 code=1058
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=28.0 xdata=0 code=1058
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(14): warning C214: 'Argument': conversion: pointer to non-pointer
+linking...
+Program Size: data=28.0 xdata=0 code=1058
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(14): warning C206: 'LcdPutChar': missing function-prototype
+MAIN.C(14): error C267: 'LcdPutChar': requires ANSI-style prototype
+compiling LCD.C...
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=28.0 xdata=0 code=1060
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SHOW?LCD
+Program Size: data=33.0 xdata=0 code=1053
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LED.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SHOW?LCD
+Program Size: data=33.0 xdata=0 code=1131
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SHOW?LCD
+Program Size: data=33.0 xdata=0 code=1131
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=28.0 xdata=0 code=1138
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=28.0 xdata=0 code=1138
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling LCD.C...
+LCD.C(102): error C202: 'num': undefined identifier
+LCD.C(102): error C202: 'num': undefined identifier
+LCD.C(102): error C202: 'num': undefined identifier
+LCD.C(103): error C202: 'num': undefined identifier
+LCD.C(103): error C202: 'num': undefined identifier
+LCD.C(103): error C202: 'num': undefined identifier
+LCD.C(104): error C202: 'num': undefined identifier
+LCD.C(104): error C202: 'num': undefined identifier
+LCD.C(104): error C202: 'num': undefined identifier
+LCD.C(105): error C202: 'num': undefined identifier
+LCD.C(105): error C202: 'num': undefined identifier
+LCD.C(105): error C202: 'num': undefined identifier
+LCD.C(106): error C202: 'num': undefined identifier
+LCD.C(106): error C202: 'num': undefined identifier
+LCD.C(106): error C202: 'num': undefined identifier
+LCD.C(107): error C202: 'num': undefined identifier
+LCD.C(107): error C202: 'num': undefined identifier
+LCD.C(107): error C202: 'num': undefined identifier
+LCD.C(108): error C202: 'num': undefined identifier
+LCD.C(108): error C202: 'num': undefined identifier
+LCD.C(108): error C202: 'num': undefined identifier
+LCD.C(109): error C202: 'num': undefined identifier
+LCD.C(109): error C202: 'num': undefined identifier
+LCD.C(109): error C202: 'num': undefined identifier
+LCD.C(110): error C202: 'num': undefined identifier
+LCD.C(110): error C202: 'num': undefined identifier
+LCD.C(110): error C202: 'num': undefined identifier
+LCD.C(111): error C202: 'num': undefined identifier
+LCD.C(111): error C202: 'num': undefined identifier
+LCD.C(111): error C202: 'num': undefined identifier
+LCD.C(112): error C202: 'num': undefined identifier
+LCD.C(112): error C202: 'num': undefined identifier
+LCD.C(112): error C202: 'num': undefined identifier
+LCD.C(113): error C202: 'num': undefined identifier
+LCD.C(113): error C202: 'num': undefined identifier
+LCD.C(113): error C202: 'num': undefined identifier
+LCD.C(114): error C202: 'num': undefined identifier
+LCD.C(114): error C202: 'num': undefined identifier
+LCD.C(114): error C202: 'num': undefined identifier
+LCD.C(115): error C202: 'num': undefined identifier
+LCD.C(115): error C202: 'num': undefined identifier
+LCD.C(115): error C202: 'num': undefined identifier
+LCD.C(116): error C202: 'num': undefined identifier
+LCD.C(116): error C202: 'num': undefined identifier
+LCD.C(116): error C202: 'num': undefined identifier
+LCD.C(117): error C202: 'num': undefined identifier
+LCD.C(117): error C202: 'num': undefined identifier
+LCD.C(117): error C202: 'num': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling LCD.C...
+LCD.C(102): error C202: 'num': undefined identifier
+LCD.C(102): error C202: 'num': undefined identifier
+LCD.C(103): error C202: 'num': undefined identifier
+LCD.C(103): error C202: 'num': undefined identifier
+LCD.C(104): error C202: 'num': undefined identifier
+LCD.C(104): error C202: 'num': undefined identifier
+LCD.C(105): error C202: 'num': undefined identifier
+LCD.C(105): error C202: 'num': undefined identifier
+LCD.C(106): error C202: 'num': undefined identifier
+LCD.C(106): error C202: 'num': undefined identifier
+LCD.C(107): error C202: 'num': undefined identifier
+LCD.C(107): error C202: 'num': undefined identifier
+LCD.C(108): error C202: 'num': undefined identifier
+LCD.C(108): error C202: 'num': undefined identifier
+LCD.C(109): error C202: 'num': undefined identifier
+LCD.C(109): error C202: 'num': undefined identifier
+LCD.C(110): error C202: 'num': undefined identifier
+LCD.C(110): error C202: 'num': undefined identifier
+LCD.C(111): error C202: 'num': undefined identifier
+LCD.C(111): error C202: 'num': undefined identifier
+LCD.C(112): error C202: 'num': undefined identifier
+LCD.C(112): error C202: 'num': undefined identifier
+LCD.C(113): error C202: 'num': undefined identifier
+LCD.C(113): error C202: 'num': undefined identifier
+LCD.C(114): error C202: 'num': undefined identifier
+LCD.C(114): error C202: 'num': undefined identifier
+LCD.C(115): error C202: 'num': undefined identifier
+LCD.C(115): error C202: 'num': undefined identifier
+LCD.C(116): error C202: 'num': undefined identifier
+LCD.C(116): error C202: 'num': undefined identifier
+LCD.C(117): error C202: 'num': undefined identifier
+LCD.C(117): error C202: 'num': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=29.0 xdata=0 code=1529
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+compiling LED.C...
+compiling LCD.C...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SYMBOL
+    MODULE:  KEY.obj (KEY)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SYMBOL
+    MODULE:  LED.obj (LED)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SYMBOL
+    MODULE:  LCD.obj (LCD)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?LED
+Program Size: data=29.0 xdata=0 code=1913
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+compiling LED.C...
+compiling LCD.C...
+linking...
+Program Size: data=29.0 xdata=0 code=1529
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SHOW?LCD
+Program Size: data=30.0 xdata=0 code=1547
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SHOW?LCD
+Program Size: data=30.0 xdata=0 code=1547
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SHOW?LCD
+Program Size: data=30.0 xdata=0 code=1547
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling LCD.C...
+linking...
+Program Size: data=29.0 xdata=0 code=1547
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+compiling LED.C...
+compiling LCD.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DECODE?MAIN
+Program Size: data=29.0 xdata=0 code=1524
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=29.0 xdata=0 code=1389
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=29.0 xdata=0 code=1389
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling LCD.C...
+linking...
+Program Size: data=29.0 xdata=0 code=1389
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+compiling LED.C...
+compiling LCD.C...
+LCD.C(102): error C202: 'Symbol': undefined identifier
+LCD.C(103): error C202: 'Symbol': undefined identifier
+LCD.C(104): error C202: 'Symbol': undefined identifier
+LCD.C(105): error C202: 'Symbol': undefined identifier
+LCD.C(106): error C202: 'Symbol': undefined identifier
+LCD.C(107): error C202: 'Symbol': undefined identifier
+LCD.C(108): error C202: 'Symbol': undefined identifier
+LCD.C(109): error C202: 'Symbol': undefined identifier
+LCD.C(110): error C202: 'Symbol': undefined identifier
+LCD.C(111): error C202: 'Symbol': undefined identifier
+LCD.C(112): error C202: 'Symbol': undefined identifier
+LCD.C(113): error C202: 'Symbol': undefined identifier
+LCD.C(114): error C202: 'Symbol': undefined identifier
+LCD.C(115): error C202: 'Symbol': undefined identifier
+LCD.C(116): error C202: 'Symbol': undefined identifier
+LCD.C(117): error C202: 'Symbol': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+compiling KEY.C...
+compiling LED.C...
+compiling LCD.C...
+linking...
+Program Size: data=29.0 xdata=0 code=1389
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).

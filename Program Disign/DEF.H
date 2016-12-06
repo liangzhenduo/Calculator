@@ -15,10 +15,11 @@ sbit RW = P0^5;
 sbit EN = P0^4;
 sbit LIGHT = P0^7;
 
-extern unsigned char code Symbol[][8];
+unsigned char code Symbol[][8];
 
 void Delay(unsigned int t);
-void init();
+void Init();
+
 
 #endif
 
