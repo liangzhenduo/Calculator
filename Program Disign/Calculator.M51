@@ -1,8 +1,8 @@
-BL51 BANKED LINKER/LOCATER V5.03                                                        12/06/2016  19:42:22  PAGE 1
+BL51 BANKED LINKER/LOCATER V5.03                                                        12/10/2016  00:27:41  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V5.03, INVOKED BY:
-C:\KEIL\C51\BIN\BL51.EXE MAIN.obj, KEY.obj, LED.obj, LCD.obj TO Calculator RAMSIZE (256)
+C:\KEIL\C51\BIN\BL51.EXE MAIN.obj, KEY.obj, LED.obj, LCD.obj, STACK.obj TO Calculator RAMSIZE (256)
 
 
 MEMORY MODEL: SMALL
@@ -13,10 +13,34 @@ INPUT MODULES INCLUDED:
   KEY.obj (KEY)
   LED.obj (LED)
   LCD.obj (LCD)
+  STACK.obj (STACK)
   C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?COPY)
   C:\KEIL\C51\LIB\C51S.LIB (?C?CLDOPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?IMUL)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?ILDPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?ILDOPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?IILDOPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?ISTPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?ISTOPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?PLDPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?PSTPTR)
   C:\KEIL\C51\LIB\C51S.LIB (?C?CCASE)
+  C:\KEIL\C51\LIB\C51S.LIB (STRLEN)
+  C:\KEIL\C51\LIB\C51S.LIB (MALLOC)
+  C:\KEIL\C51\LIB\C51S.LIB (REALLOC)
+  C:\KEIL\C51\LIB\C51S.LIB (FREE)
   C:\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?CLDPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?IILDX)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?PLDIDATA)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?PSTIDATA)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?PLDXDATA)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?PSTXDATA)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?PLDPDATA)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?PSTPDATA)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?PLDCODE)
+  C:\KEIL\C51\LIB\C51S.LIB (INIT_MEM)
 
 
 LINK MAP OF MODULE:  Calculator (MAIN)
@@ -27,79 +51,111 @@ LINK MAP OF MODULE:  Calculator (MAIN)
 
             * * * * * * *   D A T A   M E M O R Y   * * * * * * *
             REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
-            DATA    0008H     000AH     UNIT         ?DT?LCD
-            DATA    0012H     000AH     UNIT         _DATA_GROUP_
-            IDATA   001CH     0001H     UNIT         ?STACK
+            DATA    0008H     0012H     UNIT         _DATA_GROUP_
+            DATA    001AH     0008H     UNIT         ?DT?_REALLOC?REALLOC
+            DATA    0022H     0006H     UNIT         ?DT?_PUSH?STACK
+            DATA    0028H     0006H     UNIT         ?DT?_POP?STACK
+            DATA    002EH     0006H     UNIT         ?DT?_PEEK?STACK
+            DATA    0034H     0005H     UNIT         ?DT?_STACK_NEW?STACK
+            DATA    0039H     0004H     UNIT         ?DT?_MALLOC?MALLOC
+            DATA    003DH     0004H     UNIT         ?DT?_FREE?FREE
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 2
+
+
+            DATA    0041H     0003H     UNIT         ?DT?_STACK_FREE?STACK
+            DATA    0044H     0002H     UNIT         ?DT?LCD
+            IDATA   0046H     0001H     UNIT         ?STACK
+
+            * * * * * * *  X D A T A   M E M O R Y  * * * * * * *
+            XDATA   0000H     0008H     UNIT         ?XD?INIT_MEM
 
             * * * * * * *   C O D E   M E M O R Y   * * * * * * *
             CODE    0000H     0003H     ABSOLUTE     
-            CODE    0003H     019FH     UNIT         ?PR?_SHOW?LCD
-            CODE    01A2H     00A2H     UNIT         ?PR?_LIGHT?LED
-            CODE    0244H     008CH     UNIT         ?C_C51STARTUP
-            CODE    02D0H     0080H     UNIT         ?CO?LCD
-            CODE    0350H     0073H     UNIT         ?PR?CLEAR?LCD
-            CODE    03C3H     0053H     UNIT         ?C?LIB_CODE
-            CODE    0416H     0044H     UNIT         ?PR?KEYSCAN?KEY
-            CODE    045AH     003EH     UNIT         ?PR?_LCDPUTCHAR?LCD
-            CODE    0498H     0026H     UNIT         ?PR?INIT?MAIN
-            CODE    04BEH     0024H     UNIT         ?PR?_RESERVE?LCD
-            CODE    04E2H     001DH     UNIT         ?PR?_DELAY?MAIN
-            CODE    04FFH     001DH     UNIT         ?PR?LCDINIT?LCD
-            CODE    051CH     001CH     UNIT         ?PR?_LCDWRITECMD?LCD
-            CODE    0538H     0014H     UNIT         ?PR?MAIN?MAIN
-            CODE    054CH     0011H     UNIT         ?C_INITSEG
-            CODE    055DH     0010H     UNIT         ?PR?_LCDWRITEDAT?LCD
+            CODE    0003H     0337H     UNIT         ?C?LIB_CODE
+            CODE    033AH     0117H     UNIT         ?PR?_DISPLAY?LCD
+            CODE    0451H     0110H     UNIT         ?PR?_OUTPUT?LCD
+            CODE    0561H     0103H     UNIT         ?PR?_FREE?FREE
+            CODE    0664H     00F6H     UNIT         ?PR?_LIGHT?LED
+            CODE    075AH     00CEH     UNIT         ?PR?_PUSH?STACK
+            CODE    0828H     009CH     UNIT         ?PR?_MALLOC?MALLOC
+            CODE    08C4H     008CH     UNIT         ?C_C51STARTUP
+            CODE    0950H     0080H     UNIT         ?CO?LCD
+            CODE    09D0H     0078H     UNIT         ?PR?_REALLOC?REALLOC
+            CODE    0A48H     0066H     UNIT         ?PR?_POP?STACK
+            CODE    0AAEH     0063H     UNIT         ?PR?_STACK_NEW?STACK
+            CODE    0B11H     0063H     UNIT         ?PR?_PEEK?STACK
+            CODE    0B74H     005BH     UNIT         ?PR?CLEAR?LCD
+            CODE    0BCFH     004DH     UNIT         ?PR?_INIT_MEMPOOL?INIT_MEM
+            CODE    0C1CH     0044H     UNIT         ?PR?KEYSCAN?KEY
+            CODE    0C60H     003EH     UNIT         ?PR?_LCDPUTCHAR?LCD
+            CODE    0C9EH     0026H     UNIT         ?PR?INIT?MAIN
+            CODE    0CC4H     0024H     UNIT         ?PR?_RESERVE?LCD
+            CODE    0CE8H     0020H     UNIT         ?PR?MAIN?MAIN
+            CODE    0D08H     001DH     UNIT         ?PR?_DELAY?MAIN
+            CODE    0D25H     001DH     UNIT         ?PR?LCDINIT?LCD
+            CODE    0D42H     001CH     UNIT         ?PR?_LCDWRITECMD?LCD
+            CODE    0D5EH     0017H     UNIT         ?PR?_STACK_FREE?STACK
+            CODE    0D75H     0015H     UNIT         ?PR?_STRLEN?STRLEN
+            CODE    0D8AH     0012H     UNIT         ?C_INITSEG
+            CODE    0D9CH     0010H     UNIT         ?PR?_LCDWRITEDAT?LCD
+            CODE    0DACH     0004H     UNIT         ?CO?MAIN
 
 
 
 OVERLAY MAP OF MODULE:   Calculator (MAIN)
 
 
-SEGMENT                          DATA_GROUP 
-  +--> CALLED SEGMENT          START    LENGTH
-----------------------------------------------
-?C_C51STARTUP                  -----    -----
-BL51 BANKED LINKER/LOCATER V5.03                                                      12/06/2016  19:42:22  PAGE 2
-
-
+SEGMENT                              DATA_GROUP 
+  +--> CALLED SEGMENT              START    LENGTH
+--------------------------------------------------
+?C_C51STARTUP                      -----    -----
   +--> ?PR?MAIN?MAIN
   +--> ?C_INITSEG
 
-?PR?MAIN?MAIN                  0012H    0003H
+?PR?MAIN?MAIN                      0008H    0008H
   +--> ?PR?INIT?MAIN
   +--> ?PR?KEYSCAN?KEY
-  +--> ?PR?_SHOW?LCD
+  +--> ?PR?_DISPLAY?LCD
   +--> ?PR?_LIGHT?LED
+  +--> ?CO?MAIN
+  +--> ?PR?_OUTPUT?LCD
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 3
 
-?PR?INIT?MAIN                  -----    -----
+
+
+?PR?INIT?MAIN                      -----    -----
   +--> ?PR?LCDINIT?LCD
   +--> ?PR?_DELAY?MAIN
 
-?PR?LCDINIT?LCD                -----    -----
+?PR?LCDINIT?LCD                    -----    -----
   +--> ?PR?_LCDWRITECMD?LCD
   +--> ?PR?CLEAR?LCD
 
-?PR?_LCDWRITECMD?LCD           -----    -----
+?PR?_LCDWRITECMD?LCD               -----    -----
   +--> ?PR?_RESERVE?LCD
 
-?PR?CLEAR?LCD                  0015H    0006H
-  +--> ?PR?_DELAY?MAIN
-  +--> ?PR?_LCDWRITECMD?LCD
+?PR?CLEAR?LCD                      0010H    0004H
   +--> ?PR?_LCDWRITEDAT?LCD
+  +--> ?PR?_LCDWRITECMD?LCD
 
-?PR?_LCDWRITEDAT?LCD           -----    -----
+?PR?_LCDWRITEDAT?LCD               -----    -----
   +--> ?PR?_RESERVE?LCD
 
-?PR?KEYSCAN?KEY                0015H    0002H
+?PR?KEYSCAN?KEY                    0010H    0002H
   +--> ?PR?_DELAY?MAIN
 
-?PR?_SHOW?LCD                  0015H    0002H
+?PR?_DISPLAY?LCD                   -----    -----
   +--> ?CO?LCD
   +--> ?PR?_LCDPUTCHAR?LCD
 
-?PR?_LCDPUTCHAR?LCD            0017H    0005H
+?PR?_LCDPUTCHAR?LCD                0015H    0005H
   +--> ?PR?_LCDWRITEDAT?LCD
   +--> ?PR?_LCDWRITECMD?LCD
+
+?PR?_OUTPUT?LCD                    0010H    0005H
+  +--> ?PR?_STRLEN?STRLEN
+  +--> ?CO?LCD
+  +--> ?PR?_LCDPUTCHAR?LCD
 
 
 
@@ -118,70 +174,79 @@ SYMBOL TABLE OF MODULE:  Calculator (MAIN)
   B:0080H.2       PUBLIC        LED3
   B:0080H.3       PUBLIC        LED4
   D:00A8H         PUBLIC        IE
-  C:0498H         PUBLIC        Init
-BL51 BANKED LINKER/LOCATER V5.03                                                      12/06/2016  19:42:22  PAGE 3
-
-
+  C:0C9EH         PUBLIC        Init
   D:00B8H         PUBLIC        IP
-  C:0538H         PUBLIC        main
+  C:0CE8H         PUBLIC        main
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 4
+
+
   B:0088H.5       PUBLIC        TF0
   D:008CH         PUBLIC        TH0
   D:008AH         PUBLIC        TL0
-  C:04E6H         PUBLIC        _Delay
+  C:0D0CH         PUBLIC        _Delay
   B:0088H.4       PUBLIC        TR0
   D:00C8H         PUBLIC        T2CON
   D:00D0H         PUBLIC        PSW
   -------         PROC          MAIN
   -------         DO            
-  D:0012H         SYMBOL        key
-  D:0013H         SYMBOL        num
+  D:0008H         SYMBOL        key
+  D:0007H         SYMBOL        chr
+  D:0009H         SYMBOL        num
+  D:000BH         SYMBOL        i
+  D:0001H         SYMBOL        str
+  D:000DH         SYMBOL        res
   -------         ENDDO         
-  C:0538H         LINE#         7
-  C:0538H         LINE#         10
-  C:053BH         LINE#         11
-  C:053BH         LINE#         12
-  C:0540H         LINE#         13
-  C:0547H         LINE#         14
-  C:054AH         LINE#         15
+  C:0CE8H         LINE#         8
+  C:0CE8H         LINE#         13
+  C:0CEBH         LINE#         14
+  C:0CEBH         LINE#         15
+  C:0CF0H         LINE#         16
+  C:0CF7H         LINE#         17
+  C:0CFAH         LINE#         18
+  C:0CFDH         LINE#         19
+  C:0CFDH         LINE#         21
+  C:0CFDH         LINE#         23
+  C:0D03H         LINE#         24
+  C:0D06H         LINE#         25
   -------         ENDPROC       MAIN
-  C:04E2H         SYMBOL        L?0013
-  -------         PROC          L?0012
-  -------         ENDPROC       L?0012
-  C:04E2H         SYMBOL        L?0013
+  C:0D08H         SYMBOL        L?0016
+  -------         PROC          L?0015
+  -------         ENDPROC       L?0015
+  C:0D08H         SYMBOL        L?0016
   -------         PROC          _DELAY
   D:0006H         SYMBOL        t
-  C:04E6H         LINE#         18
-  C:04E6H         LINE#         19
-  C:04E6H         LINE#         20
-  C:04E9H         LINE#         21
-  C:04ECH         LINE#         22
-  C:04EEH         LINE#         23
-  C:04F1H         LINE#         24
-  C:04F3H         LINE#         25
-  C:04F5H         LINE#         26
-  C:04FEH         LINE#         27
+  C:0D0CH         LINE#         28
+  C:0D0CH         LINE#         29
+  C:0D0CH         LINE#         30
+  C:0D0FH         LINE#         31
+  C:0D12H         LINE#         32
+  C:0D14H         LINE#         33
+  C:0D17H         LINE#         34
+  C:0D19H         LINE#         35
+  C:0D1BH         LINE#         36
+  C:0D24H         LINE#         37
   -------         ENDPROC       _DELAY
   -------         PROC          INIT
-  C:0498H         LINE#         29
-  C:0498H         LINE#         30
-  C:049BH         LINE#         31
-  C:049DH         LINE#         32
-  C:04A0H         LINE#         33
-  C:04A2H         LINE#         34
-  C:04A4H         LINE#         35
-  C:04A7H         LINE#         36
-  C:04A9H         LINE#         37
-  C:04ABH         LINE#         38
-  C:04AEH         LINE#         39
-  C:04B0H         LINE#         40
-  C:04B2H         LINE#         41
-  C:04B5H         LINE#         42
-  C:04B7H         LINE#         43
-BL51 BANKED LINKER/LOCATER V5.03                                                      12/06/2016  19:42:22  PAGE 4
+  C:0C9EH         LINE#         39
+  C:0C9EH         LINE#         40
+  C:0CA1H         LINE#         41
+  C:0CA3H         LINE#         42
+  C:0CA6H         LINE#         43
+  C:0CA8H         LINE#         44
+  C:0CAAH         LINE#         45
+  C:0CADH         LINE#         46
+  C:0CAFH         LINE#         47
+  C:0CB1H         LINE#         48
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 5
 
 
+  C:0CB4H         LINE#         49
+  C:0CB6H         LINE#         50
+  C:0CB8H         LINE#         51
+  C:0CBBH         LINE#         52
+  C:0CBDH         LINE#         53
   -------         ENDPROC       INIT
   -------         ENDMOD        MAIN
 
@@ -193,33 +258,33 @@ SYMBOL TABLE OF MODULE:  Calculator (MAIN)
   D:00B0H         PUBLIC        P3
   D:00A8H         PUBLIC        IE
   D:00B8H         PUBLIC        IP
-  C:0416H         PUBLIC        KeyScan
+  C:0C1CH         PUBLIC        KeyScan
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
   D:00C8H         PUBLIC        T2CON
   D:00D0H         PUBLIC        PSW
   -------         PROC          KEYSCAN
   -------         DO            
-  D:0015H         SYMBOL        cord_h
-  D:0016H         SYMBOL        cord_l
+  D:0010H         SYMBOL        cord_h
+  D:0011H         SYMBOL        cord_l
   -------         ENDDO         
-  C:0416H         LINE#         4
-  C:0416H         LINE#         6
-  C:0419H         LINE#         7
-  C:041FH         LINE#         8
-  C:0423H         LINE#         9
-  C:042AH         LINE#         10
-  C:0430H         LINE#         11
-  C:0436H         LINE#         12
-  C:043AH         LINE#         13
-  C:0440H         LINE#         14
-  C:0440H         LINE#         15
-  C:0440H         LINE#         16
-  C:0443H         LINE#         17
-  C:044BH         LINE#         18
-  C:0452H         LINE#         19
-  C:0454H         LINE#         20
-  C:0459H         LINE#         21
+  C:0C1CH         LINE#         4
+  C:0C1CH         LINE#         6
+  C:0C1FH         LINE#         7
+  C:0C25H         LINE#         8
+  C:0C29H         LINE#         9
+  C:0C30H         LINE#         10
+  C:0C36H         LINE#         11
+  C:0C3CH         LINE#         12
+  C:0C40H         LINE#         13
+  C:0C46H         LINE#         14
+  C:0C46H         LINE#         15
+  C:0C46H         LINE#         16
+  C:0C49H         LINE#         17
+  C:0C51H         LINE#         18
+  C:0C58H         LINE#         19
+  C:0C5AH         LINE#         20
+  C:0C5FH         LINE#         21
   -------         ENDPROC       KEYSCAN
   -------         ENDMOD        KEY
 
@@ -234,36 +299,36 @@ SYMBOL TABLE OF MODULE:  Calculator (MAIN)
   B:0080H.3       PUBLIC        LED4
   D:00A8H         PUBLIC        IE
   D:00B8H         PUBLIC        IP
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 6
+
+
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
-  C:01A2H         PUBLIC        _Light
+  C:0664H         PUBLIC        _Light
   D:00C8H         PUBLIC        T2CON
   D:00D0H         PUBLIC        PSW
-BL51 BANKED LINKER/LOCATER V5.03                                                      12/06/2016  19:42:22  PAGE 5
-
-
   -------         PROC          _LIGHT
   D:0006H         SYMBOL        num
-  C:01A2H         LINE#         4
-  C:01A2H         LINE#         5
-  C:01E8H         LINE#         6
-  C:01ECH         LINE#         7
-  C:01F0H         LINE#         8
-  C:01F4H         LINE#         9
-  C:01F8H         LINE#         10
-  C:01FCH         LINE#         11
-  C:0200H         LINE#         12
-  C:0204H         LINE#         13
-  C:0208H         LINE#         14
-  C:020EH         LINE#         15
-  C:0214H         LINE#         16
-  C:021AH         LINE#         17
-  C:0220H         LINE#         18
-  C:0229H         LINE#         19
-  C:0232H         LINE#         20
-  C:023BH         LINE#         21
-  C:0243H         LINE#         22
-  C:0243H         LINE#         23
+  C:0664H         LINE#         4
+  C:0664H         LINE#         5
+  C:06AAH         LINE#         6
+  C:06B5H         LINE#         7
+  C:06C0H         LINE#         8
+  C:06CBH         LINE#         9
+  C:06D6H         LINE#         10
+  C:06E1H         LINE#         11
+  C:06ECH         LINE#         12
+  C:06F7H         LINE#         13
+  C:0702H         LINE#         14
+  C:070DH         LINE#         15
+  C:0718H         LINE#         16
+  C:0723H         LINE#         17
+  C:072EH         LINE#         18
+  C:0739H         LINE#         19
+  C:0744H         LINE#         20
+  C:074FH         LINE#         21
+  C:0759H         LINE#         22
+  C:0759H         LINE#         23
   -------         ENDPROC       _LIGHT
   -------         ENDMOD        LED
 
@@ -271,179 +336,394 @@ SYMBOL TABLE OF MODULE:  Calculator (MAIN)
   C:0000H         SYMBOL        _ICE_DUMMY_
   D:0080H         PUBLIC        P0
   D:0090H         PUBLIC        P1
-  C:0003H         PUBLIC        _Show
   D:00B0H         PUBLIC        P3
-  C:0350H         PUBLIC        clear
+  C:0B74H         PUBLIC        clear
   D:00A8H         PUBLIC        IE
-  D:0008H         PUBLIC        space
   B:0080H.4       PUBLIC        EN
-  C:0528H         PUBLIC        _LcdWriteCmd
+  C:0D4EH         PUBLIC        _LcdWriteCmd
   D:00B8H         PUBLIC        IP
-  C:055DH         PUBLIC        _LcdWriteDat
+  C:0D9CH         PUBLIC        _LcdWriteDat
   B:0080H.6       PUBLIC        RS
   B:0080H.5       PUBLIC        RW
-  C:04FFH         PUBLIC        LcdInit
-  C:045AH         PUBLIC        _LcdPutChar
+  C:0D25H         PUBLIC        LcdInit
+  C:0C60H         PUBLIC        _LcdPutChar
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
+  C:033AH         PUBLIC        _Display
   B:00B0H.5       PUBLIC        CS1
   B:00B0H.4       PUBLIC        CS2
-  C:04BEH         PUBLIC        _reserve
+  C:0CC4H         PUBLIC        _reserve
   D:00C8H         PUBLIC        T2CON
-  D:0010H         PUBLIC        x
-  D:0011H         PUBLIC        y
-  C:02D0H         PUBLIC        Symbol
+  C:0451H         PUBLIC        _Output
+  D:0044H         PUBLIC        x
+  D:0045H         PUBLIC        y
+  C:0950H         PUBLIC        Symbol
   B:0080H.7       PUBLIC        LIGHT
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 7
+
+
   D:00D0H         PUBLIC        PSW
   -------         PROC          _RESERVE
   D:0007H         SYMBOL        dat
   -------         DO            
   D:0006H         SYMBOL        dat1
-BL51 BANKED LINKER/LOCATER V5.03                                                      12/06/2016  19:42:22  PAGE 6
-
-
   D:0005H         SYMBOL        x
   D:0002H         SYMBOL        i
   -------         ENDDO         
-  C:04BEH         LINE#         9
-  C:04BEH         LINE#         10
-  C:04BEH         LINE#         11
-  C:04C0H         LINE#         12
-  C:04C2H         LINE#         14
-  C:04C4H         LINE#         15
-  C:04CCH         LINE#         16
-  C:04D0H         LINE#         17
-  C:04D4H         LINE#         18
-  C:04DFH         LINE#         19
-  C:04E1H         LINE#         20
+  C:0CC4H         LINE#         8
+  C:0CC4H         LINE#         9
+  C:0CC4H         LINE#         10
+  C:0CC6H         LINE#         11
+  C:0CC8H         LINE#         13
+  C:0CCAH         LINE#         14
+  C:0CD2H         LINE#         15
+  C:0CD6H         LINE#         16
+  C:0CDAH         LINE#         17
+  C:0CE5H         LINE#         18
+  C:0CE7H         LINE#         19
   -------         ENDPROC       _RESERVE
-  -------         PROC          L?0079
-  -------         ENDPROC       L?0079
+  -------         PROC          L?0086
+  -------         ENDPROC       L?0086
   -------         PROC          _LCDWRITECMD
   D:0007H         SYMBOL        cmd
-  C:0528H         LINE#         22
-  C:0528H         LINE#         23
-  C:0528H         LINE#         24
-  C:052AH         LINE#         25
-  C:052CH         LINE#         26
-  C:052EH         LINE#         27
-  C:0530H         LINE#         28
-  C:0535H         LINE#         29
-  C:0537H         LINE#         30
+  C:0D4EH         LINE#         21
+  C:0D4EH         LINE#         22
+  C:0D4EH         LINE#         23
+  C:0D50H         LINE#         24
+  C:0D52H         LINE#         25
+  C:0D54H         LINE#         26
+  C:0D56H         LINE#         27
+  C:0D5BH         LINE#         28
+  C:0D5DH         LINE#         29
   -------         ENDPROC       _LCDWRITECMD
   -------         PROC          _LCDWRITEDAT
   D:0007H         SYMBOL        dat
-  C:055DH         LINE#         32
-  C:055DH         LINE#         33
-  C:055DH         LINE#         34
-  C:055FH         LINE#         35
-  C:0561H         LINE#         36
-  C:0563H         LINE#         37
-  C:0565H         LINE#         38
-  C:056AH         LINE#         39
-  C:056CH         LINE#         40
+  C:0D9CH         LINE#         31
+  C:0D9CH         LINE#         32
+  C:0D9CH         LINE#         33
+  C:0D9EH         LINE#         34
+  C:0DA0H         LINE#         35
+  C:0DA2H         LINE#         36
+  C:0DA4H         LINE#         37
+  C:0DA9H         LINE#         38
+  C:0DABH         LINE#         39
   -------         ENDPROC       _LCDWRITEDAT
   -------         PROC          CLEAR
   -------         DO            
-  D:0015H         SYMBOL        i
-  D:0017H         SYMBOL        j
-  D:0019H         SYMBOL        k
+  D:0082H         SYMBOL        i
+  D:0010H         SYMBOL        j
+  D:0012H         SYMBOL        k
   -------         ENDDO         
-  C:0350H         LINE#         42
-  C:0350H         LINE#         43
-  C:0350H         LINE#         45
-  C:0355H         LINE#         46
-  C:035AH         LINE#         47
-  C:035FH         LINE#         48
-  C:0366H         LINE#         49
-  C:036BH         LINE#         50
-  C:036BH         LINE#         51
-  C:036BH         LINE#         52
-BL51 BANKED LINKER/LOCATER V5.03                                                      12/06/2016  19:42:22  PAGE 7
+  C:0B74H         LINE#         41
+  C:0B74H         LINE#         42
+  C:0B74H         LINE#         44
+  C:0B79H         LINE#         45
+  C:0B7EH         LINE#         46
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 8
 
 
-  C:036BH         LINE#         53
-  C:036EH         LINE#         54
-  C:036EH         LINE#         56
-  C:0370H         LINE#         57
-  C:037AH         LINE#         58
-  C:038DH         LINE#         59
-  C:03A0H         LINE#         60
-  C:03B3H         LINE#         61
-  C:03B6H         LINE#         62
-  C:03BBH         LINE#         63
-  C:03BEH         LINE#         64
+  C:0B81H         LINE#         47
+  C:0B86H         LINE#         48
+  C:0B8BH         LINE#         49
+  C:0B8BH         LINE#         50
+  C:0B8BH         LINE#         51
+  C:0B8BH         LINE#         52
+  C:0B8EH         LINE#         53
+  C:0B8EH         LINE#         54
+  C:0B90H         LINE#         55
+  C:0B99H         LINE#         56
+  C:0BACH         LINE#         57
+  C:0BBFH         LINE#         58
+  C:0BC2H         LINE#         59
+  C:0BC7H         LINE#         60
+  C:0BCAH         LINE#         61
   -------         ENDPROC       CLEAR
   -------         PROC          LCDINIT
-  C:04FFH         LINE#         68
-  C:04FFH         LINE#         69
-  C:04FFH         LINE#         70
-  C:0501H         LINE#         71
-  C:0503H         LINE#         72
-  C:0505H         LINE#         75
-  C:050AH         LINE#         76
-  C:050FH         LINE#         77
-  C:0514H         LINE#         78
-  C:0519H         LINE#         79
+  C:0D25H         LINE#         65
+  C:0D25H         LINE#         66
+  C:0D25H         LINE#         67
+  C:0D27H         LINE#         68
+  C:0D29H         LINE#         69
+  C:0D2BH         LINE#         72
+  C:0D30H         LINE#         73
+  C:0D35H         LINE#         74
+  C:0D3AH         LINE#         75
+  C:0D3FH         LINE#         76
   -------         ENDPROC       LCDINIT
   -------         PROC          _LCDPUTCHAR
-  D:0017H         SYMBOL        dat
+  D:0015H         SYMBOL        dat
   -------         DO            
-  D:001AH         SYMBOL        i
+  D:0018H         SYMBOL        i
   -------         ENDDO         
-  C:045AH         LINE#         83
-  C:0460H         LINE#         84
-  C:0460H         LINE#         86
-  C:0465H         LINE#         87
-  C:0478H         LINE#         88
-  C:047DH         LINE#         89
-  C:047DH         LINE#         90
-  C:047DH         LINE#         91
-  C:047DH         LINE#         92
-  C:0480H         LINE#         93
-  C:0482H         LINE#         95
-  C:0484H         LINE#         96
-  C:0497H         LINE#         97
+  C:0C60H         LINE#         80
+  C:0C66H         LINE#         81
+  C:0C66H         LINE#         83
+  C:0C6BH         LINE#         84
+  C:0C7EH         LINE#         85
+  C:0C83H         LINE#         86
+  C:0C83H         LINE#         87
+  C:0C83H         LINE#         88
+  C:0C83H         LINE#         89
+  C:0C86H         LINE#         90
+  C:0C88H         LINE#         92
+  C:0C8AH         LINE#         93
+  C:0C9DH         LINE#         94
   -------         ENDPROC       _LCDPUTCHAR
-  -------         PROC          _SHOW
+  -------         PROC          _DISPLAY
   D:0007H         SYMBOL        key
+  C:033AH         LINE#         96
+  C:033AH         LINE#         97
+  C:0372H         LINE#         98
+  C:037FH         LINE#         99
+  C:038DH         LINE#         100
+  C:039BH         LINE#         101
+  C:03A9H         LINE#         102
+  C:03B7H         LINE#         103
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 9
+
+
+  C:03C5H         LINE#         104
+  C:03D3H         LINE#         105
+  C:03E1H         LINE#         106
+  C:03EFH         LINE#         107
+  C:03FDH         LINE#         108
+  C:040BH         LINE#         109
+  C:0419H         LINE#         110
+  C:0427H         LINE#         111
+  C:0435H         LINE#         112
+  C:0443H         LINE#         113
+  C:0450H         LINE#         114
+  C:0450H         LINE#         115
+  -------         ENDPROC       _DISPLAY
+  -------         PROC          _OUTPUT
+  D:0010H         SYMBOL        num
   -------         DO            
-  D:0015H         SYMBOL        num
+  D:0013H         SYMBOL        i
   -------         ENDDO         
-  C:0003H         LINE#         99
-  C:0003H         LINE#         101
-  C:003BH         LINE#         102
-  C:0050H         LINE#         103
-  C:0066H         LINE#         104
-  C:007CH         LINE#         105
-  C:0092H         LINE#         106
-  C:00A8H         LINE#         107
-  C:00BEH         LINE#         108
-BL51 BANKED LINKER/LOCATER V5.03                                                      12/06/2016  19:42:22  PAGE 8
-
-
-  C:00D4H         LINE#         109
-  C:00EAH         LINE#         110
-  C:0100H         LINE#         111
-  C:0115H         LINE#         112
-  C:012AH         LINE#         113
-  C:013FH         LINE#         114
-  C:0154H         LINE#         115
-  C:0169H         LINE#         116
-  C:017EH         LINE#         117
-  C:019DH         LINE#         118
-  C:019DH         LINE#         119
-  C:01A1H         LINE#         120
-  -------         ENDPROC       _SHOW
+  C:0451H         LINE#         117
+  C:0457H         LINE#         119
+  C:0471H         LINE#         120
+  C:04D4H         LINE#         121
+  C:04DCH         LINE#         122
+  C:04E4H         LINE#         123
+  C:04ECH         LINE#         124
+  C:04F4H         LINE#         125
+  C:04FCH         LINE#         126
+  C:0504H         LINE#         127
+  C:050CH         LINE#         128
+  C:0514H         LINE#         129
+  C:051CH         LINE#         130
+  C:0524H         LINE#         131
+  C:052CH         LINE#         132
+  C:0534H         LINE#         133
+  C:053CH         LINE#         134
+  C:0544H         LINE#         135
+  C:054CH         LINE#         136
+  C:0555H         LINE#         137
+  C:0555H         LINE#         138
+  C:0560H         LINE#         139
+  -------         ENDPROC       _OUTPUT
   -------         ENDMOD        LCD
 
+  -------         MODULE        STACK
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:0B11H         PUBLIC        _peek
+  C:075AH         PUBLIC        _push
+  C:0AAEH         PUBLIC        _stack_new
+  C:0A48H         PUBLIC        _pop
+  C:0D5EH         PUBLIC        _stack_free
+  -------         PROC          _STACK_NEW
+  D:0034H         SYMBOL        el_size
+  -------         DO            
+  D:0036H         SYMBOL        s
+  -------         ENDDO         
+  C:0AAEH         LINE#         5
+  C:0AB2H         LINE#         6
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 10
+
+
+  C:0AB2H         LINE#         7
+  C:0AC4H         LINE#         8
+  C:0AECH         LINE#         9
+  C:0AFDH         LINE#         10
+  C:0B07H         LINE#         11
+  C:0B10H         LINE#         13
+  C:0B10H         LINE#         14
+  -------         ENDPROC       _STACK_NEW
+  -------         PROC          _STACK_FREE
+  D:0041H         SYMBOL        s
+  C:0D5EH         LINE#         16
+  C:0D64H         LINE#         17
+  C:0D64H         LINE#         18
+  C:0D6EH         LINE#         19
+  -------         ENDPROC       _STACK_FREE
+  -------         PROC          _PUSH
+  D:0022H         SYMBOL        s
+  D:0025H         SYMBOL        val
+  C:075AH         LINE#         22
+  C:0760H         LINE#         23
+  C:0760H         LINE#         24
+  C:077BH         LINE#         25
+  C:077BH         LINE#         26
+  C:0790H         LINE#         27
+  C:07CEH         LINE#         28
+  C:07CEH         LINE#         30
+  C:07D6H         LINE#         31
+  C:0818H         LINE#         32
+  -------         ENDPROC       _PUSH
+  -------         PROC          _POP
+  D:0028H         SYMBOL        s
+  D:002BH         SYMBOL        ret
+  C:0A48H         LINE#         35
+  C:0A4EH         LINE#         36
+  C:0A4EH         LINE#         37
+  C:0A58H         LINE#         38
+  C:0A5BH         LINE#         40
+  C:0A63H         LINE#         41
+  C:0AA9H         LINE#         42
+  C:0AADH         LINE#         43
+  -------         ENDPROC       _POP
+  -------         PROC          _PEEK
+  D:002EH         SYMBOL        s
+  D:0031H         SYMBOL        ret
+  C:0B11H         LINE#         45
+  C:0B17H         LINE#         46
+  C:0B17H         LINE#         47
+  C:0B23H         LINE#         48
+  C:0B26H         LINE#         50
+  C:0B2EH         LINE#         51
+  C:0B6FH         LINE#         52
+  C:0B73H         LINE#         53
+  -------         ENDPROC       _PEEK
+  -------         ENDMOD        STACK
+
+  -------         MODULE        ?C?COPY
+  C:00D3H         PUBLIC        ?C?COPY
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 11
+
+
+  -------         ENDMOD        ?C?COPY
+
   -------         MODULE        ?C?CLDOPTR
-  C:03C3H         PUBLIC        ?C?CLDOPTR
+  C:00F9H         PUBLIC        ?C?CLDOPTR
   -------         ENDMOD        ?C?CLDOPTR
 
+  -------         MODULE        ?C?IMUL
+  C:0126H         PUBLIC        ?C?IMUL
+  -------         ENDMOD        ?C?IMUL
+
+  -------         MODULE        ?C?ILDPTR
+  C:0138H         PUBLIC        ?C?ILDPTR
+  -------         ENDMOD        ?C?ILDPTR
+
+  -------         MODULE        ?C?ILDOPTR
+  C:0163H         PUBLIC        ?C?ILDOPTR
+  -------         ENDMOD        ?C?ILDOPTR
+
+  -------         MODULE        ?C?IILDOPTR
+  C:019BH         PUBLIC        ?C?IILDOPTR
+  -------         ENDMOD        ?C?IILDOPTR
+
+  -------         MODULE        ?C?ISTPTR
+  C:01E8H         PUBLIC        ?C?ISTPTR
+  -------         ENDMOD        ?C?ISTPTR
+
+  -------         MODULE        ?C?ISTOPTR
+  C:0207H         PUBLIC        ?C?ISTOPTR
+  -------         ENDMOD        ?C?ISTOPTR
+
+  -------         MODULE        ?C?PLDPTR
+  C:0234H         PUBLIC        ?C?PLDPTR
+  -------         ENDMOD        ?C?PLDPTR
+
+  -------         MODULE        ?C?PSTPTR
+  C:0254H         PUBLIC        ?C?PSTPTR
+  -------         ENDMOD        ?C?PSTPTR
+
   -------         MODULE        ?C?CCASE
-  C:03F0H         PUBLIC        ?C?CCASE
+  C:02A3H         PUBLIC        ?C?CCASE
   -------         ENDMOD        ?C?CCASE
 
-Program Size: data=29.0 xdata=0 code=1389
-LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
+  -------         MODULE        STRLEN
+  C:0D75H         PUBLIC        _STRLEN
+  -------         ENDMOD        STRLEN
+
+  -------         MODULE        MALLOC
+  C:0828H         PUBLIC        _malloc
+  -------         ENDMOD        MALLOC
+
+  -------         MODULE        REALLOC
+  C:09D0H         PUBLIC        _realloc
+  -------         ENDMOD        REALLOC
+
+  -------         MODULE        FREE
+  C:0561H         PUBLIC        _free
+  -------         ENDMOD        FREE
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 12
+
+
+
+  -------         MODULE        ?C?CLDPTR
+  C:02C9H         PUBLIC        ?C?CLDPTR
+  -------         ENDMOD        ?C?CLDPTR
+
+  -------         MODULE        ?C?IILDX
+  C:02E2H         PUBLIC        ?C?IILDX
+  -------         ENDMOD        ?C?IILDX
+
+  -------         MODULE        ?C?PLDIDATA
+  C:02F8H         PUBLIC        ?C?PLDIDATA
+  -------         ENDMOD        ?C?PLDIDATA
+
+  -------         MODULE        ?C?PSTIDATA
+  C:0301H         PUBLIC        ?C?PSTIDATA
+  -------         ENDMOD        ?C?PSTIDATA
+
+  -------         MODULE        ?C?PLDXDATA
+  C:030AH         PUBLIC        ?C?PLDXDATA
+  -------         ENDMOD        ?C?PLDXDATA
+
+  -------         MODULE        ?C?PSTXDATA
+  C:0313H         PUBLIC        ?C?PSTXDATA
+  -------         ENDMOD        ?C?PSTXDATA
+
+  -------         MODULE        ?C?PLDPDATA
+  C:031CH         PUBLIC        ?C?PLDPDATA
+  -------         ENDMOD        ?C?PLDPDATA
+
+  -------         MODULE        ?C?PSTPDATA
+  C:0325H         PUBLIC        ?C?PSTPDATA
+  -------         ENDMOD        ?C?PSTPDATA
+
+  -------         MODULE        ?C?PLDCODE
+  C:032EH         PUBLIC        ?C?PLDCODE
+  -------         ENDMOD        ?C?PLDCODE
+
+  -------         MODULE        INIT_MEM
+  X:0000H         PUBLIC        __mem_avail__
+  C:0BCFH         PUBLIC        _init_mempool
+  -------         ENDMOD        INIT_MEM
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_NEW?STACK
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_FREE?STACK
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUSH?STACK
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POP?STACK
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/10/2016  00:27:41  PAGE 13
+
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+
+Program Size: data=71.0 xdata=8 code=3504
+LINK/LOCATE RUN COMPLETE.  6 WARNING(S),  0 ERROR(S)

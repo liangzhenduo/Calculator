@@ -1,45 +1,53 @@
 #include <stdlib.h>
+#include <string.h>
 #include "stack.h"
 
-void stackInit(Stack *s, int size)
+Stack * stack_new(size_t el_size)
 {
-	s->content = malloc(size * sizeof(void*));
-	s->size = size;
-	s->top = -1;
+	Stack * s = (Stack*)malloc(sizeof(Stack));
+	s->content = malloc(STACK_INIT_SIZE * el_size);
+	s->el_size = el_size;
+	s->size = STACK_INIT_SIZE;
+	s->top = 0;
+
+	return s;
 }
 
-void stackPush(Stack *s, void* val)
+void stack_free(Stack * s)
 {
-	(s->top)++;
-	s->content[s->top] = val;
+	free(s->content);
+	free(s);
 }
 
-void* stackTop(Stack *s)
+void push(Stack * s, void * val)
 {
-	void *ret = NULL;
-	if(s->top >= 0 && s->content != NULL)
-		ret = s->content[s->top];
-	return ret;
+	if (s->top + 1 == s->size)
+	{
+		s->size *= 2;
+		s->content = realloc(s->content, s->size * s->el_size);
+	}
+
+	if (val)
+		memcpy((void*)((size_t)s->content + (s->top * s->el_size)), val, s->el_size);
+	s->top++;
 }
 
-void* stackPop(Stack *s)
+int pop(Stack * s, void * ret)
 {
-	void *ret = NULL;
-	if(s->top >= 0 && s->content != NULL)
-		ret = s->content[(s->top)--];
-	return ret;
+	if (s->top == 0)
+		return 0;
+	
+	if (ret)
+		memcpy(ret, (void*)((size_t)s->content + ((--s->top) * s->el_size)), s->el_size);
+	return 1;
 }
 
-int stackSize(Stack *s)
+int peek(Stack * s, void * ret)
 {
-	return s->top + 1;
-}
+	if (s->top == 0)
+		return 0;
 
-void stackFree(Stack *s)
-{
-	if (s->content)
-		free(s->content);
-	s->content = NULL;
-	s->size = 0;
-	s->top = -1;
+	if (ret)
+		memcpy(ret, (void*)((size_t)s->content + ((s->top - 1) * s->el_size)), s->el_size);
+	return 1;
 }

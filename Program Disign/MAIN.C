@@ -3,16 +3,26 @@
 #include "key.h"
 #include "led.h"
 #include "lcd.h"
+#include "cal.h"
 
 void main(){
-	unsigned char key;
-	unsigned int num;
+	unsigned char key, chr;
+	unsigned int num, i;
+	unsigned char *str;
+	unsigned char *res;
 	Init();
 	for(;;){
 		key = KeyScan();
-		num = Show(key);
-		Light(num);
+		num = Display(key);
+		chr = Light(num);
+		if(chr == '=')
+			break;
+		
 	}
+	//res = calc(str);
+	str = "233";
+	Output(str);
+	for(;;);
 }
 
 void Delay(unsigned int t){
@@ -42,3 +52,5 @@ void Init(){
 	LED4 = 1;
 	Delay(1000);
 }
+
+

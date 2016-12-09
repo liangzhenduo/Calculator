@@ -1,10 +1,9 @@
 #include <reg52.h>
+#include <string.h>
 #include "def.h"
 
 unsigned char x = 0xb8;	
 unsigned char y = 0x40;
-
-unsigned char space[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 
 unsigned char reserve(unsigned char dat)
 {
@@ -45,16 +44,14 @@ void clear()
 	for(k = 0; k < 8; k ++) {
 		for(j = 0; j < 8; j ++) {
 			for(i = 0; i < 8; i ++) {
-				Delay(1);
+				LcdWriteDat(0x00);
 				if(y == 0x7f) {
 					x = x + 1;
 					LcdWriteCmd(x);
 					y = 0x40;
 					LcdWriteCmd(y);
 				}
-				//Delay(10);
 				y += 1;
-				LcdWriteDat(space[i]);
 			}
 		}
 	}
@@ -80,7 +77,7 @@ void LcdInit()
 	//LcdWriteCmd(0xff);
 }
 
-void LcdPutChar(unsigned char *dat/*, unsigned char x, unsigned char y*/)
+void LcdPutChar(unsigned char *dat)
 {
 	int i;
 	for(i = 0; i < 8; i ++) {
@@ -92,31 +89,53 @@ void LcdPutChar(unsigned char *dat/*, unsigned char x, unsigned char y*/)
 			LcdWriteCmd(y);	
 		}
 		else
-			y++;	
+			y += 1;	
 	}
 }
 
-unsigned int Show(unsigned char key){
-	unsigned int num;
+unsigned int Display(unsigned char key){
 	switch(key){
-		case 0x77: num=0;  LcdPutChar(Symbol[num]); break;
-		case 0xb7: num=1;  LcdPutChar(Symbol[num]); break;
-		case 0xd7: num=2;  LcdPutChar(Symbol[num]); break;
-		case 0xe7: num=3;  LcdPutChar(Symbol[num]); break;
-		case 0x7b: num=4;  LcdPutChar(Symbol[num]); break;
-		case 0xbb: num=5;  LcdPutChar(Symbol[num]); break;
-		case 0xdb: num=6;  LcdPutChar(Symbol[num]); break;
-		case 0xeb: num=7;  LcdPutChar(Symbol[num]); break;
-		case 0x7d: num=8;  LcdPutChar(Symbol[num]); break;
-		case 0xbd: num=9;  LcdPutChar(Symbol[num]); break;
-		case 0xdd: num=10; LcdPutChar(Symbol[num]); break;
-		case 0xed: num=11; LcdPutChar(Symbol[num]); break;
-		case 0x7e: num=12; LcdPutChar(Symbol[num]); break;
-		case 0xbe: num=13; LcdPutChar(Symbol[num]); break;
-		case 0xde: num=14; LcdPutChar(Symbol[num]); break;
-		case 0xee: num=15; LcdPutChar(Symbol[num]); break;
+		case 0x77: LcdPutChar(Symbol[0]);  return 0;
+		case 0xb7: LcdPutChar(Symbol[1]);  return 1;
+		case 0xd7: LcdPutChar(Symbol[2]);  return 2;
+		case 0xe7: LcdPutChar(Symbol[3]);  return 3;
+		case 0x7b: LcdPutChar(Symbol[4]);  return 4;
+		case 0xbb: LcdPutChar(Symbol[5]);  return 5;
+		case 0xdb: LcdPutChar(Symbol[6]);  return 6;
+		case 0xeb: LcdPutChar(Symbol[7]);  return 7;
+		case 0x7d: LcdPutChar(Symbol[8]);  return 8;
+		case 0xbd: LcdPutChar(Symbol[9]);  return 9;
+		case 0xdd: LcdPutChar(Symbol[10]); return 10;
+		case 0xed: LcdPutChar(Symbol[11]); return 11;
+		case 0x7e: LcdPutChar(Symbol[12]); return 12;
+		case 0xbe: LcdPutChar(Symbol[13]); return 13;
+		case 0xde: LcdPutChar(Symbol[14]); return 14;
+		case 0xee: LcdPutChar(Symbol[15]); return 15;
 	}
-	return num;
+}
+
+void Output(unsigned char *num){
+	unsigned int i;
+	for(i=0;i<strlen(num);i++){
+		switch(num[i]){
+			case '0': LcdPutChar(Symbol[0]);  break;
+			case '1': LcdPutChar(Symbol[1]);  break;
+			case '2': LcdPutChar(Symbol[2]);  break;
+			case '3': LcdPutChar(Symbol[3]);  break;
+			case '4': LcdPutChar(Symbol[4]);  break;
+			case '5': LcdPutChar(Symbol[5]);  break;
+			case '6': LcdPutChar(Symbol[6]);  break;
+			case '7': LcdPutChar(Symbol[7]);  break;
+			case '8': LcdPutChar(Symbol[8]);  break;
+			case '9': LcdPutChar(Symbol[9]);  break;
+			case '.': LcdPutChar(Symbol[10]); break;
+			case '=': LcdPutChar(Symbol[11]); break;
+			case '+': LcdPutChar(Symbol[12]); break;
+			case '-': LcdPutChar(Symbol[13]); break;
+			case '*': LcdPutChar(Symbol[14]); break;
+			case '/': LcdPutChar(Symbol[15]); break;
+		}
+	}
 }
 
 unsigned char code Symbol[][8]={
@@ -130,11 +149,11 @@ unsigned char code Symbol[][8]={
 	0x00, 0x00, 0x01, 0x01, 0x71, 0x0d, 0x03, 0x00, /*"7",7*/
 	0x00, 0x00, 0x36, 0x49, 0x49, 0x49, 0x36, 0x00, /*"8",8*/
 	0x00, 0x00, 0x06, 0x49, 0x49, 0x29, 0x1e, 0x00, /*"9",9*/
-	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
-	0x00, 0x00, 0x24, 0x24, 0x24, 0x24, 0x24, 0x00, /*"=",11*/
-	0x00, 0x00, 0x08, 0x08, 0x3e, 0x08, 0x08, 0x00, /*"+",12*/
-	0x00, 0x00, 0x08, 0x08, 0x08, 0x08, 0x08, 0x00, /*"-",13*/
-	0x00, 0x00, 0x22, 0x14, 0x08, 0x14, 0x22, 0x00, /*"*",14*/
-	0x00, 0x00, 0x08, 0x08, 0x2a, 0x08, 0x08, 0x00, /*"/",15*/
+	0x00, 0x00, 0x00, 0x00, 0x40, 0x00, 0x00, 0x00, /*".",a*/
+	0x00, 0x00, 0x28, 0x28, 0x28, 0x28, 0x28, 0x00, /*"=",b*/
+	0x00, 0x00, 0x10, 0x10, 0x7c, 0x10, 0x10, 0x00, /*"+",c*/
+	0x00, 0x00, 0x10, 0x10, 0x10, 0x10, 0x10, 0x00, /*"-",d*/
+	0x00, 0x00, 0x44, 0x28, 0x10, 0x28, 0x44, 0x00, /*"*",e*/
+	0x00, 0x00, 0x10, 0x10, 0x54, 0x10, 0x10, 0x00, /*"/",f*/
 };
 

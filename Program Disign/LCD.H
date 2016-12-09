@@ -1,12 +1,10 @@
-#ifndef LCD_H_
-#define LCD_H_
-
+#ifndef __LCD_H__
+#define __LCD_H__
 
 void LcdInit();
 
-unsigned int Show(unsigned char key);
-void LcdPutChar(unsigned char *dat);
+unsigned int Display(unsigned char key);
+void Output(unsigned char *num);
 
-
-#endif	//LCD_H_
+#endif
 
