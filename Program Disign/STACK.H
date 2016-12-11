@@ -1,7 +1,7 @@
 #ifndef __STACK_H__
 #define __STACK_H__
 
-#define STACK_INIT_SIZE 16
+#define STACK_INIT_SIZE 8
 
 typedef struct
 {

@@ -48,32 +48,25 @@ double bin_op(char op)
 	double a, b;
 	pop(operands, &b);
 	pop(operands, &a);
-	//if (!pop(operands, &b) || !pop(operands, &a))
-	//	goto end;
 
 	switch (op)
 	{
-	case '+':
-		return a+b;
-	case '-':
-		return a-b;
-	case '*':
-		return a*b;
-	case '/':
-		return a/b;
+		case '+': return a+b;
+		case '-': return a-b;
+		case '*': return a*b;
+		case '/': return a/b;
 	}
 }
 
-unsigned char *calc(char *input)
+unsigned char *calc(unsigned char *input)
 {
 	error = 0;
 	prevchar = 0;
 	lastchar = 0;
 	expr = input;
-
+/*
 	operators = stack_new(sizeof(char));
 	operands = stack_new(sizeof(double));
-	
 	if (nextchar() == -1)
 		error = 1;
 
@@ -81,9 +74,8 @@ unsigned char *calc(char *input)
 	{
 		if (isdigit(lastchar) || lastchar == '.')
 		{
-			char buff[128];
+			char buff[32];
 			char * snum = buff;
-//			int i = 0;
 			
 			do
 			{
@@ -156,8 +148,9 @@ unsigned char *calc(char *input)
 
 	stack_free(operators);
 	stack_free(operands);
-
 	
-	sprintf(str,"%g",ret);
-	return str;
+	str = input;
+	//sprintf(str,"%g",ret);
+	return str;*/
+	return expr;
 }
