@@ -1,6 +1,6 @@
 #ifndef __CAL_H__
 #define __CAL_H__
 
-unsigned char *calc(unsigned char *input);
+unsigned int *Calc(unsigned char *str);
 
 #endif

@@ -9033,3 +9033,977 @@ linking...
 Program Size: data=127.0 xdata=8 code=4680
 creating hex file from "Calculator"...
 "Calculator" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_FREE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BIN_OP?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=118.0 xdata=8 code=4726
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BIN_OP?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=108.0 xdata=8 code=4774
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?CAL
+    LENGTH:  0020H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  OPERATORS
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  OPERANDS
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREVCHAR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  STR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  LASTCHAR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  TMP
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  NUM
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RET
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  EXPR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ERROR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREC
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RESULT
+    SEGMENT: ?DT?CAL
+Program Size: data=123.5 xdata=8 code=5672
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=95.0 xdata=8 code=4840
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=95.0 xdata=8 code=4860
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?CAL
+    LENGTH:  0020H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  OPERATORS
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  OPERANDS
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREVCHAR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  STR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  LASTCHAR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  TMP
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  NUM
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RET
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  EXPR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ERROR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREC
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RESULT
+    SEGMENT: ?DT?CAL
+Program Size: data=129.5 xdata=8 code=5522
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=101.5 xdata=8 code=5522
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=105.5 xdata=8 code=5522
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=99.5 xdata=8 code=5738
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?CAL
+    LENGTH:  0020H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  OPERATORS
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  OPERANDS
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREVCHAR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  STR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  LASTCHAR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  TMP
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  NUM
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RET
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  EXPR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ERROR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREC
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RESULT
+    SEGMENT: ?DT?CAL
+Program Size: data=107.5 xdata=8 code=5738
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=99.5 xdata=8 code=5738
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=99.5 xdata=8 code=5738
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?CAL
+    LENGTH:  0020H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  OPERATORS
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  OPERANDS
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREVCHAR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  STR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  LASTCHAR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  TMP
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  NUM
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RET
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  EXPR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ERROR
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  PREC
+    SEGMENT: ?DT?CAL
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  RESULT
+    SEGMENT: ?DT?CAL
+Program Size: data=107.5 xdata=8 code=5738
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=99.5 xdata=8 code=5738
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(9): warning C280: 'chr': unreferenced local variable
+MAIN.C(10): warning C280: 'num': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=91.5 xdata=8 code=5738
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=99.5 xdata=8 code=5738
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(9): warning C280: 'chr': unreferenced local variable
+MAIN.C(10): warning C280: 'num': unreferenced local variable
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=99.5 xdata=8 code=5738
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=96.5 xdata=8 code=5738
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BIN_OP?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=105.0 xdata=8 code=4774
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_FREE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BIN_OP?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=118.0 xdata=8 code=4738
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_NEW?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_FREE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?NEXTCHAR?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BIN_OP?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=124.0 xdata=8 code=4686
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_FREE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?NEXTCHAR?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BIN_OP?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=118.0 xdata=8 code=4723
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling STACK.C...
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_FREE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?NEXTCHAR?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BIN_OP?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=118.0 xdata=8 code=4725
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(159): error C202: 'i': undefined identifier
+CAL.C(160): error C202: 'i': undefined identifier
+CAL.C(161): error C202: 'i': undefined identifier
+CAL.C(163): error C202: 'i': undefined identifier
+CAL.C(164): error C141: syntax error near 'int'
+CAL.C(164): error C202: 'sum': undefined identifier
+CAL.C(165): error C202: 'j': undefined identifier
+CAL.C(166): error C202: 'sum': undefined identifier
+CAL.C(167): error C202: 'x': undefined identifier
+CAL.C(169): error C202: 'sum': undefined identifier
+CAL.C(174): error C141: syntax error near 'int'
+CAL.C(174): error C202: 'sum': undefined identifier
+CAL.C(175): error C202: 'j': undefined identifier
+CAL.C(176): error C202: 'sum': undefined identifier
+CAL.C(177): error C202: 'x': undefined identifier
+CAL.C(179): error C202: 'sum': undefined identifier
+CAL.C(180): error C202: 'i': undefined identifier
+CAL.C(181): error C202: 'i': undefined identifier
+CAL.C(182): error C202: 'i': undefined identifier
+CAL.C(183): error C202: 'i': undefined identifier
+CAL.C(185): error C202: 'i': undefined identifier
+CAL.C(186): error C202: 'i': undefined identifier
+CAL.C(187): error C202: 'i': undefined identifier
+CAL.C(189): error C202: 'i': undefined identifier
+CAL.C(190): error C202: 'i': undefined identifier
+CAL.C(193): error C141: syntax error near 'int'
+CAL.C(194): error C202: 'i': undefined identifier
+CAL.C(195): error C202: 'i': undefined identifier
+CAL.C(197): error C241: '_calc': auto segment too large
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(165): error C141: syntax error near 'int'
+CAL.C(165): error C202: 'sum': undefined identifier
+CAL.C(166): error C202: 'j': undefined identifier
+CAL.C(167): error C202: 'sum': undefined identifier
+CAL.C(168): error C202: 'x': undefined identifier
+CAL.C(170): error C202: 'sum': undefined identifier
+CAL.C(175): error C141: syntax error near 'int'
+CAL.C(175): error C202: 'sum': undefined identifier
+CAL.C(176): error C202: 'j': undefined identifier
+CAL.C(177): error C202: 'sum': undefined identifier
+CAL.C(178): error C202: 'x': undefined identifier
+CAL.C(180): error C202: 'sum': undefined identifier
+CAL.C(194): error C141: syntax error near 'int'
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(165): error C141: syntax error near 'int'
+CAL.C(165): error C202: 'x': undefined identifier
+CAL.C(167): error C202: 'x': undefined identifier
+CAL.C(168): error C202: 'x': undefined identifier
+CAL.C(175): error C141: syntax error near 'int'
+CAL.C(175): error C202: 'x': undefined identifier
+CAL.C(177): error C202: 'x': undefined identifier
+CAL.C(178): error C202: 'x': undefined identifier
+CAL.C(194): error C141: syntax error near 'int'
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+CAL.C(175): error C141: syntax error near 'int'
+CAL.C(194): error C141: syntax error near 'int'
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_NEW?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_FREE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?NEXTCHAR?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BIN_OP?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_BIN_OP?CAL
+    LENGTH:  0009H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_REALLOC?REALLOC
+    LENGTH:  0008H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_PUSH?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_POP?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_PEEK?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACK_NEW?STACK
+    LENGTH:  0005H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_MALLOC?MALLOC
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_FREE?FREE
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACK_FREE?STACK
+    LENGTH:  0003H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?LCD
+    LENGTH:  0002H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  Y
+    SEGMENT: ?DT?LCD
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  X
+    SEGMENT: ?DT?LCD
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_PEEK?BYTE
+    SEGMENT: ?DT?_PEEK?STACK
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_POP?BYTE
+    SEGMENT: ?DT?_POP?STACK
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_PUSH?BYTE
+    SEGMENT: ?DT?_PUSH?STACK
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FC9H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FCCH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FCFH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FDBH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FDEH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FE1H
+Program Size: data=182.0 xdata=8 code=5409
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_NEW?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_STACK_FREE?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PUSH?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PEEK?STACK
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?NEXTCHAR?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PRECEDENCE?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BIN_OP?CAL
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_POP?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_PEEK?STACK
+    LENGTH:  0006H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACK_NEW?STACK
+    LENGTH:  0005H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_MALLOC?MALLOC
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_FREE?FREE
+    LENGTH:  0004H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?_STACK_FREE?STACK
+    LENGTH:  0003H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?LCD
+    LENGTH:  0002H
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  Y
+    SEGMENT: ?DT?LCD
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  X
+    SEGMENT: ?DT?LCD
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_PEEK?BYTE
+    SEGMENT: ?DT?_PEEK?STACK
+*** ERROR L105: PUBLIC REFERS TO IGNORED SEGMENT
+    SYMBOL:  ?_POP?BYTE
+    SEGMENT: ?DT?_POP?STACK
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FC9H
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FCCH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FCFH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FDBH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FDEH
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  ?_POP?BYTE
+    MODULE:  CAL.obj (CAL)
+    ADDRESS: 0FE1H
+Program Size: data=158.0 xdata=8 code=5409
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_MEMPOOL?INIT_MEM
+Program Size: data=96.5 xdata=8 code=5725
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling STACK.C...
+STACK.C(8): error C141: syntax error near 'Stack'
+STACK.C(8): error C202: 's': undefined identifier
+STACK.C(9): error C202: 's': undefined identifier
+STACK.C(10): error C202: 's': undefined identifier
+STACK.C(11): error C202: 's': undefined identifier
+STACK.C(12): error C202: 's': undefined identifier
+STACK.C(14): error C202: 's': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(29): warning C206: 'calc': missing function-prototype
+MAIN.C(29): error C267: 'calc': requires ANSI-style prototype
+compiling CAL.C...
+CAL.C(231): error C141: syntax error near ','
+CAL.C(235): error C141: syntax error near 'data'
+CAL.C(238): error C141: syntax error near 'data'
+CAL.C(241): error C141: syntax error near 'data'
+CAL.C(243): error C141: syntax error near 'data'
+CAL.C(244): error C141: syntax error near 'data'
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(29): warning C206: 'calc': missing function-prototype
+MAIN.C(29): error C267: 'calc': requires ANSI-style prototype
+compiling CAL.C...
+CAL.C(276): error C141: syntax error near 'int'
+CAL.C(276): error C202: 'StartStartIndex': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(29): warning C206: 'calc': missing function-prototype
+MAIN.C(29): error C267: 'calc': requires ANSI-style prototype
+compiling CAL.C...
+CAL.C(308): error C141: syntax error near 'int'
+CAL.C(308): error C202: 'result': undefined identifier
+CAL.C(311): error C202: 'result': undefined identifier
+CAL.C(312): error C202: 'result': undefined identifier
+CAL.C(313): error C202: 'result': undefined identifier
+CAL.C(314): error C202: 'result': undefined identifier
+CAL.C(316): error C202: 'result': undefined identifier
+CAL.C(317): error C202: 'result': undefined identifier
+CAL.C(349): error C141: syntax error near 'int'
+CAL.C(349): error C202: 'i': undefined identifier
+CAL.C(349): error C202: 'i': undefined identifier
+CAL.C(349): error C202: 'i': undefined identifier
+CAL.C(349): error C141: syntax error near ')'
+CAL.C(378): error C141: syntax error near 'int'
+CAL.C(378): error C202: 'j': undefined identifier
+CAL.C(378): error C202: 'j': undefined identifier
+CAL.C(378): error C202: 'j': undefined identifier
+CAL.C(378): error C141: syntax error near ')'
+CAL.C(382): error C202: 'j': undefined identifier
+CAL.C(383): error C202: 'j': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(29): warning C206: 'calc': missing function-prototype
+MAIN.C(29): error C267: 'calc': requires ANSI-style prototype
+compiling CAL.C...
+CAL.C(321): warning C280: 'j': unreferenced local variable
+CAL.C(378): error C141: syntax error near 'int'
+CAL.C(378): error C202: 'j': undefined identifier
+CAL.C(378): error C202: 'j': undefined identifier
+CAL.C(378): error C202: 'j': undefined identifier
+CAL.C(378): error C141: syntax error near ')'
+CAL.C(382): error C202: 'j': undefined identifier
+CAL.C(383): error C202: 'j': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(29): warning C206: 'calc': missing function-prototype
+MAIN.C(29): error C267: 'calc': requires ANSI-style prototype
+compiling CAL.C...
+CAL.C(321): warning C280: 'j': unreferenced local variable
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(29): warning C206: 'calc': missing function-prototype
+MAIN.C(29): error C267: 'calc': requires ANSI-style prototype
+compiling CAL.C...
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(12): warning C280: 'res': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OUTPUT?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PREDEAL?CAL
+Program Size: data=121.0 xdata=0 code=3921
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(12): warning C280: 'res': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PREDEAL?CAL
+Program Size: data=114.0 xdata=0 code=3946
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(12): warning C280: 'res': unreferenced local variable
+compiling CAL.C...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BACKMOVE?CAL
+Program Size: data=105.0 xdata=0 code=3682
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+Program Size: data=102.0 xdata=0 code=3633
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(12): warning C280: 'res': unreferenced local variable
+linking...
+Program Size: data=102.0 xdata=0 code=3633
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling CAL.C...
+linking...
+Program Size: data=102.0 xdata=0 code=3619
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+Program Size: data=100.0 xdata=0 code=3615
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling LCD.C...
+LCD.C(96): warning C182: pointer to different objects
+compiling CAL.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3617
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3606
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3606
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3605
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3605
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+LCD.C(96): warning C182: pointer to different objects
+linking...
+Program Size: data=120.0 xdata=0 code=3614
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+LCD.C(96): warning C182: pointer to different objects
+linking...
+Program Size: data=120.0 xdata=0 code=3616
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3607
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=120.0 xdata=0 code=3607
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3608
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3619
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3618
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3618
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+compiling CAL.C...
+linking...
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: _DATA_GROUP_
+    LENGTH:  007DH
+Program Size: data=136.0 xdata=0 code=3683
+Target not created
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3683
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling CAL.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3689
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling LCD.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3696
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling MAIN.C...
+compiling LCD.C...
+linking...
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: _DATA_GROUP_
+    LENGTH:  007DH
+Program Size: data=136.0 xdata=0 code=3710
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+MAIN.C(28): error C141: syntax error near '{'
+MAIN.C(28): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling MAIN.C...
+linking...
+Program Size: data=120.0 xdata=0 code=3748
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=120.0 xdata=0 code=3748
+creating hex file from "Calculator"...
+"Calculator" - 0 Error(s), 0 Warning(s).

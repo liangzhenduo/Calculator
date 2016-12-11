@@ -6,10 +6,10 @@
 #include "cal.h"
 
 void main(){
-	unsigned char key, chr;
-	unsigned int num, i;
-	unsigned char str[16];
-	unsigned char *res;
+	unsigned char key;
+	unsigned int i;
+	unsigned char str[16]={0};
+	unsigned int *res;
 	Init();
 	for(i=0;;){
 		key = KeyScan();
@@ -25,23 +25,13 @@ void main(){
 			case 0x7d: LcdPutChar(8);  Light(8);  str[i++]='8'; break;
 			case 0xbd: LcdPutChar(9);  Light(9);  str[i++]='9'; break;
 			case 0xdd: LcdPutChar(10); Light(10); str[i++]='.'; break;
-			case 0xed: LcdPutChar(11); Light(11); res=calc(str); Output(res); break;
+			case 0xed: LcdPutChar(11); Light(11); res=Calc(str); Output(res); i=0; break;
 			case 0x7e: LcdPutChar(12); Light(12); str[i++]='+'; break;
 			case 0xbe: LcdPutChar(13); Light(13); str[i++]='-'; break;
 			case 0xde: LcdPutChar(14); Light(14); str[i++]='*'; break;
 			case 0xee: LcdPutChar(15); Light(15); str[i++]='/'; break;
 		}
-		//if(str[i]=='=') break;
-		/*num = Display(key);
-		chr = Light(num);
-		if(chr == '=')
-			break;*/
 	}
-	//str = "1+1";
-	//res = calc(str);
-	
-	//Output(str);
-	//for(;;);
 }
 
 void Delay(unsigned int t){

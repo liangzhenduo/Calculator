@@ -2,7 +2,7 @@
 #define __LCD_H__
 
 void LcdInit();
-void Output(unsigned char *num);
+void Output(unsigned int *num);
 void LcdPutChar(unsigned int k);
 
 #endif
