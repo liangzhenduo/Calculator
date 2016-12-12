@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
 int DeleteCharactor(char *str,int len,char ch)
@@ -120,7 +118,6 @@ int *Calc(unsigned char *str)
 {
     int len = strlen(str);
     int i,neg = 0;
-    int StartIndex = 0, EndIndex = 0;
 	int res[8];
     int result = 0;
     for(i=0;i<len;i++)
@@ -141,11 +138,13 @@ int *Calc(unsigned char *str)
             i=-1;
         }
     }
+
 	if(result<0) neg = 1, result = -result;
 	for(i=1;result;i++){
 		res[i] = result%10;
 		result/=10;
 	}
+	if(i == 1) res[i++] = 0;
 	if(neg) res[i++]=13;
 	res[0] = i-1;
 	return res;

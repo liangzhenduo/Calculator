@@ -3,7 +3,7 @@
 
 void LcdInit();
 void Output(unsigned int *num);
-void LcdPutChar(unsigned int k);
+void LcdDisplay(unsigned int k);
 
 #endif
 

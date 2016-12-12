@@ -1,5 +1,4 @@
 #include <reg52.h>
-#include <string.h>
 #include "def.h"
 
 unsigned char x = 0xb8;	
@@ -11,9 +10,9 @@ unsigned char reserve(unsigned char dat)
 	unsigned char x = 128;
 	int i;
 	for(i = 0; i < 8; i ++ ) {
-		dat1 += (dat % 2) * x;
-		x /= 2;
- 	    dat /= 2;
+		dat1 += (dat&1) * x;
+		x >>= 1;
+ 	    dat >>= 1;
 	}
 	return dat1;
 }
@@ -75,7 +74,7 @@ void LcdInit()
 	clear();
 }
 
-void LcdPutChar(unsigned int k)
+void LcdDisplay(unsigned int k)
 {
 	int i;
 	for(i = 0; i < 8; i ++) {
@@ -93,17 +92,15 @@ void LcdPutChar(unsigned int k)
 
 void Output(unsigned int *num){
 	unsigned int i;
-	x = x + 1;
+	if(y > 0x40) {
+		x = x + 1;
+	}
 	LcdWriteCmd(x);
-	y = 0x40;
+	y = 0x80-8*num[0];
 	LcdWriteCmd(y);
 	for(i=num[0];i>0;i--){
-		LcdPutChar(num[i]);
+		LcdDisplay(num[i]);
 	}
-	x = x + 1;
-	LcdWriteCmd(x);
-	y = 0x40;
-	LcdWriteCmd(y);
 }
 
 unsigned char code Symbol[][8]={
