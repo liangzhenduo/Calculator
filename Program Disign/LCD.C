@@ -1,56 +1,50 @@
 #include <reg52.h>
 #include "def.h"
 
-unsigned char x = 0xb8;	
-unsigned char y = 0x40;
+unsigned char x, y;
 
-unsigned char reserve(unsigned char dat)
-{
-	unsigned char dat1 = 0;
-	unsigned char x = 128;
-	int i;
+unsigned char Reverse(unsigned char dat){
+	unsigned char tmp = 0x80, ret = 0;
+	unsigned int i;
 	for(i = 0; i < 8; i ++ ) {
-		dat1 += (dat&1) * x;
-		x >>= 1;
+		ret += (dat&1) * tmp;
+		tmp >>= 1;
  	    dat >>= 1;
 	}
-	return dat1;
+	return ret;
 }
 
-void LcdWriteCmd(unsigned char cmd)
-{
+void LcdWriteCmd(unsigned char cmd){
 	EN = 0;
 	RS = 0;
 	RW = 0;
 	EN = 1;
-	DATA = reserve(cmd);
+	DATA = Reverse(cmd);
 	EN = 0;
 }
 
-void LcdWriteDat(unsigned char dat)
-{
+void LcdWriteDat(unsigned char dat){
 	EN = 0;
 	RS = 1;
 	RW = 0;
 	EN = 1;
-	DATA = reserve(dat);
+	DATA = Reverse(dat);
 	EN = 0;
 }
 
-void clear()
-{
-	int i, j, k;
-	for(k = 0; k < 8; k ++) {
-		for(j = 0; j < 8; j ++) {
-			for(i = 0; i < 8; i ++) {
+void clear(){
+	unsigned int i, j, k;
+	for(k = 0; k < 8; k ++){
+		for(j = 0; j < 8; j ++){
+			for(i = 0; i < 8; i ++){
 				LcdWriteDat(0x00);
-				if(y == 0x7f) {
-					x = x + 1;
+				if(y == 0x7f){
+					x ++;
 					LcdWriteCmd(x);
 					y = 0x40;
 					LcdWriteCmd(y);
 				}
-				y += 1;
+				y ++;
 			}
 		}
 	}
@@ -58,47 +52,45 @@ void clear()
 	LcdWriteCmd(x);
 	y = 0x40;
 	LcdWriteCmd(y);
-
 }
 
-void LcdInit()
-{
+void LcdInit(){
 	CS1 = 0;
 	CS2 = 1;
 	LIGHT = 1;
-	
-	LcdWriteCmd(0x3f);
-	LcdWriteCmd(0xc0);
-	LcdWriteCmd(0xb8);
-	LcdWriteCmd(0x40);
+
+	x = 0xb8;
+	LcdWriteCmd(x);
+	y = 0x40;
+	LcdWriteCmd(y);
 	clear();
 }
 
-void LcdDisplay(unsigned int k)
-{
-	int i;
+void LcdDisplay(unsigned int k){
+	unsigned int i;
 	for(i = 0; i < 8; i ++) {
 		LcdWriteDat(Symbol[k][i]);
-		if(y == 0x7f) {
-			x = x + 1;
+		if(y == 0x7f){
+			x ++;
 			LcdWriteCmd(x);
 			y = 0x40;
 			LcdWriteCmd(y);	
 		}
-		else
-			y += 1;	
+		else{
+			y ++;
+		}
 	}
 }
 
 void Output(unsigned int *num){
 	unsigned int i;
-	if(y > 0x40) {
-		x = x + 1;
+	if(y > 0x40){
+		x ++;
 	}
 	LcdWriteCmd(x);
-	y = 0x80-8*num[0];
+	y = 0x80 - 8 * num[0];
 	LcdWriteCmd(y);
-	for(i=num[0];i>0;i--){
+	for(i = num[0]; i > 0 ; i --){
 		LcdDisplay(num[i]);
 	}
 }
@@ -121,4 +113,3 @@ unsigned char code Symbol[][8]={
 	0x00, 0x00, 0x22, 0x14, 0x08, 0x14, 0x22, 0x00, /*"*",e*/
 	0x00, 0x00, 0x08, 0x08, 0x2a, 0x08, 0x08, 0x00, /*"/",f*/
 };
-

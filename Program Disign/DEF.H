@@ -20,6 +20,4 @@ unsigned char code Symbol[][8];
 void Delay(unsigned int t);
 void Init();
 
-
 #endif
-

@@ -11,7 +11,7 @@ void main(){
 	unsigned int *res;
 	LcdInit();
 	LedInit();
-	for(i=0;;){
+	for(str[0]='0', i=1;;){
 		key = KeyScan();
 		switch(key){
 			case 0x77: LcdDisplay(0);  LedLight(0);  str[i++]='0'; break;
@@ -25,7 +25,7 @@ void main(){
 			case 0x7d: LcdDisplay(8);  LedLight(8);  str[i++]='8'; break;
 			case 0xbd: LcdDisplay(9);  LedLight(9);  str[i++]='9'; break;
 			case 0xdd: LcdDisplay(10); LedLight(10); str[i++]='.'; break;
-			case 0xed: LcdDisplay(11); LedLight(11); str[i++]='*', str[i++]='1'; res=Calc(str); Output(res); i=0; break;
+			case 0xed: LcdDisplay(11); LedLight(11); str[i++]='*', str[i++]='1'; res=Calc(str); Output(res); str[0]='0', i=1; break;
 			case 0x7e: LcdDisplay(12); LedLight(12); str[i++]='+'; break;
 			case 0xbe: LcdDisplay(13); LedLight(13); str[i++]='-'; break;
 			case 0xde: LcdDisplay(14); LedLight(14); str[i++]='*'; break;
