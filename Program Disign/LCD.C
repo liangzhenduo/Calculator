@@ -1,7 +1,8 @@
 #include <reg52.h>
 #include "def.h"
 
-unsigned char x, y;
+unsigned char x = 0xb8;	
+unsigned char y = 0x40;
 
 unsigned char Reverse(unsigned char dat){
 	unsigned char tmp = 0x80, ret = 0;
