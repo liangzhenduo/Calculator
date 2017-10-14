@@ -1,2 +1,1 @@
-![](Circuit Design/sch.png)
-
+![](Circuit\ Design/sch.png)
